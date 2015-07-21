@@ -9,7 +9,7 @@ html {
   background-color: #16DDA4;
   cursor: pointer;
   color: #ffffff;
-  font-family: Arial;
+  font-family: 100% Roboto, sans-serif;
   font-size: 1em;
   padding: 8px 84px;
   text-decoration: none;
@@ -20,10 +20,15 @@ html {
   background-color: #16DDA4;
   cursor: pointer;
   color: #ffffff;
-  font-family: Arial;
-  font-size: 0.75019em;
+  font-family: 100% Roboto, sans-serif;
+  font-size: 1em;
   padding: 8px 26px;
   text-decoration: none;
   border: none; }
+
+h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 1.77689em;
+  color: gray; }
 
 /*# sourceMappingURL=style.css.map */

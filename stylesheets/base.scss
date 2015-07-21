@@ -1,11 +1,12 @@
 $green: #16DDA4;
+$font: Roboto, sans-serif;
 
 #long-button {
   display:inline-block;
   background-color: $green;
   cursor:pointer;
   color:#ffffff;
-  font-family:Arial;
+  font-family: 100% $font;
   font-size: modular-scale(0);
   padding:8px 84px;
   text-decoration:none;
@@ -16,9 +17,15 @@ $green: #16DDA4;
   background-color: $green;
   cursor:pointer;
   color:#ffffff;
-  font-family:Arial;
-  font-size: modular-scale(-1);
+  font-family: 100% $font;
+  font-size: modular-scale(0);
   padding:8px 26px;
   text-decoration:none;
   border: none;
+}
+
+h1 {
+  font-family: $font;
+  font-size: modular-scale(2);
+  color: gray;
 }
