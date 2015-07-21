@@ -8,14 +8,14 @@ html {
   display: inline-block;
   background-color: #16DDA4;
   cursor: pointer;
-  color: #ffffff;
+  color: white;
   font-family: 100% Roboto, sans-serif;
   font-size: 1em;
   padding: 8px 84px;
   text-decoration: none;
   border: none; }
 
-#short-button {
+.short-button {
   display: inline-block;
   background-color: #16DDA4;
   cursor: pointer;
@@ -26,9 +26,47 @@ html {
   text-decoration: none;
   border: none; }
 
+a:link {
+  color: white; }
+
 h1 {
   font-family: Roboto, sans-serif;
   font-size: 1.77689em;
+  font-weight: 500;
   color: gray; }
+
+h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 1.333em;
+  font-weight: 300;
+  color: black; }
+
+h3 {
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: black; }
+
+h4 {
+  font-family: Roboto, sans-serif;
+  font-size: 0.75019em;
+  font-weight: 300;
+  color: black; }
+
+p {
+  font-family: Roboto, sans-serif;
+  font-size: 0.75019em;
+  font-weight: 400;
+  color: black; }
+
+input[type="email"] {
+  display: block;
+  margin: 0;
+  padding-top: 8px;
+  width: 60%;
+  font-family: sans-serif;
+  font-size: 18px;
+  box-shadow: none;
+  border-radius: none; }
 
 /*# sourceMappingURL=style.css.map */

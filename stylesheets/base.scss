@@ -5,14 +5,14 @@ $font: Roboto, sans-serif;
   display:inline-block;
   background-color: $green;
   cursor:pointer;
-  color:#ffffff;
+  color:white;
   font-family: 100% $font;
   font-size: modular-scale(0);
   padding:8px 84px;
   text-decoration:none;
   border: none;
 }
-#short-button {
+.short-button {
   display:inline-block;
   background-color: $green;
   cursor:pointer;
@@ -22,10 +22,59 @@ $font: Roboto, sans-serif;
   padding:8px 26px;
   text-decoration:none;
   border: none;
+} 
+a:link {
+  color: white;
 }
-
 h1 {
   font-family: $font;
   font-size: modular-scale(2);
+  font-weight: 500;
   color: gray;
 }
+h2 {
+  font-family: $font;
+  font-size: modular-scale(1);
+  font-weight: 300;
+  color: black;
+}
+h3 {
+  font-family: $font;
+  font-size: modular-scale(0);
+  font-weight: 400;
+  color: black;
+}
+h4 {
+  font-family: $font;
+  font-size: modular-scale(-1);
+  font-weight: 300;
+  color: black;
+}
+p {
+  font-family: $font;
+  font-size: modular-scale(-1);
+  font-weight: 400;
+  color: black;
+}
+input[type="email"] {
+  display: block;
+  margin: 0;
+  padding-top: 8px;
+  width: 60%;
+  font-family: sans-serif;
+  font-size: 18px;
+  box-shadow: none;
+  border-radius: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
