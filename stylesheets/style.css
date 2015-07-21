@@ -4,7 +4,21 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-h1 {
-  color: green; }
+#long-button {
+  background-color: #16DDA4;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 6px 76px;
+  text-decoration: none; }
+
+.long-button:hover {
+  background-color: #5cbf2a; }
+
+.long-button:active {
+  position: relative;
+  top: 1px; }
 
 /*# sourceMappingURL=style.css.map */

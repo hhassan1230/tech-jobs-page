@@ -1,3 +1,19 @@
-h1 {
-  color: green;
+$green: #16DDA4;
+
+#long-button {
+  background-color:$green;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:6px 76px;
+  text-decoration:none;
+}
+.long-button:hover {
+  background-color:#5cbf2a;
+}
+.long-button:active {
+  position:relative;
+  top:1px;
 }
