@@ -5,20 +5,25 @@ html {
   box-sizing: inherit; }
 
 #long-button {
-  background-color: #16DDA4;
   display: inline-block;
+  background-color: #16DDA4;
   cursor: pointer;
   color: #ffffff;
   font-family: Arial;
-  font-size: 17px;
-  padding: 6px 76px;
-  text-decoration: none; }
+  font-size: 1em;
+  padding: 8px 84px;
+  text-decoration: none;
+  border: none; }
 
-.long-button:hover {
-  background-color: #5cbf2a; }
-
-.long-button:active {
-  position: relative;
-  top: 1px; }
+#short-button {
+  display: inline-block;
+  background-color: #16DDA4;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 0.75019em;
+  padding: 8px 26px;
+  text-decoration: none;
+  border: none; }
 
 /*# sourceMappingURL=style.css.map */
