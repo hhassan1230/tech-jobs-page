@@ -54,6 +54,10 @@ nav {
   width: auto;
 }
 
+button {
+  width: 200px;
+}
+
 section {
   @include outer-container; 
   max-width: 58em;

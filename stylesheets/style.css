@@ -196,6 +196,9 @@ nav {
     text-align: center;
     width: auto; }
 
+  button {
+    width: 200px; }
+
   section {
     max-width: 68em;
     margin-left: auto;
