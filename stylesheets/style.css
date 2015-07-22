@@ -28,7 +28,7 @@ html {
   bottom: 1000px; }
 
 a:link {
-  color: white;
+  color: black;
   text-decoration: none; }
 
 h1 {
@@ -42,6 +42,14 @@ h2 {
   font-size: 1.333em;
   font-weight: 300;
   color: black; }
+  h2:after {
+    content: ' ';
+    display: block;
+    height: 6px;
+    width: 33px;
+    margin-left: 38px;
+    margin-top: 10px;
+    background-color: #16DDA4; }
 
 h3 {
   font-family: Roboto, sans-serif;
@@ -84,5 +92,30 @@ ul {
   font-size: 1em;
   font-weight: 400;
   color: black; }
+
+#navbar {
+  float: right; }
+  #navbar ul {
+    font-family: Roboto, sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 1em;
+    width: 100%; }
+  #navbar li {
+    display: inline;
+    float: left;
+    padding-left: 25px; }
+    #navbar li:after {
+      content: ' ';
+      display: inline-block;
+      height: 15px;
+      width: 3px;
+      margin-left: 20px;
+      background-color: #16DDA4; }
+  #navbar li:last-child {
+    padding-right: 28px; }
+  #navbar li:last-child:after {
+    content: ' ';
+    display: block; }
 
 /*# sourceMappingURL=style.css.map */

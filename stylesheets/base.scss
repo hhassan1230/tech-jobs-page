@@ -25,7 +25,7 @@ $font: Roboto, sans-serif;
   bottom: 1000px;
 } 
 a:link {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 h1 {
@@ -39,7 +39,18 @@ h2 {
   font-size: modular-scale(1);
   font-weight: 300;
   color: black;
+  
+  &:after {
+    content: ' ';
+    display: block;
+    height: 6px;
+    width: 33px;
+    margin-left: 38px;
+    margin-top: 10px;
+    background-color: $green;
+  }
 }
+
 h3 {
   font-family: $font;
   font-size: modular-scale(0);
@@ -82,8 +93,37 @@ ul {
   font-weight: 400;
   color: black;
 }
+#navbar {
+  float: right;
+  ul { 
+    font-family: $font;
+    overflow:hidden;
+    white-space:nowrap;
+    height: 1em;
+    width: 100%;
+  }
+  li {
+    display: inline;
+    float: left;
+    padding-left: 25px;
 
-
+    &:after {
+      content: ' ';
+      display: inline-block;
+      height: 15px;
+      width: 3px;
+      margin-left: 20px;
+      background-color: $green;
+    }
+  }
+  li:last-child {
+    padding-right: 28px;
+  }
+  li:last-child:after {
+    content: ' ';
+    display: block;
+  }
+}
 
 
 
