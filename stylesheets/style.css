@@ -162,15 +162,14 @@ nav {
     .hero .hero-blurb {
       max-width: 68em;
       margin-left: auto;
-      margin-right: auto; }
+      margin-right: auto;
+      text-align: center;
+      padding-right: 20%;
+      padding-left: 20%; }
       .hero .hero-blurb::after {
         clear: both;
         content: "";
         display: table; }
-      .hero .hero-blurb p {
-        text-align: center;
-        margin-right: 20%;
-        margin-left: 20%; }
 
   .image-blurb {
     float: left;

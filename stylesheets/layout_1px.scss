@@ -30,18 +30,13 @@ nav {
 
   } 
   h1 {color: white;}
-  button {
-    width: 300px;
-  } 
+  button { width: 300px; } 
 
   .hero-blurb { 
     @include outer-container;
-    p {
     text-align: center;
-    margin-right: 20%;
-    margin-left: 20%;
-    } 
-
+    padding-right: 20%;
+    padding-left: 20%;
   }
 
 }
