@@ -26,3 +26,6 @@ section.curriculum .image-blurb {
 .application-steps {
   @include span-columns(6);  
 }
+.long-button {
+  width: 300px;
+}

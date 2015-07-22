@@ -1,14 +1,14 @@
 $green: #16DDA4;
 $font: Roboto, sans-serif;
 
-#long-button {
+.long-button {
   display:inline-block;
   background-color: $green;
   cursor:pointer;
   color:white;
   font-family: 100% $font;
   font-size: modular-scale(0);
-  padding:8px 84px;
+  padding:8px 0px;
   text-decoration:none;
   border: none;
 }
