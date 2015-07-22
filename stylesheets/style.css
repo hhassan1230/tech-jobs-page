@@ -33,7 +33,7 @@ a:link {
 
 h1 {
   font-family: Roboto, sans-serif;
-  font-size: 1.77689em;
+  font-size: 2.36859em;
   font-weight: 500;
   color: gray; }
 
@@ -62,6 +62,7 @@ p {
   color: black; }
 
 input[type="email"] {
+  font-family: Roboto, sans-serif;
   display: block;
   margin: 0;
   padding-top: 8px;
@@ -73,6 +74,12 @@ input[type="email"] {
   float: left; }
 
 li {
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: black; }
+
+ul {
   font-family: Roboto, sans-serif;
   font-size: 1em;
   font-weight: 400;
