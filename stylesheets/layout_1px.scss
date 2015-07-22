@@ -1,0 +1,81 @@
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+.logo, nav { 
+  @include span-columns(6); 
+}
+
+.nav-bar {
+  @include clearfix;
+}
+
+nav {
+  text-align:right;
+  padding-right: 15px;
+}
+
+.hero {
+  @include span-columns(12); 
+// need help making background size bigger
+  background-image: url("http://www.smashingshowcase.com/wp-content/uploads/2011/12/awesome-anime-hd-wallpapers-by-udonnodu-02.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  p h1 { @include span-columns(12); } 
+
+  button {
+    width: 300px;
+  } 
+
+  .hero-blurb { 
+    @include outer-container; 
+    text-align: center;
+  }
+}
+
+.image-blurb { 
+  @include span-columns(6); 
+  @include omega(2n);
+  text-align: center;
+}
+
+.curriculum-blurbs {
+  @include outer-container;
+}
+
+.mail-signup #mc_embed_signup {
+  text-align: center;
+  width: auto;
+}
+
+section {
+  @include outer-container; 
+  max-width: 58em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.eligibility {
+  @include span-columns(12);  
+}
+
+.application-steps {
+  @include span-columns(12);  
+}
+
+.timeline {
+  @include span-columns(4);
+}
+
+footer {
+  @include span-columns(12);
+  text-align: center;
+
+}
