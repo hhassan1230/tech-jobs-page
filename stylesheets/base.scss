@@ -126,6 +126,40 @@ nav {
     display: block;
   }
 }
+.application-steps ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  li {
+    margin-left: 10px;
+    padding: 0px;
+    counter-increment: my-awesome-counter;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    line-height: 22px;
+    h3 { 
+      margin: 0;
+      display: inline-block;
+    }
+    p {
+      margin-top: 5px;
+      padding-left: 12px;
+    }
+  }
+  li:before {
+    content: counter(my-awesome-counter);
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 12px 0px -35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 1in;
+    border: 1.5px solid $green;
+    font-weight: 900;
+    background-color: white;
+  }
+}
+
 
 
 
