@@ -4,14 +4,14 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-#long-button {
+.long-button {
   display: inline-block;
   background-color: #16DDA4;
   cursor: pointer;
   color: white;
   font-family: 100% Roboto, sans-serif;
   font-size: 1em;
-  padding: 8px 84px;
+  padding: 8px 0px;
   text-decoration: none;
   border: none; }
 
@@ -157,15 +157,14 @@ nav {
         margin-right: 0; }
     .hero h1 {
       color: white; }
-    .hero button {
-      width: 300px; }
     .hero .hero-blurb {
       max-width: 68em;
       margin-left: auto;
       margin-right: auto;
       text-align: center;
       padding-right: 20%;
-      padding-left: 20%; }
+      padding-left: 20%;
+      padding-bottom: 75px; }
       .hero .hero-blurb::after {
         clear: both;
         content: "";
@@ -304,6 +303,9 @@ nav {
     margin-right: 2.35765%;
     width: 48.82117%; }
     .application-steps:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  .long-button {
+    width: 300px; } }
 
 /*# sourceMappingURL=style.css.map */
