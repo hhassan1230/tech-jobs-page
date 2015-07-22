@@ -25,9 +25,10 @@ html {
   padding: 8px 26px;
   text-decoration: none;
   border: none;
-  bottom: 1000px; }
+  bottom: 1000px;
+  margin-top: 4px; }
 
-a:link {
+a {
   color: black;
   text-decoration: none; }
 
@@ -79,7 +80,8 @@ input[type="email"] {
   font-size: 18px;
   box-shadow: none;
   border-radius: none;
-  float: left; }
+  float: left;
+  margin-top: 4px; }
 
 li {
   font-family: Roboto, sans-serif;
@@ -93,28 +95,28 @@ ul {
   font-weight: 400;
   color: black; }
 
-#navbar {
+nav {
   float: right; }
-  #navbar ul {
+  nav ul {
     font-family: Roboto, sans-serif;
     overflow: hidden;
     white-space: nowrap;
     height: 1em;
     width: 100%; }
-  #navbar li {
+  nav li {
     display: inline;
     float: left;
     padding-left: 25px; }
-    #navbar li:after {
+    nav li:after {
       content: ' ';
       display: inline-block;
       height: 15px;
       width: 3px;
       margin-left: 20px;
       background-color: #16DDA4; }
-  #navbar li:last-child {
+  nav li:last-child {
     padding-right: 28px; }
-  #navbar li:last-child:after {
+  nav li:last-child:after {
     content: ' ';
     display: block; }
 

@@ -23,8 +23,9 @@ $font: Roboto, sans-serif;
   text-decoration:none;
   border: none;
   bottom: 1000px;
+  margin-top: 4px;
 } 
-a:link {
+a {
   color: black;
   text-decoration: none;
 }
@@ -80,6 +81,7 @@ input[type="email"] {
   box-shadow: none;
   border-radius: none;
   float: left;
+  margin-top:4px;
 }
 li {
   font-family: $font;
@@ -93,7 +95,7 @@ ul {
   font-weight: 400;
   color: black;
 }
-#navbar {
+nav {
   float: right;
   ul { 
     font-family: $font;
