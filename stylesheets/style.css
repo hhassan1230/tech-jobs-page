@@ -13,7 +13,8 @@ html {
   font-size: 1em;
   padding: 8px 84px;
   text-decoration: none;
-  border: none; }
+  border: none;
+  margin-bottom: 15px; }
 
 .short-button {
   display: inline-block;
@@ -21,22 +22,23 @@ html {
   cursor: pointer;
   color: #ffffff;
   font-family: 100% Roboto, sans-serif;
-  font-size: 1em;
-  padding: 8px 26px;
+  font-size: 1.333em;
+  padding: 6.5px 26px;
   text-decoration: none;
   border: none;
   bottom: 1000px;
-  margin-top: 4px; }
+  margin-top: 4px;
+  margin-right: 91px; }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none; }
 
 h1 {
   font-family: Roboto, sans-serif;
   font-size: 2.36859em;
   font-weight: 500;
-  color: gray; }
+  color: white; }
 
 h2 {
   font-family: Roboto, sans-serif;
@@ -45,10 +47,12 @@ h2 {
   color: black; }
   h2:after {
     content: ' ';
+    max-width: initial;
     display: block;
     height: 6px;
     width: 33px;
-    margin-left: 445px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
     background-color: #16DDA4; }
 
@@ -70,24 +74,12 @@ p {
   font-weight: 400;
   color: black; }
 
-input[type="email"] {
-  font-family: Roboto, sans-serif;
-  display: block;
-  margin: 0;
-  padding-top: 8px;
-  width: 60%;
-  font-family: sans-serif;
-  font-size: 18px;
-  box-shadow: none;
-  border-radius: none;
-  float: left;
-  margin-top: 4px; }
-
 li {
   font-family: Roboto, sans-serif;
   font-size: 1em;
   font-weight: 400;
-  color: black; }
+  color: black;
+  padding-bottom: 30px; }
 
 ul {
   font-family: Roboto, sans-serif;
@@ -149,7 +141,18 @@ nav {
     font-weight: 900;
     background-color: white; }
 
+.hero-blurb p {
+  color: white; }
+
+section {
+  padding: 25px 0; }
+
 @media screen and (min-width: 1px) {
+  header::after {
+    clear: both;
+    content: "";
+    display: table; }
+
   .logo, nav {
     float: left;
     display: block;
@@ -259,6 +262,25 @@ nav {
     .timeline:last-child {
       margin-right: 0; }
 
+  input[type="email"] {
+    font-family: Roboto, sans-serif;
+    font-size: 1.333em;
+    display: block;
+    margin: 0;
+    padding-top: 8px;
+    box-shadow: none;
+    border-radius: none;
+    margin-top: 4px;
+    margin-left: 30px;
+    margin-right: auto;
+    width: 200px;
+    float: left; }
+
+  .short-button {
+    padding: 6.5px 30px;
+    margin-right: auto;
+    margin-left: -60px; }
+
   footer {
     float: left;
     display: block;
@@ -329,6 +351,34 @@ nav {
     margin-right: 2.35765%;
     width: 48.82117%; }
     .application-steps:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  input[type="email"] {
+    font-family: Roboto, sans-serif;
+    font-size: 1.333em;
+    display: block;
+    margin: 0;
+    padding-top: 8px;
+    width: 60%;
+    box-shadow: none;
+    border-radius: none;
+    float: left;
+    margin-top: 4px;
+    margin-left: 160px;
+    margin-right: auto; }
+
+  .short-button {
+    display: inline-block;
+    background-color: #16DDA4;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 100% Roboto, sans-serif;
+    font-size: 1.333em;
+    padding: 6.5px 26px;
+    text-decoration: none;
+    border: none;
+    bottom: 1000px;
+    margin-top: 4px;
+    margin-right: 91px; } }
 
 /*# sourceMappingURL=style.css.map */

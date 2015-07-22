@@ -26,3 +26,31 @@ section.curriculum .image-blurb {
 .application-steps {
   @include span-columns(6);  
 }
+input[type="email"] {
+  font-family: $font; 
+  font-size: modular-scale(1);
+  display: block;
+  margin: 0;
+  padding-top: 8px;
+  width: 60%;
+  box-shadow: none;
+  border-radius: none;
+  float: left;
+  margin-top:4px;
+  margin-left: 160px;
+  margin-right: auto;
+}
+.short-button {
+  display:inline-block;
+  background-color: $green;
+  cursor:pointer;
+  color:#ffffff;
+  font-family: 100% $font;
+  font-size: modular-scale(1);
+  padding:6.5px 26px;
+  text-decoration:none;
+  border: none;
+  bottom: 1000px;
+  margin-top: 4px;
+  margin-right: 91px;
+}

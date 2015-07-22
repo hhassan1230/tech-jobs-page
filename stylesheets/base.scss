@@ -11,6 +11,7 @@ $font: Roboto, sans-serif;
   padding:8px 84px;
   text-decoration:none;
   border: none;
+  margin-bottom: 15px;
 }
 .short-button {
   display:inline-block;
@@ -18,22 +19,23 @@ $font: Roboto, sans-serif;
   cursor:pointer;
   color:#ffffff;
   font-family: 100% $font;
-  font-size: modular-scale(0);
-  padding:8px 26px;
+  font-size: modular-scale(1);
+  padding:6.5px 26px;
   text-decoration:none;
   border: none;
   bottom: 1000px;
   margin-top: 4px;
+  margin-right: 91px;
 } 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 h1 {
   font-family: $font;
   font-size: modular-scale(3);
   font-weight: 500;
-  color: gray;
+  color: white;
 }
 h2 {
   font-family: $font;
@@ -43,10 +45,12 @@ h2 {
   
   &:after {
     content: ' ';
+    max-width: initial;
     display: block;
     height: 6px;
     width: 33px;
-    margin-left: 445px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
     background-color: $green;
   }
@@ -70,24 +74,13 @@ p {
   font-weight: 400;
   color: black;
 }
-input[type="email"] {
-  font-family: $font; 
-  display: block;
-  margin: 0;
-  padding-top: 8px;
-  width: 60%;
-  font-family: sans-serif;
-  font-size: 18px;
-  box-shadow: none;
-  border-radius: none;
-  float: left;
-  margin-top:4px;
-}
+
 li {
   font-family: $font;
   font-size: modular-scale(0);
   font-weight: 400;
   color: black;
+  padding-bottom: 30px;
 }
 ul {
   font-family: $font;
@@ -159,9 +152,12 @@ nav {
     background-color: white;
   }
 }
-
-
-
+.hero-blurb p {
+  color: white;
+}
+section {
+  padding: 25px 0;
+}
 
 
 
