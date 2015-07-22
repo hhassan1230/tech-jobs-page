@@ -2,8 +2,27 @@
   &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
   &:nth-child(#{$nth}+1) { clear: none }
 }
-.image-blurb { 
+section.overview  .image-blurb { 
   @include omega-reset(1n); 
   @include span-columns(3); 
-  
+}
+.timeline {
+  @include span-columns(12);
+}
+.key-date {
+  @include span-columns(3);
+}
+nav ul li {
+  display: inline;
+}
+section.curriculum .image-blurb {
+  @include omega-reset(1n); 
+  @include span-columns(4);
+  @include omega(3n);
+}
+.eligibility {
+  @include span-columns(6);  
+}
+.application-steps {
+  @include span-columns(6);  
 }

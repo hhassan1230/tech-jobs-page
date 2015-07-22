@@ -13,11 +13,50 @@ html {
     .logo:last-child, nav:last-child {
       margin-right: 0; }
 
+  .nav-bar::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+  nav {
+    text-align: right;
+    padding-right: 15px; }
+
+  .hero {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background-image: url("http://www.smashingshowcase.com/wp-content/uploads/2011/12/awesome-anime-hd-wallpapers-by-udonnodu-02.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+    .hero:last-child {
+      margin-right: 0; }
+    .hero p h1 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .hero p h1:last-child {
+        margin-right: 0; }
+    .hero button {
+      width: 300px; }
+    .hero .hero-blurb {
+      max-width: 68em;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; }
+      .hero .hero-blurb::after {
+        clear: both;
+        content: "";
+        display: table; }
+
   .image-blurb {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 48.82117%; }
+    width: 48.82117%;
+    text-align: center; }
     .image-blurb:last-child {
       margin-right: 0; }
     .image-blurb:nth-child(2n) {
@@ -34,28 +73,117 @@ html {
       content: "";
       display: table; }
 
-  section, header, footer {
+  .mail-signup #mc_embed_signup {
+    text-align: center;
+    width: auto; }
+
+  section {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 58em; }
+    section::after {
+      clear: both;
+      content: "";
+      display: table; }
+
+  h1, h2 {
+    text-align: center; }
+
+  .eligibility {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .eligibility:last-child {
+      margin-right: 0; }
+
+  .application-steps {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .application-steps:last-child {
+      margin-right: 0; }
+
+  .timeline {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .timeline:last-child {
+      margin-right: 0; }
+
+  footer {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
     text-align: center; }
-    section:last-child, header:last-child, footer:last-child {
-      margin-right: 0; }
-
-  h1 {
-    text-align: center; } }
+    footer:last-child {
+      margin-right: 0; } }
 @media only screen and (min-width: 641px) {
-  .image-blurb {
+  section.overview .image-blurb {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%; }
-    .image-blurb:nth-child(1n) {
+    section.overview .image-blurb:nth-child(1n) {
       margin-right: 2.35765%; }
-    .image-blurb:nth-child(1n+1) {
+    section.overview .image-blurb:nth-child(1n+1) {
       clear: none; }
-    .image-blurb:last-child {
+    section.overview .image-blurb:last-child {
+      margin-right: 0; }
+
+  .timeline {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .timeline:last-child {
+      margin-right: 0; }
+
+  .key-date {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .key-date:last-child {
+      margin-right: 0; }
+
+  nav ul li {
+    display: inline; }
+
+  section.curriculum .image-blurb {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    section.curriculum .image-blurb:nth-child(1n) {
+      margin-right: 2.35765%; }
+    section.curriculum .image-blurb:nth-child(1n+1) {
+      clear: none; }
+    section.curriculum .image-blurb:last-child {
+      margin-right: 0; }
+    section.curriculum .image-blurb:nth-child(3n) {
+      margin-right: 0; }
+    section.curriculum .image-blurb:nth-child(3n+1) {
+      clear: left; }
+
+  .eligibility {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .eligibility:last-child {
+      margin-right: 0; }
+
+  .application-steps {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .application-steps:last-child {
       margin-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */

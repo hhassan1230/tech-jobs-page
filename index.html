@@ -7,24 +7,28 @@
     </head>
     <body>
       <header>
-        <div class="nav-bar">
-          <div class="logo">
-            <img src="http://placehold.it/100x65">
-          </div>
-          <nav>
-            <ul>
-              <li><a href="#" title="OVERVIEW">OVERVIEW</a></li>
-              <li><a href="#" title="CURRICULUM">CURRICULUM</a></li>
-              <li><a href="#" title="APPLICATION PROCESS">APPLICATION PROCESS</a></li>
-              <li><a href="#" title="KEY DATES">KEY DATES</a></li>
-            </ul>
-          </nav>  
-        </div>
         <div class="hero">
-            <img src="http://placehold.it/1410x350">
-            <h1>Tech Job Academy</h1>
-            <p>An intensive, 16-week techincal training program preparing underemployed and unemployed NYC resident for in-demand tech jobs.</p>
-            <button><a href="#" title="APPLY">APPLY</a></button>
+        <!-- moved nav-bar in hero to get nav under background image -->
+          <div class="nav-bar">
+            <div class="logo">
+              <img src="http://placehold.it/100x65">
+            </div>
+            <nav>
+              <ul>
+                <li><a href="#" title="OVERVIEW">OVERVIEW</a></li>
+                <li><a href="#" title="CURRICULUM">CURRICULUM</a></li>
+                <li><a href="#" title="APPLICATION PROCESS">APPLICATION PROCESS</a></li>
+                <li><a href="#" title="KEY DATES">KEY DATES</a></li>
+              </ul>
+            </nav>  
+          </div>
+              <!-- <img src="http://placehold.it/1410x350"> -->
+          <div class="hero-blurb">
+              <h1>Tech Job Academy</h1>
+              <p>An intensive, 16-week techincal training program preparing underemployed and unemployed NYC resident for in-demand tech jobs.</p>
+              <button><a href="#" title="APPLY">APPLY</a></button>
+            </div>
+          </div>
         </div>
       </header>
       <section class="overview">
@@ -46,6 +50,7 @@
           </div>
           <div class="image-blurb">
             <img src="http://placehold.it/140x100"><h3>Address</h3>
+            <p>300 Jay Street</p>
           </div>
         </div>
           <div class="mail-signup">
@@ -72,56 +77,60 @@
 
       <section class="curriculum">
         <h2>CURRICULUM</h2>
-        <div class="image-blurb">
-          <img src="http://placehold.it/140x100"><h3>Curriculum Info 1</h3><p>Info blub</p>
-        </div>
-         <div class="image-blurb">
-          <img src="http://placehold.it/140x100"><h3>Curriculum Info 2</h3><p>Info blub</p>
-        </div>
-        <div class="image-blurb">
-          <img src="http://placehold.it/140x100"><h3>Curriculum Info 3</h3><p>Info blub</p>
-        </div>
-        <div class="image-blurb">
-          <img src="http://placehold.it/140x100"><h3>Curriculum Info 4</h3><p>Info blub</p>
-        </div>
-        <div class="image-blurb">
-          <img src="http://placehold.it/140x100"><h3>Curriculum Info 5</h3><p>Info blub</p>
-        </div>
-        <div class="image-blurb">
-          <img src="http://placehold.it/140x100"><h3>Curriculum Info 6</h3><p>Info blub</p>  
+        <div class="curriculum-blurbs">
+          <div class="image-blurb">
+            <img src="http://placehold.it/140x100"><h3>Curriculum Info 1</h3><p>Info blub</p>
+          </div>
+           <div class="image-blurb">
+            <img src="http://placehold.it/140x100"><h3>Curriculum Info 2</h3><p>Info blub</p>
+          </div>
+          <div class="image-blurb">
+            <img src="http://placehold.it/140x100"><h3>Curriculum Info 3</h3><p>Info blub</p>
+          </div>
+          <div class="image-blurb">
+            <img src="http://placehold.it/140x100"><h3>Curriculum Info 4</h3><p>Info blub</p>
+          </div>
+          <div class="image-blurb">
+            <img src="http://placehold.it/140x100"><h3>Curriculum Info 5</h3><p>Info blub</p>
+          </div>
+          <div class="image-blurb">
+            <img src="http://placehold.it/140x100"><h3>Curriculum Info 6</h3><p>Info blub</p>  
+          </div>
         </div>
       </section>
 
       <section class="application">
         <h2>APPLICATION PROCESS</h2>
-        <div class="application-steps">
-          <ol>
-            <li>
-              <h3>Check your eligibility</h3>
-              <p>Do you meet the following criteria</p>
-            </li>
-            <li>
-              <h3>Fill out application form</h3>
-              <p>The application helps us get to know you better. Answer questions about your interest in technology and what gets you excited about the program.</p>
-            </li>
-            <li>
-              <h3>Take entrace assessment</h3>
-              <p>Learn the fundamentals of networking and take this online entrace assessment to prove your knowledge.</p>
-            </li>
-          </ol>  
+        <div class="curriculum-blurbs">
+          <div class="application-steps">
+            <ol>
+              <li>
+                <h3>Check your eligibility</h3>
+                <p>Do you meet the following criteria</p>
+              </li>
+              <li>
+                <h3>Fill out application form</h3>
+                <p>The application helps us get to know you better. Answer questions about your interest in technology and what gets you excited about the program.</p>
+              </li>
+              <li>
+                <h3>Take entrace assessment</h3>
+                <p>Learn the fundamentals of networking and take this online entrace assessment to prove your knowledge.</p>
+              </li>
+            </ol>  
+          </div>
+          <div class="eligibility">
+            <h3>Eligibility Requirements</h3>
+            <ul>
+              <li>at least 18 years old</li>
+              <li>less than $50K salary</li>
+              <li>less than a 4-year degree</li>
+              <li>NYC resident</li>
+              <li>meet all federal selective service requirements</li>
+            </ul>
+            <p>Selective service link for information about selective service</p>
+            <button><a href="#" title="APPLY">APPLY</a></button>
+          </div>
         </div>
-        <div class="eligibility">
-          <h3>Eligibility Requirements</h3>
-          <ul>
-            <li>at least 18 years old</li>
-            <li>less than $50K salary</li>
-            <li>less than a 4-year degree</li>
-            <li>NYC resident</li>
-            <li>meet all federal selective service requirements</li>
-          </ul>
-        </div>
-      <p>Selective service link for information about selective service</p>
-      <button><a href="#" title="APPLY">APPLY</a></button>
       </section>   
 
       <section class="key-dates">
