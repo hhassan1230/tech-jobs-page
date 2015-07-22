@@ -22,9 +22,11 @@ $font: Roboto, sans-serif;
   padding:8px 26px;
   text-decoration:none;
   border: none;
+  bottom: 1000px;
 } 
 a:link {
   color: white;
+  text-decoration: none;
 }
 h1 {
   font-family: $font;
@@ -41,7 +43,7 @@ h2 {
 h3 {
   font-family: $font;
   font-size: modular-scale(0);
-  font-weight: 400;
+  font-weight: 600;
   color: black;
 }
 h4 {
@@ -52,7 +54,7 @@ h4 {
 }
 p {
   font-family: $font;
-  font-size: modular-scale(-1);
+  font-size: modular-scale(0);
   font-weight: 400;
   color: black;
 }
@@ -65,9 +67,14 @@ input[type="email"] {
   font-size: 18px;
   box-shadow: none;
   border-radius: none;
+  float: left;
 }
-
-
+li {
+  font-family: $font;
+  font-size: modular-scale(0);
+  font-weight: 400;
+  color: black;
+}
 
 
 
