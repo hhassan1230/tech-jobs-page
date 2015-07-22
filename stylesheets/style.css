@@ -4,4 +4,58 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+@media screen and (min-width: 1px) {
+  .logo, nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .logo:last-child, nav:last-child {
+      margin-right: 0; }
+
+  .image-blurb {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .image-blurb:last-child {
+      margin-right: 0; }
+    .image-blurb:nth-child(2n) {
+      margin-right: 0; }
+    .image-blurb:nth-child(2n+1) {
+      clear: left; }
+
+  .curriculum-blurbs {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    .curriculum-blurbs::after {
+      clear: both;
+      content: "";
+      display: table; }
+
+  section, header, footer {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    text-align: center; }
+    section:last-child, header:last-child, footer:last-child {
+      margin-right: 0; }
+
+  h1 {
+    text-align: center; } }
+@media only screen and (min-width: 641px) {
+  .image-blurb {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .image-blurb:nth-child(1n) {
+      margin-right: 2.35765%; }
+    .image-blurb:nth-child(1n+1) {
+      clear: none; }
+    .image-blurb:last-child {
+      margin-right: 0; } }
+
 /*# sourceMappingURL=style.css.map */

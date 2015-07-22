@@ -1,2 +1,10 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
+
+@media screen and (min-width: 1px) {
+  @import "layout_1px";
+}
+
+@media only screen and (min-width: 641px) {
+  @import "layout_desktop";
+}
