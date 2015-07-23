@@ -256,23 +256,36 @@ section {
 
   input[type="email"] {
     font-family: Roboto, sans-serif;
-    font-size: 1.333em;
+    font-size: 1em;
     display: block;
     margin: 0;
-    padding-top: 8px;
     box-shadow: none;
     border-radius: none;
-    margin-top: 4px;
+    padding-top: 5.5px;
+    margin-top: 4.5px;
     margin-left: 30px;
     margin-right: auto;
     width: 200px;
-    float: left; }
+    float: left;
+    padding: 8px; }
 
   .short-button {
-    padding: 6.5px 30px;
+    padding: 6.5px 27px;
     margin-right: auto;
-    margin-left: -60px; }
+    margin-left: -60px;
+    display: inline-block;
+    background-color: #16DDA4;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 1.333em;
+    text-decoration: none;
+    border: none;
+    bottom: 1000px;
+    margin-top: 4.5px;
+    margin-right: -11px; }
 
+  /*  padding:6.5px 26px;*/
   footer {
     float: left;
     display: block;
@@ -347,10 +360,10 @@ section {
 
   input[type="email"] {
     font-family: Roboto, sans-serif;
-    font-size: 1.333em;
+    font-size: 1em;
     display: block;
     margin: 0;
-    padding-top: 8px;
+    padding-top: 6.5px;
     width: 60%;
     box-shadow: none;
     border-radius: none;
