@@ -1,3 +1,4 @@
+$green: #16DDA4;
 @mixin clearfix {
   &::after {
     clear: both;
@@ -10,17 +11,8 @@ header {
   @include clearfix;
 }
 
-.logo, nav { 
-  @include span-columns(6); 
-}
-
-.nav-bar {
-  @include clearfix;
-}
-
-nav {
-  text-align:right;
-  padding-right: 15px;
+.logo { 
+  float: left;
 }
 
 .hero {
@@ -29,6 +21,7 @@ nav {
   background-image: url("http://c8.alamy.com/comp/ACEFAG/saddle-tackle-shed-background-low-opacity-bw-ACEFAG.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  padding-top: 15%;
 
   p h1 { @include span-columns(12); } 
   h1 {color: white;}

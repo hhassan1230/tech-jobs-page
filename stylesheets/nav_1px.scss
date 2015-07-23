@@ -1,0 +1,44 @@
+.nav-bar {
+  background-color: rgba(0, 0, 0, .7);
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  @include span-columns(12);
+  @include clearfix;
+}
+
+nav {
+  text-align:right;
+  padding-right: 15px;
+  float: right;
+  ul { 
+    font-family: $font;
+    font-size: modular-scale(-1);
+    white-space:nowrap;
+    height: 1em;
+    width: 100%;
+  }
+  li {
+    display: inline;
+    float: left;
+    padding-left: 25px;
+    display: inline;
+    a { color: white; }
+    a:hover { color:$green; }
+    &:first-child { padding-left: 0px; }
+    &:last-child { padding-right: 28px; }
+    &:last-child:after {
+      content: " ";
+      width: 0px;
+      margin-left: 0px;
+    }
+    &:after {
+      content: ' ';
+      display: inline-block;
+      height: 15px;
+      width: 3px;
+      margin-left: 20px;
+      background-color: $green;
+    }
+  }
+}
