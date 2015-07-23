@@ -2,11 +2,9 @@
 @import "neat/neat";
 @import "base";
 
-@media screen and (min-width: 1px) {
-  @import "layout_1px";
-  @import "nav_1px";
-}
+@import "layout_1px";
+@import "nav_1px";
 
-@media only screen and (min-width: 641px) {
+@media screen and (min-width: 990px) {
   @import "layout_desktop";
 }
