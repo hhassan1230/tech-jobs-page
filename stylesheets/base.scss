@@ -145,23 +145,27 @@ nav {
 section {
   padding: 25px 0;
 }
+
+#input-box {
+  #mc_embed_signup input.email {
+    display: block;
+    padding: 8px;
+    text-indent: 5px;
+    margin: 0px 60px 0px;
+    width: 58%;
+    min-width: 130px;
+    padding-bottom: 10px;
+  }
+}
 #mc_embed_signup label {
-  display: inline;
+  display: block!important;
   font-size: modular-scale(0);
   font-family: $font;
   text-align: center;
   width: auto;
   font-weight: normal;
 }
-#mc_embed_signup input.email {
-  display: block;
-  padding: 8px;
-  text-indent: 5px;
-  margin: 0px 60px 0px;
-  width: 58%;
-  min-width: 130px;
-  padding-bottom: 10px;
-}
+
 
 
 

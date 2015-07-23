@@ -133,15 +133,7 @@ nav {
 section {
   padding: 25px 0; }
 
-#mc_embed_signup label {
-  display: inline;
-  font-size: 1em;
-  font-family: Roboto, sans-serif;
-  text-align: center;
-  width: auto;
-  font-weight: normal; }
-
-#mc_embed_signup input.email {
+#input-box #mc_embed_signup input.email {
   display: block;
   padding: 8px;
   text-indent: 5px;
@@ -149,6 +141,14 @@ section {
   width: 58%;
   min-width: 130px;
   padding-bottom: 10px; }
+
+#mc_embed_signup label {
+  display: block !important;
+  font-size: 1em;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  width: auto;
+  font-weight: normal; }
 
 @media screen and (min-width: 1px) {
   header::after {
