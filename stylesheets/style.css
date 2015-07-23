@@ -4,7 +4,7 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-#long-button {
+.long-button {
   display: inline-block;
   background-color: #16DDA4;
   cursor: pointer;
