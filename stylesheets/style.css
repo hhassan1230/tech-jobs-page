@@ -133,6 +133,9 @@ nav {
 section {
   padding: 25px 0; }
 
+footer {
+  padding-top: 185px; }
+
 .mail-signup #mc_embed_signup #mc_embed_signup_scroll label[for=mce-EMAIL] {
   display: block;
   font-size: 1em;
@@ -254,14 +257,6 @@ section {
     .application-steps:last-child {
       margin-right: 0; }
 
-  .timeline {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
-    .timeline:last-child {
-      margin-right: 0; }
-
   .mail-signup #mc_embed_signup #input-box input[type="email"] {
     font-family: Roboto, sans-serif;
     font-size: 1em;
@@ -301,7 +296,61 @@ section {
     width: 100%;
     text-align: center; }
     footer:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  .key-date {
+    display: block; }
+    .key-date h4 {
+      height: 15px;
+      width: 125px;
+      background-color: white; }
+    .key-date h3 {
+      height: 30px;
+      width: 135px;
+      background-color: white;
+      margin-top: 50px; }
+    .key-date#dot1 {
+      margin-top: -1px; }
+    .key-date#dot2 {
+      margin-top: 35px; }
+    .key-date#dot3 {
+      margin-top: 65px; }
+    .key-date#dot4 {
+      margin-top: 150px; }
+    .key-date h3 {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; }
+      .key-date h3:after {
+        content: ' ';
+        margin-top: 10px;
+        z-index: 1;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        position: relative;
+        text-align: center;
+        display: block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: black; }
+    .key-date h4 {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; }
+
+  .line {
+    z-index: 0;
+    position: absolute;
+    top: 3069px;
+    left: 50%;
+    height: 585px;
+    width: 3.5px;
+    background-color: #16DDA4; }
+
+  .timeline {
+    position: relative; } }
 @media only screen and (min-width: 641px) {
   section.overview .image-blurb {
     float: left;
@@ -313,22 +362,6 @@ section {
     section.overview .image-blurb:nth-child(1n+1) {
       clear: none; }
     section.overview .image-blurb:last-child {
-      margin-right: 0; }
-
-  .timeline {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    .timeline:last-child {
-      margin-right: 0; }
-
-  .key-date {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%; }
-    .key-date:last-child {
       margin-right: 0; }
 
   nav ul li {
@@ -380,7 +413,8 @@ section {
     margin-top: 4px;
     margin-left: 160px;
     margin-right: auto;
-    webkit-appearance: none; }
+    webkit-appearance: none;
+    border: 1px solid #999; }
 
   .short-button {
     display: inline-block;
@@ -399,6 +433,67 @@ section {
     border-top-style: none; }
 
   .long-button {
-    width: 300px; } }
+    width: 300px; }
+
+  .key-date {
+    position: absolute;
+    display: inline-block; }
+    .key-date h4 {
+      margin-top: 35px; }
+    .key-date#dot1 {
+      left: 0%;
+      top: 55%; }
+    .key-date#dot2 {
+      left: 19%;
+      top: 7%; }
+    .key-date#dot3 {
+      left: 37%;
+      top: -32%; }
+    .key-date#dot4 {
+      left: 88%;
+      top: -143%; }
+    .key-date::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .key-date h3 {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; }
+      .key-date h3:after {
+        content: ' ';
+        margin-top: 15px;
+        z-index: 1;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        text-align: center;
+        display: block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: black; }
+    .key-date h4 {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; }
+
+  .line {
+    z-index: 0;
+    position: absolute;
+    top: 2071px;
+    left: auto;
+    height: 3.5px;
+    width: 915px;
+    background-color: #16DDA4; }
+
+  .timeline {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    position: relative; }
+    .timeline:last-child {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */

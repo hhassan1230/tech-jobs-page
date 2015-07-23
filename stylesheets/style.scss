@@ -4,8 +4,10 @@
 
 @media screen and (min-width: 1px) {
   @import "layout_1px";
+  @import "timeline_1px";
 }
 
 @media only screen and (min-width: 641px) {
   @import "layout_desktop";
+  @import "timeline_desktop";
 }

@@ -1,0 +1,66 @@
+.key-date {
+    position: absolute;
+    h4 {
+      margin-top:35px;
+    }
+  &#dot1 {
+    left: 0%;
+    top: 55%;
+  }
+  &#dot2 {
+    left: 19%;
+    top: 7%;
+  }
+  &#dot3 {
+    left: 37%;
+    top: -32%;
+  }
+  &#dot4 {
+    left: 88%;
+    top: -143%;
+  }
+  display: inline-block;
+  @include clearfix;
+  h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    &:after {
+      content: ' ';
+      margin-top: 15px;
+      z-index: 1;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      text-align: center;
+      display: block;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background-color: black;
+    }
+  }
+  h4 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+.line {
+  z-index:0;
+  position: absolute;
+  top: 2071px;
+  left: auto;
+  height: 3.5px;
+  width: 915px;
+  background-color: $green;
+}
+
+.timeline {
+  @include span-columns(12);
+  position: relative;
+}
+
+
+

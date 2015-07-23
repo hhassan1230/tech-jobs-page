@@ -79,10 +79,6 @@ h1, h2 {
   @include span-columns(12);  
 }
 
-.timeline {
-  @include span-columns(4);
-}
-
 .mail-signup #mc_embed_signup #input-box input[type="email"] {
   font-family: $font; 
   font-size: modular-scale(0);

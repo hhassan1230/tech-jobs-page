@@ -1,0 +1,66 @@
+.key-date {
+
+    h4 {
+      height:15px;
+      width:125px;
+      background-color: white;
+    }
+    h3 {
+      height:30px;
+      width:135px;
+      background-color: white;
+      margin-top: 50px;
+    }
+  &#dot1 {
+    margin-top: -1px;
+  }
+  &#dot2 {
+    margin-top: 35px;
+  }
+  &#dot3 {
+    margin-top: 65px;
+  }
+  &#dot4 {
+    margin-top: 150px;
+  }
+  display: block;
+  h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    &:after {
+      content: ' ';
+      margin-top: 10px;
+      z-index: 1;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0px;
+      position: relative;
+      text-align: center;
+      display: block;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background-color: black;
+    }
+  }
+  h4 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+.line {
+  z-index:0;
+  position: absolute;
+  top: 3069px;
+  left: 50%;
+  height: 585px;
+  width: 3.5px;
+  background-color: $green;
+}
+
+.timeline {
+  position: relative;
+}
