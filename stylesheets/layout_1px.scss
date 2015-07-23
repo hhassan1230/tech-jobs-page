@@ -83,7 +83,7 @@ h1, h2 {
   @include span-columns(4);
 }
 
-input[type="email"] {
+#mc_embed_signup #input-box input[type="email"] {
   font-family: $font; 
   font-size: modular-scale(0);
   display: block;
