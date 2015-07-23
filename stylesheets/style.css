@@ -144,206 +144,206 @@ section {
   width: auto;
   font-weight: normal; }
 
-@media screen and (min-width: 1px) {
-  header::after {
+header::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.logo {
+  float: left; }
+
+.hero {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-image: url("http://c8.alamy.com/comp/ACEFAG/saddle-tackle-shed-background-low-opacity-bw-ACEFAG.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 15%; }
+  .hero:last-child {
+    margin-right: 0; }
+  .hero p h1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .hero p h1:last-child {
+      margin-right: 0; }
+  .hero h1 {
+    color: white; }
+  .hero .hero-blurb {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 75px; }
+    .hero .hero-blurb::after {
+      clear: both;
+      content: "";
+      display: table; }
+
+.image-blurb {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  text-align: center; }
+  .image-blurb:last-child {
+    margin-right: 0; }
+  .image-blurb:nth-child(2n) {
+    margin-right: 0; }
+  .image-blurb:nth-child(2n+1) {
+    clear: left; }
+
+.curriculum-blurbs {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .curriculum-blurbs::after {
     clear: both;
     content: "";
     display: table; }
 
-  .logo {
-    float: left; }
+.mail-signup #mc_embed_signup {
+  text-align: center;
+  width: auto; }
 
-  .hero {
+button {
+  width: 200px; }
+
+section {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 58em; }
+  section::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+h1, h2 {
+  text-align: center; }
+
+.eligibility {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .eligibility:last-child {
+    margin-right: 0; }
+
+.application-steps {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .application-steps:last-child {
+    margin-right: 0; }
+
+.timeline {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .timeline:last-child {
+    margin-right: 0; }
+
+.mail-signup #mc_embed_signup #input-box input[type="email"] {
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  display: block;
+  margin: 0;
+  box-shadow: none;
+  border-radius: none;
+  padding-top: 5.5px;
+  margin-top: 4.5px;
+  margin-left: 30px;
+  margin-right: auto;
+  width: 250px;
+  float: left;
+  padding: 9.5px; }
+
+.short-button {
+  padding: 6.5px 27px;
+  margin-right: auto;
+  margin-left: -60px;
+  display: inline-block;
+  background-color: #16DDA4;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 1.333em;
+  text-decoration: none;
+  border: none;
+  bottom: 1000px;
+  margin-top: 4.5px;
+  margin-right: -11px; }
+
+/*  padding:6.5px 26px;*/
+footer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center; }
+  footer:last-child {
+    margin-right: 0; }
+
+.nav-bar {
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .nav-bar:last-child {
+    margin-right: 0; }
+  .nav-bar::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+nav {
+  text-align: right;
+  padding-right: 15px;
+  float: right; }
+  nav ul {
+    font-family: Roboto, sans-serif;
+    font-size: 0.75019em;
+    white-space: nowrap;
+    height: 1em;
+    width: 100%; }
+  nav li {
+    display: inline;
     float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    background-image: url("http://c8.alamy.com/comp/ACEFAG/saddle-tackle-shed-background-low-opacity-bw-ACEFAG.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    padding-top: 15%; }
-    .hero:last-child {
-      margin-right: 0; }
-    .hero p h1 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      .hero p h1:last-child {
-        margin-right: 0; }
-    .hero h1 {
+    padding-left: 25px;
+    display: inline; }
+    nav li a {
       color: white; }
-    .hero .hero-blurb {
-      max-width: 68em;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-      padding-right: 20%;
-      padding-left: 20%;
-      padding-bottom: 75px; }
-      .hero .hero-blurb::after {
-        clear: both;
-        content: "";
-        display: table; }
+    nav li a:hover {
+      color: #16DDA4; }
+    nav li:first-child {
+      padding-left: 0px; }
+    nav li:last-child {
+      padding-right: 28px; }
+    nav li:last-child:after {
+      content: " ";
+      width: 0px;
+      margin-left: 0px; }
+    nav li:after {
+      content: ' ';
+      display: inline-block;
+      height: 15px;
+      width: 3px;
+      margin-left: 20px;
+      background-color: #16DDA4; }
 
-  .image-blurb {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%;
-    text-align: center; }
-    .image-blurb:last-child {
-      margin-right: 0; }
-    .image-blurb:nth-child(2n) {
-      margin-right: 0; }
-    .image-blurb:nth-child(2n+1) {
-      clear: left; }
-
-  .curriculum-blurbs {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto; }
-    .curriculum-blurbs::after {
-      clear: both;
-      content: "";
-      display: table; }
-
-  .mail-signup #mc_embed_signup {
-    text-align: center;
-    width: auto; }
-
-  button {
-    width: 200px; }
-
-  section {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 58em; }
-    section::after {
-      clear: both;
-      content: "";
-      display: table; }
-
-  h1, h2 {
-    text-align: center; }
-
-  .eligibility {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    .eligibility:last-child {
-      margin-right: 0; }
-
-  .application-steps {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    .application-steps:last-child {
-      margin-right: 0; }
-
-  .timeline {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
-    .timeline:last-child {
-      margin-right: 0; }
-
-  .mail-signup #mc_embed_signup #input-box input[type="email"] {
-    font-family: Roboto, sans-serif;
-    font-size: 1em;
-    display: block;
-    margin: 0;
-    box-shadow: none;
-    border-radius: none;
-    padding-top: 5.5px;
-    margin-top: 4.5px;
-    margin-left: 30px;
-    margin-right: auto;
-    width: 250px;
-    float: left;
-    padding: 9.5px; }
-
-  .short-button {
-    padding: 6.5px 27px;
-    margin-right: auto;
-    margin-left: -60px;
-    display: inline-block;
-    background-color: #16DDA4;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Roboto, sans-serif;
-    font-size: 1.333em;
-    text-decoration: none;
-    border: none;
-    bottom: 1000px;
-    margin-top: 4.5px;
-    margin-right: -11px; }
-
-  /*  padding:6.5px 26px;*/
-  footer {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    text-align: center; }
-    footer:last-child {
-      margin-right: 0; }
-
-  .nav-bar {
-    background-color: rgba(0, 0, 0, 0.7);
-    top: 0px;
-    left: 0px;
-    position: fixed;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    .nav-bar:last-child {
-      margin-right: 0; }
-    .nav-bar::after {
-      clear: both;
-      content: "";
-      display: table; }
-
-  nav {
-    text-align: right;
-    padding-right: 15px;
-    float: right; }
-    nav ul {
-      font-family: Roboto, sans-serif;
-      font-size: 0.75019em;
-      white-space: nowrap;
-      height: 1em;
-      width: 100%; }
-    nav li {
-      display: inline;
-      float: left;
-      padding-left: 25px;
-      display: inline; }
-      nav li a {
-        color: white; }
-      nav li a:hover {
-        color: #16DDA4; }
-      nav li:first-child {
-        padding-left: 0px; }
-      nav li:last-child {
-        padding-right: 28px; }
-      nav li:last-child:after {
-        content: " ";
-        width: 0px;
-        margin-left: 0px; }
-      nav li:after {
-        content: ' ';
-        display: inline-block;
-        height: 15px;
-        width: 3px;
-        margin-left: 20px;
-        background-color: #16DDA4; } }
-@media only screen and (min-width: 641px) {
+@media screen and (min-width: 990px) {
   section.overview .image-blurb {
     float: left;
     display: block;
