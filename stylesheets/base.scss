@@ -145,18 +145,7 @@ nav {
 section {
   padding: 25px 0;
 }
-
-  /*#mc_embed_signup #input-box input.email {
-    display: block;
-    padding: 8px;
-    text-indent: 5px;
-    margin: 0px 60px 0px;
-    width: 58%;
-    min-width: 130px;
-    padding-bottom: 10px;
-  }*/
-
-.mail-signup #mc_embed_signup label {
+.mail-signup #mc_embed_signup #mc_embed_signup_scroll label {
   display: block;
   font-size: modular-scale(0);
   font-family: $font;
@@ -164,6 +153,7 @@ section {
   width: auto;
   font-weight: normal;
 }
+
 
 
 
