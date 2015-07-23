@@ -142,7 +142,7 @@ section {
   min-width: 130px;
   padding-bottom: 10px;
 }*/
-#mc_embed_signup label {
+.mail-signup #mc_embed_signup label {
   display: block;
   font-size: 1em;
   font-family: Roboto, sans-serif;
@@ -271,7 +271,7 @@ section {
     .timeline:last-child {
       margin-right: 0; }
 
-  #mc_embed_signup #input-box input[type="email"] {
+  .mail-signup #mc_embed_signup #input-box input[type="email"] {
     font-family: Roboto, sans-serif;
     font-size: 1em;
     display: block;
@@ -375,7 +375,7 @@ section {
     .application-steps:last-child {
       margin-right: 0; }
 
-  #mc_embed_signup #input-box input[type="email"] {
+  .mail-signup #mc_embed_signup #input-box input[type="email"] {
     font-family: Roboto, sans-serif;
     font-size: 1em;
     display: block;
