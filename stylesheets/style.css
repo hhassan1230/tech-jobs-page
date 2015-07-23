@@ -133,7 +133,7 @@ nav {
 section {
   padding: 25px 0; }
 
-.mail-signup #mc_embed_signup #mc_embed_signup_scroll label {
+.mail-signup #mc_embed_signup #mc_embed_signup_scroll label[for=mce-EMAIL] {
   display: block;
   font-size: 1em;
   font-family: Roboto, sans-serif;
