@@ -37,11 +37,11 @@ section.curriculum .image-blurb {
   width: 60%;
   box-shadow: none;
   border-radius: none;
-  border: none;
   float: left;
   margin-top:4px;
   margin-left: 160px;
   margin-right: auto;
+  webkit-appearance: none;
 }
 .short-button {
   display:inline-block;
@@ -57,6 +57,7 @@ section.curriculum .image-blurb {
   bottom: 1000px;
   margin-top: 4px;
   margin-right: 91px;
+  border-top-style: none;
 }
 .long-button {
   width: 300px;

@@ -376,11 +376,11 @@ section {
     width: 60%;
     box-shadow: none;
     border-radius: none;
-    border: none;
     float: left;
     margin-top: 4px;
     margin-left: 160px;
-    margin-right: auto; }
+    margin-right: auto;
+    webkit-appearance: none; }
 
   .short-button {
     display: inline-block;
@@ -395,7 +395,8 @@ section {
     border: none;
     bottom: 1000px;
     margin-top: 4px;
-    margin-right: 91px; }
+    margin-right: 91px;
+    border-top-style: none; }
 
   .long-button {
     width: 300px; } }
