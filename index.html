@@ -3,6 +3,15 @@
     <head>
       <meta charset="utf-8">
       <title>Tech Job Academy</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script type="text/javascript" >
+          $.fn.MessageBox = function(msg) {
+            var clicked = "."+msg;
+          $('html, body').animate({
+                  scrollTop: $(clicked).offset().top - 35
+              }, 1000);
+          };
+      </script>
       <link href="./stylesheets/style.css" rel="stylesheet">
       <link href='http://fonts.googleapis.com/css?family=Roboto:500,400,300' rel='stylesheet' type='text/css'>
     </head>
@@ -14,10 +23,10 @@
           </div>
           <nav>
             <ul>
-              <li><a href="#" title="OVERVIEW">OVERVIEW</a></li>
-              <li><a href="#" title="CURRICULUM">CURRICULUM</a></li>
-              <li><a href="#" title="APPLICATION PROCESS">APPLICATION PROCESS</a></li>
-              <li><a href="#" title="KEY DATES">KEY DATES</a></li>
+              <li><a href="#" onclick="$(this).MessageBox('overview')" title="OVERVIEW">OVERVIEW</a></li>
+              <li><a href="#" onclick="$(this).MessageBox('curriculum')" title="CURRICULUM">CURRICULUM</a></li>
+              <li><a href="#" onclick="$(this).MessageBox('application')" title="APPLICATION PROCESS">APPLICATION PROCESS</a></li>
+              <li><a href="#" onclick="$(this).MessageBox('key-dates')" title="KEY DATES">KEY DATES</a></li>
             </ul>
           </nav>  
         </div>
