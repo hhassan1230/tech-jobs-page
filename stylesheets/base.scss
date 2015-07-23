@@ -13,20 +13,7 @@ $font: Roboto, sans-serif;
   border: none;
   margin-bottom: 15px;
 }
-.short-button {
-  display:inline-block;
-  background-color: $green;
-  cursor:pointer;
-  color:#ffffff;
-  font-family: 100% $font;
-  font-size: modular-scale(1);
-  padding:6.5px 26px;
-  text-decoration:none;
-  border: none;
-  bottom: 1000px;
-  margin-top: 4px;
-  margin-right: 91px;
-} 
+ 
 a {
   color: white;
   text-decoration: none;

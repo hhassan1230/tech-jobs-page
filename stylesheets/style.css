@@ -16,20 +16,6 @@ html {
   border: none;
   margin-bottom: 15px; }
 
-.short-button {
-  display: inline-block;
-  background-color: #16DDA4;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: 100% Roboto, sans-serif;
-  font-size: 1.333em;
-  padding: 6.5px 26px;
-  text-decoration: none;
-  border: none;
-  bottom: 1000px;
-  margin-top: 4px;
-  margin-right: 91px; }
-
 a {
   color: white;
   text-decoration: none; }
@@ -175,7 +161,7 @@ section {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    background-image: url("http://www.smashingshowcase.com/wp-content/uploads/2011/12/awesome-anime-hd-wallpapers-by-udonnodu-02.jpg");
+    background-image: url("http://c8.alamy.com/comp/ACEFAG/saddle-tackle-shed-background-low-opacity-bw-ACEFAG.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%; }
     .hero:last-child {
@@ -187,13 +173,16 @@ section {
       width: 100%; }
       .hero p h1:last-child {
         margin-right: 0; }
-    .hero button {
-      width: 300px; }
+    .hero h1 {
+      color: white; }
     .hero .hero-blurb {
       max-width: 68em;
       margin-left: auto;
       margin-right: auto;
-      text-align: center; }
+      text-align: center;
+      padding-right: 20%;
+      padding-left: 20%;
+      padding-bottom: 75px; }
       .hero .hero-blurb::after {
         clear: both;
         content: "";
@@ -224,6 +213,9 @@ section {
   .mail-signup #mc_embed_signup {
     text-align: center;
     width: auto; }
+
+  button {
+    width: 200px; }
 
   section {
     max-width: 68em;
@@ -379,6 +371,9 @@ section {
     border: none;
     bottom: 1000px;
     margin-top: 4px;
-    margin-right: 91px; } }
+    margin-right: 91px; }
+
+  .long-button {
+    width: 300px; } }
 
 /*# sourceMappingURL=style.css.map */
