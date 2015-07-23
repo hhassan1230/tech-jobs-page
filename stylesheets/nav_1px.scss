@@ -22,7 +22,16 @@ nav {
     display: inline;
     float: left;
     padding-left: 25px;
-
+    display: inline;
+    a { color: white; }
+    a:hover { color:$green; }
+    &:first-child { padding-left: 0px; }
+    &:last-child { padding-right: 28px; }
+    &:last-child:after {
+      content: " ";
+      width: 0px;
+      margin-left: 0px;
+    }
     &:after {
       content: ' ';
       display: inline-block;
@@ -31,15 +40,5 @@ nav {
       margin-left: 20px;
       background-color: $green;
     }
-  }
-  li { display: inline; }
-  li a { color: white; }
-  li a:hover { color:$green; }
-  li:first-child { padding-left: 0px; }
-  li:last-child { padding-right: 28px; }
-  li:last-child:after {
-    content: " ";
-    width: 0px;
-    margin-left: 0px;
   }
 }

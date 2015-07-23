@@ -264,28 +264,27 @@ nav {
     nav li {
       display: inline;
       float: left;
-      padding-left: 25px; }
+      padding-left: 25px;
+      display: inline; }
+      nav li a {
+        color: white; }
+      nav li a:hover {
+        color: #16DDA4; }
+      nav li:first-child {
+        padding-left: 0px; }
+      nav li:last-child {
+        padding-right: 28px; }
+      nav li:last-child:after {
+        content: " ";
+        width: 0px;
+        margin-left: 0px; }
       nav li:after {
         content: ' ';
         display: inline-block;
         height: 15px;
         width: 3px;
         margin-left: 20px;
-        background-color: #16DDA4; }
-    nav li {
-      display: inline; }
-    nav li a {
-      color: white; }
-    nav li a:hover {
-      color: #16DDA4; }
-    nav li:first-child {
-      padding-left: 0px; }
-    nav li:last-child {
-      padding-right: 28px; }
-    nav li:last-child:after {
-      content: " ";
-      width: 0px;
-      margin-left: 0px; } }
+        background-color: #16DDA4; } }
 @media only screen and (min-width: 641px) {
   section.overview .image-blurb {
     float: left;
