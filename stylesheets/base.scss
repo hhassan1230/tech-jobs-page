@@ -99,7 +99,7 @@ nav {
   float: right;
   ul { 
     font-family: $font;
-    overflow:hidden;
+    font-size: modular-scale(-1);
     white-space:nowrap;
     height: 1em;
     width: 100%;
@@ -118,18 +118,15 @@ nav {
       background-color: $green;
     }
   }
+  li:first-child {
+    padding-left: 0px;
+  }
   li:last-child {
     padding-right: 28px;
   }
   li:last-child:after {
-    content: ' ';
-    display: block;
+    content: " ";
+    width: 0px;
+    margin-left: 0px;
   }
 }
-
-
-
-
-
-
-

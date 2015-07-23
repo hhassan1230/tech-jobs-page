@@ -99,7 +99,7 @@ nav {
   float: right; }
   nav ul {
     font-family: Roboto, sans-serif;
-    overflow: hidden;
+    font-size: 0.75019em;
     white-space: nowrap;
     height: 1em;
     width: 100%; }
@@ -114,29 +114,18 @@ nav {
       width: 3px;
       margin-left: 20px;
       background-color: #16DDA4; }
+  nav li:first-child {
+    padding-left: 0px; }
   nav li:last-child {
     padding-right: 28px; }
   nav li:last-child:after {
-    content: ' ';
-    display: block; }
+    content: " ";
+    width: 0px;
+    margin-left: 0px; }
 
 @media screen and (min-width: 1px) {
-  .logo, nav {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%; }
-    .logo:last-child, nav:last-child {
-      margin-right: 0; }
-
-  .nav-bar::after {
-    clear: both;
-    content: "";
-    display: table; }
-
-  nav {
-    text-align: right;
-    padding-right: 15px; }
+  .logo {
+    float: left; }
 
   .hero {
     float: left;
@@ -145,7 +134,8 @@ nav {
     width: 100%;
     background-image: url("http://c8.alamy.com/comp/ACEFAG/saddle-tackle-shed-background-low-opacity-bw-ACEFAG.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%; }
+    background-size: 100% 100%;
+    padding-top: 15%; }
     .hero:last-child {
       margin-right: 0; }
     .hero p h1 {
@@ -243,7 +233,59 @@ nav {
     width: 100%;
     text-align: center; }
     footer:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  .nav-bar {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0px;
+    left: 0px;
+    position: fixed; }
+    .nav-bar:last-child {
+      margin-right: 0; }
+    .nav-bar::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .nav-bar nav ul li a {
+      color: white; }
+    .nav-bar nav ul li a:hover {
+      color: #16DDA4; }
+    .nav-bar ul li {
+      display: inline; }
+
+  nav {
+    text-align: right;
+    padding-right: 15px;
+    float: right; }
+    nav ul {
+      font-family: Roboto, sans-serif;
+      font-size: 0.75019em;
+      white-space: nowrap;
+      height: 1em;
+      width: 100%; }
+    nav li {
+      display: inline;
+      float: left;
+      padding-left: 25px; }
+      nav li:after {
+        content: ' ';
+        display: inline-block;
+        height: 15px;
+        width: 3px;
+        margin-left: 20px;
+        background-color: #16DDA4; }
+    nav li:first-child {
+      padding-left: 0px; }
+    nav li:last-child {
+      padding-right: 28px; }
+    nav li:last-child:after {
+      content: " ";
+      width: 0px;
+      margin-left: 0px; } }
 @media only screen and (min-width: 641px) {
   section.overview .image-blurb {
     float: left;
@@ -272,9 +314,6 @@ nav {
     width: 23.23176%; }
     .key-date:last-child {
       margin-right: 0; }
-
-  nav ul li {
-    display: inline; }
 
   section.curriculum .image-blurb {
     float: left;
