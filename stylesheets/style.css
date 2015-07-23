@@ -273,9 +273,9 @@ section {
     margin-top: 4.5px;
     margin-left: 30px;
     margin-right: auto;
-    width: 200px;
+    width: 250px;
     float: left;
-    padding: 8px; }
+    padding: 9.5px; }
 
   .short-button {
     padding: 6.5px 27px;
@@ -372,9 +372,11 @@ section {
     display: block;
     margin: 0;
     padding-top: 6.5px;
+    padding-bottom: 10px;
     width: 60%;
     box-shadow: none;
     border-radius: none;
+    border: none;
     float: left;
     margin-top: 4px;
     margin-left: 160px;
@@ -388,6 +390,7 @@ section {
     font-family: 100% Roboto, sans-serif;
     font-size: 1.333em;
     padding: 6.5px 26px;
+    padding-bottom: 4px;
     text-decoration: none;
     border: none;
     bottom: 1000px;

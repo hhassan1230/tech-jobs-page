@@ -83,7 +83,7 @@ h1, h2 {
   @include span-columns(4);
 }
 
-.mail-signup  #mc_embed_signup #input-box input[type="email"] {
+.mail-signup #mc_embed_signup #input-box input[type="email"] {
   font-family: $font; 
   font-size: modular-scale(0);
   display: block;
@@ -94,9 +94,9 @@ h1, h2 {
   margin-top: 4.5px;
   margin-left: 30px;
   margin-right: auto;
-  width: 200px;
+  width: 250px;
   float: left;
-  padding: 8px;
+  padding: 9.5px;
 }
 
 .short-button {
