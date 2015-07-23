@@ -1,26 +1,10 @@
-$green: #16DDA4;
-@mixin clearfix {
-  &::after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-}
-
 .nav-bar {
-  @include span-columns(12);
   background-color: rgba(0, 0, 0, .7);
   top: 0px;
   left: 0px;
   position: fixed;
-
+  @include span-columns(12);
   @include clearfix;
-
-  nav ul li  a { color: white; }
-  nav ul li a:hover { color:$green; }
-  ul li {
-    display: inline;
-  }
 }
 
 nav {
@@ -48,12 +32,11 @@ nav {
       background-color: $green;
     }
   }
-  li:first-child {
-    padding-left: 0px;
-  }
-  li:last-child {
-    padding-right: 28px;
-  }
+  li { display: inline; }
+  li a { color: white; }
+  li a:hover { color:$green; }
+  li:first-child { padding-left: 0px; }
+  li:last-child { padding-right: 28px; }
   li:last-child:after {
     content: " ";
     width: 0px;

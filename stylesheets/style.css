@@ -236,26 +236,20 @@ nav {
       margin-right: 0; }
 
   .nav-bar {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     top: 0px;
     left: 0px;
-    position: fixed; }
+    position: fixed;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
     .nav-bar:last-child {
       margin-right: 0; }
     .nav-bar::after {
       clear: both;
       content: "";
       display: table; }
-    .nav-bar nav ul li a {
-      color: white; }
-    .nav-bar nav ul li a:hover {
-      color: #16DDA4; }
-    .nav-bar ul li {
-      display: inline; }
 
   nav {
     text-align: right;
@@ -278,6 +272,12 @@ nav {
         width: 3px;
         margin-left: 20px;
         background-color: #16DDA4; }
+    nav li {
+      display: inline; }
+    nav li a {
+      color: white; }
+    nav li a:hover {
+      color: #16DDA4; }
     nav li:first-child {
       padding-left: 0px; }
     nav li:last-child {
