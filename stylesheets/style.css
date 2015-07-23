@@ -133,6 +133,20 @@ nav {
 section {
   padding: 25px 0; }
 
+#mc_embed_signup label {
+  display: inline;
+  font-size: 1em;
+  text-align: center;
+  width: auto; }
+
+#mc_embed_signup input.email {
+  display: block;
+  padding: 8px;
+  text-indent: 5px;
+  width: 58%;
+  min-width: 130px;
+  padding-bottom: 10px; }
+
 @media screen and (min-width: 1px) {
   header::after {
     clear: both;
