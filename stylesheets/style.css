@@ -136,13 +136,16 @@ section {
 #mc_embed_signup label {
   display: inline;
   font-size: 1em;
+  font-family: Roboto, sans-serif;
   text-align: center;
-  width: auto; }
+  width: auto;
+  font-weight: normal; }
 
 #mc_embed_signup input.email {
   display: block;
   padding: 8px;
   text-indent: 5px;
+  margin: 0px 60px 0px;
   width: 58%;
   min-width: 130px;
   padding-bottom: 10px; }
