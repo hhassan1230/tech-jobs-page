@@ -10,7 +10,6 @@ $green: #16DDA4;
 header {
   @include clearfix;
 }
-
 .logo { 
   float: left;
 }
@@ -18,9 +17,9 @@ header {
 .hero {
   @include span-columns(12); 
 // need help making background size bigger
-  background-image: url("http://c8.alamy.com/comp/ACEFAG/saddle-tackle-shed-background-low-opacity-bw-ACEFAG.jpg");
+  background-image: url("../images/tech_jobs_academy_demo.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
   padding-top: 15%;
 
   p h1 { @include span-columns(12); } 
@@ -35,7 +34,6 @@ header {
   }
 
 }
-
 .image-blurb { 
   @include span-columns(6); 
   @include omega(2n);
@@ -63,9 +61,32 @@ section {
 h1, h2 {
   text-align: center;
 }
+p {
+  margin-left: 4px;
+  margin-right: 30px;
+ /* text-align: center;*/
+}
 
 .eligibility {
-  @include span-columns(12);  
+  @include span-columns(12);
+  h3 {
+    margin-left: 115px;
+    margin-right: 30px;
+  }
+  ul li { 
+    margin-left: 85px;
+    margin-right: 70px;
+  } 
+  p {
+    margin-left: 42px;
+    margin-right: 20px;
+  }
+  .long-button {
+    margin-top: 18px;
+    padding-right:10px;
+    padding-left:10px;
+    margin-left: 102px;
+  }
 }
 
 .application-steps {

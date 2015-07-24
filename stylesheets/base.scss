@@ -13,7 +13,9 @@ $font: Roboto, sans-serif;
   border: none;
   margin-bottom: 15px;
 }
- 
+body {
+  margin: 0;
+}
 a {
   color: white;
   text-decoration: none;
@@ -23,6 +25,8 @@ h1 {
   font-size: modular-scale(3);
   font-weight: 500;
   color: white;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.03);
 }
 h2 {
   font-family: $font;
@@ -159,4 +163,15 @@ footer {
   text-align: center;
   width: auto;
   font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.icon {
+  font-family: $font;
+  font-size: 66px;
+  font-weight: 900;
+}
+.dollar {
+  font-size: 24px;
+  vertical-align: super;
 }
