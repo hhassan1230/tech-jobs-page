@@ -6,17 +6,8 @@ section.overview  .image-blurb {
   @include omega-reset(1n); 
   @include span-columns(3); 
 }
-<<<<<<< HEAD
-.timeline {
-  @include span-columns(12);
-}
-.key-date {
-  @include span-columns(3);
-=======
-
 nav ul li {
   display: inline;
->>>>>>> dh-style-timeline
 }
 section.curriculum .image-blurb {
   @include omega-reset(1n); 
