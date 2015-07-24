@@ -6,14 +6,12 @@ $green: #16DDA4;
     display: table;
   }
 }
-
 header {
   @include clearfix;
 }
 .logo { 
   float: left;
 }
-
 .hero {
   @include span-columns(12); 
 // need help making background size bigger
@@ -32,32 +30,26 @@ header {
     padding-left: 20%;
     padding-bottom: 75px;
   }
-
 }
 .image-blurb { 
   @include span-columns(6); 
   @include omega(2n);
   text-align: center;
 }
-
 .curriculum-blurbs {
   @include outer-container;
 }
-
 .mail-signup #mc_embed_signup {
   text-align: center;
   width: auto;
 }
-
 button {
   width: 200px;
 }
-
 section {
   @include outer-container; 
   max-width: 58em;
 }
-
 h1, h2 {
   text-align: center;
 }
@@ -66,7 +58,6 @@ p {
   margin-right: 30px;
  /* text-align: center;*/
 }
-
 .eligibility {
   @include span-columns(12);
   h3 {
@@ -88,11 +79,9 @@ p {
     margin-left: 102px;
   }
 }
-
 .application-steps {
   @include span-columns(12);  
 }
-
 .mail-signup #mc_embed_signup #input-box input[type="email"] {
   font-family: $font; 
   font-size: modular-scale(0);
@@ -108,7 +97,6 @@ p {
   float: left;
   padding: 9.5px;
 }
-
 .short-button {
   padding: 6.5px 27px;
   margin-right: auto;
@@ -125,11 +113,6 @@ p {
   margin-top: 4.5px; 
   margin-right: -11px;
 }
-
-
-/*  padding:6.5px 26px;*/
-
-
 footer {
   @include span-columns(12);
   text-align: center;
