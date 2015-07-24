@@ -78,41 +78,7 @@ ul {
   font-weight: 400;
   color: black;
 }
-nav {
-  float: right;
-  ul { 
-    font-family: $font;
-    font-size: modular-scale(-1);
-    white-space:nowrap;
-    height: 1em;
-    width: 100%;
-  }
-  li {
-    display: inline;
-    float: left;
-    padding-left: 25px;
 
-    &:after {
-      content: ' ';
-      display: inline-block;
-      height: 15px;
-      width: 3px;
-      margin-left: 20px;
-      background-color: $green;
-    }
-  }
-  li:first-child {
-    padding-left: 0px;
-  }
-  li:last-child {
-    padding-right: 28px;
-  }
-  li:last-child:after {
-    content: " ";
-    width: 0px;
-    margin-left: 0px;
-  }
-}
 .application-steps ol {
   list-style: none;
   counter-reset: my-awesome-counter;
@@ -120,7 +86,7 @@ nav {
     margin-left: 10px;
     padding: 0px;
     counter-increment: my-awesome-counter;
-    margin-bottom: 10px;
+    // margin-bottom: 10px;
     border-bottom: 1px solid white;
     line-height: 22px;
     h3 { 

@@ -52,7 +52,7 @@ section.curriculum .image-blurb {
   background-color: rgba(0, 0, 0, 0.03);
 }
 h3 {  font-size: modular-scale(0); }
-
+nav { ul { font-size: modular-scale(-1); } }
 .mail-signup #mc_embed_signup #input-box input[type="email"] {
   font-family: $font; 
   font-size: modular-scale(0);

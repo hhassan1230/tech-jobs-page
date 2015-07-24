@@ -77,34 +77,6 @@ ul {
   font-weight: 400;
   color: black; }
 
-nav {
-  float: right; }
-  nav ul {
-    font-family: Roboto, sans-serif;
-    font-size: 0.75019em;
-    white-space: nowrap;
-    height: 1em;
-    width: 100%; }
-  nav li {
-    display: inline;
-    float: left;
-    padding-left: 25px; }
-    nav li:after {
-      content: ' ';
-      display: inline-block;
-      height: 15px;
-      width: 3px;
-      margin-left: 20px;
-      background-color: #16DDA4; }
-  nav li:first-child {
-    padding-left: 0px; }
-  nav li:last-child {
-    padding-right: 28px; }
-  nav li:last-child:after {
-    content: " ";
-    width: 0px;
-    margin-left: 0px; }
-
 .application-steps ol {
   list-style: none;
   counter-reset: my-awesome-counter; }
@@ -112,7 +84,6 @@ nav {
     margin-left: 10px;
     padding: 0px;
     counter-increment: my-awesome-counter;
-    margin-bottom: 10px;
     border-bottom: 1px solid white;
     line-height: 22px; }
     .application-steps ol li h3 {
@@ -340,25 +311,25 @@ footer {
 
 nav {
   text-align: right;
-  padding-right: 15px;
   float: right; }
   nav ul {
     font-family: Roboto, sans-serif;
-    font-size: 0.75019em;
+    font-size: 8px;
     white-space: nowrap;
     height: 1em;
     width: 100%; }
   nav li {
     display: inline;
     float: left;
-    padding-left: 25px;
     display: inline; }
     nav li a {
-      color: white; }
+      color: white;
+      padding-left: 5px;
+      padding-right: 5px; }
     nav li a:hover {
       color: #16DDA4; }
     nav li:first-child {
-      padding-left: 0px; }
+      padding-left: -10px; }
     nav li:last-child {
       padding-right: 28px; }
     nav li:last-child:after {
@@ -368,9 +339,8 @@ nav {
     nav li:after {
       content: ' ';
       display: inline-block;
-      height: 15px;
+      height: 8px;
       width: 3px;
-      margin-left: 20px;
       background-color: #16DDA4; }
 
 .key-dates {
@@ -516,6 +486,9 @@ footer a {
   h3 {
     font-size: 1em; }
 
+  nav ul {
+    font-size: 0.75019em; }
+
   .mail-signup #mc_embed_signup #input-box input[type="email"] {
     font-family: Roboto, sans-serif;
     font-size: 1em;
@@ -616,6 +589,41 @@ footer a {
   footer a {
     margin-right: 60px; }
     footer a img {
-      height: 60px; } }
+      height: 60px; }
+
+  nav ul {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    white-space: nowrap;
+    height: 1em;
+    width: 100%; }
+  nav li {
+    margin-left: 20px;
+    display: inline;
+    float: left;
+    display: inline; }
+    nav li a {
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px; }
+    nav li a:hover {
+      color: #16DDA4; }
+    nav li:first-child {
+      padding-left: 0px; }
+    nav li:last-child {
+      padding-right: 28px; }
+    nav li:last-child:after {
+      content: " ";
+      width: 0px;
+      margin-left: 0px; }
+    nav li:after {
+      content: ' ';
+      display: inline-block;
+      height: 15px;
+      width: 3px;
+      background-color: #16DDA4; }
+
+  .nav-bar .logo img {
+    width: 120px; } }
 
 /*# sourceMappingURL=style.css.map */
