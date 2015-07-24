@@ -307,6 +307,7 @@ footer {
     content: "";
     display: table; }
 
+<<<<<<< HEAD
 nav {
   text-align: right;
   padding-right: 15px;
@@ -341,6 +342,23 @@ nav {
       width: 3px;
       margin-left: 20px;
       background-color: #16DDA4; }
+=======
+  .nav-bar {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0px;
+    left: 0px;
+    position: fixed; }
+    .nav-bar:last-child {
+      margin-right: 0; }
+    .nav-bar::after {
+      clear: both;
+      content: "";
+      display: table; }
+>>>>>>> 53edccfb2f3e54864c3260a6a0e8a766625fe3fa
 
 @media screen and (min-width: 990px) {
   section.overview .image-blurb {
