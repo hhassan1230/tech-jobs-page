@@ -6,11 +6,8 @@ section.overview  .image-blurb {
   @include omega-reset(1n); 
   @include span-columns(3); 
 }
-.timeline {
-  @include span-columns(12);
-}
-.key-date {
-  @include span-columns(3);
+nav ul li {
+  display: inline;
 }
 section.curriculum .image-blurb {
   @include omega-reset(1n); 

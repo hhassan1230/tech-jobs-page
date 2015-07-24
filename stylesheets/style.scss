@@ -4,7 +4,9 @@
 
 @import "layout_1px";
 @import "nav_1px";
+@import "timeline_1px";
 
 @media screen and (min-width: 990px) {
   @import "layout_desktop";
+  @import "timeline_desktop";
 }
