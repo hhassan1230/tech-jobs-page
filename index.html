@@ -3,6 +3,8 @@
     <head>
       <meta charset="utf-8">
       <title>Tech Job Academy</title>
+      <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+      <script src="./javascript/main.js" type="text/javascript" charset="utf-8"></script>
       <link href="./stylesheets/style.css" rel="stylesheet">
       <link href='http://fonts.googleapis.com/css?family=Roboto:500,400,300' rel='stylesheet' type='text/css'>
     </head>
@@ -14,10 +16,10 @@
           </div>
           <nav>
             <ul>
-              <li><a href="#" title="OVERVIEW">OVERVIEW</a></li>
-              <li><a href="#" title="CURRICULUM">CURRICULUM</a></li>
-              <li><a href="#" title="APPLICATION PROCESS">APPLICATION PROCESS</a></li>
-              <li><a href="#" title="KEY DATES">KEY DATES</a></li>
+              <li><a href="#overview" class="moveTo" title="OVERVIEW">OVERVIEW</a></li>
+              <li><a href="#curriculum" class="moveTo" title="CURRICULUM">CURRICULUM</a></li>
+              <li><a href="#application" class="moveTo" title="APPLICATION PROCESS">APPLICATION PROCESS</a></li>
+              <li><a href="#key-dates" class="moveTo" title="KEY DATES">KEY DATES</a></li>
             </ul>
           </nav>  
         </div>
@@ -30,7 +32,7 @@
         </div>
       </div>
       </header>
-      <section class="overview">
+      <section class="overview" id="overview">
         <h2>OVERVIEW</h2>
         <p>Tech Jobs Academy is a public-private partnership between Microsoft, CUNY's City Tech, and the Tech Talent Pipline. This technical training program targets passionate underemployed and unemployed NYC resident ready to launch a new tech career.</p>
         <p>Student will spend 16 weeks developing highly sought-after skills in cloud and server administration, and gaining career development skills to land a job upon program completion.</p>
@@ -78,7 +80,7 @@
           </div> 
       </section>
 
-      <section class="curriculum">
+      <section class="curriculum" id="curriculum">
         <h2>CURRICULUM</h2>
         <div class="curriculum-blurbs">
           <div class="image-blurb">
@@ -108,7 +110,7 @@
         </div>
       </section>
 
-      <section class="application">
+      <section class="application" id="application">
         <h2>APPLICATION PROCESS</h2>
         <div class="curriculum-blurbs">
           <div class="application-steps">
@@ -146,7 +148,7 @@
         </div>
       </section>   
 
-      <section class="key-dates">
+      <section class="key-dates" id="key-dates">
         <div class="line">
         </div>
         <div class="timeline">
