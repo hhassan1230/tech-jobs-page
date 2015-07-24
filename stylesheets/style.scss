@@ -2,9 +2,17 @@
 @import "neat/neat";
 @import "base";
 
+<<<<<<< HEAD
 @import "layout_1px";
 @import "nav_1px";
+=======
+@media screen and (min-width: 1px) {
+  @import "layout_1px";
+  @import "timeline_1px";
+}
+>>>>>>> dh-style-timeline
 
 @media screen and (min-width: 990px) {
   @import "layout_desktop";
+  @import "timeline_desktop";
 }
