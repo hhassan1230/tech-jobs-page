@@ -1,12 +1,12 @@
 .nav-bar {
+  @include span-columns(12);
+  @include clearfix;
+  z-index: 9;
   background-color: rgba(0, 0, 0, .7);
   top: 0px;
   left: 0px;
   position: fixed;
-  @include span-columns(12);
-  @include clearfix;
 }
-
 nav {
   text-align:right;
   padding-right: 15px;

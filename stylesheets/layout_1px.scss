@@ -6,21 +6,18 @@ $green: #16DDA4;
     display: table;
   }
 }
-
 header {
   @include clearfix;
 }
-
 .logo { 
   float: left;
 }
-
 .hero {
   @include span-columns(12); 
 // need help making background size bigger
-  background-image: url("http://c8.alamy.com/comp/ACEFAG/saddle-tackle-shed-background-low-opacity-bw-ACEFAG.jpg");
+  background-image: url("../images/tech_jobs_academy_demo.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
   padding-top: 15%;
 
   p h1 { @include span-columns(12); } 
@@ -33,45 +30,58 @@ header {
     padding-left: 20%;
     padding-bottom: 75px;
   }
-
 }
-
 .image-blurb { 
   @include span-columns(6); 
   @include omega(2n);
   text-align: center;
 }
-
 .curriculum-blurbs {
   @include outer-container;
 }
-
 .mail-signup #mc_embed_signup {
   text-align: center;
   width: auto;
 }
-
 button {
   width: 200px;
 }
-
 section {
   @include outer-container; 
   max-width: 58em;
 }
-
 h1, h2 {
   text-align: center;
 }
-
-.eligibility {
-  @include span-columns(12);  
+p {
+  margin-left: 4px;
+  margin-right: 30px;
+ /* text-align: center;*/
 }
-
+.eligibility {
+  @include span-columns(12);
+  h3 {
+    margin-left: 115px;
+    margin-right: 30px;
+  }
+  ul li { 
+    margin-left: 85px;
+    margin-right: 70px;
+  } 
+  p {
+    margin-left: 42px;
+    margin-right: 20px;
+  }
+  .long-button {
+    margin-top: 18px;
+    padding-right:10px;
+    padding-left:10px;
+    margin-left: 102px;
+  }
+}
 .application-steps {
   @include span-columns(12);  
 }
-
 .mail-signup #mc_embed_signup #input-box input[type="email"] {
   font-family: $font; 
   font-size: modular-scale(0);
@@ -87,7 +97,6 @@ h1, h2 {
   float: left;
   padding: 9.5px;
 }
-
 .short-button {
   padding: 6.5px 27px;
   margin-right: auto;
@@ -104,11 +113,6 @@ h1, h2 {
   margin-top: 4.5px; 
   margin-right: -11px;
 }
-
-
-/*  padding:6.5px 26px;*/
-
-
 footer {
   @include span-columns(12);
   text-align: center;

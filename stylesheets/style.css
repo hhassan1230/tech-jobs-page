@@ -16,6 +16,9 @@ html {
   border: none;
   margin-bottom: 15px; }
 
+body {
+  margin: 0; }
+
 a {
   color: white;
   text-decoration: none; }
@@ -24,7 +27,9 @@ h1 {
   font-family: Roboto, sans-serif;
   font-size: 2.36859em;
   font-weight: 500;
-  color: white; }
+  color: white;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.03); }
 
 h2 {
   font-family: Roboto, sans-serif;
@@ -64,8 +69,7 @@ li {
   font-family: Roboto, sans-serif;
   font-size: 1em;
   font-weight: 400;
-  color: black;
-  padding-bottom: 30px; }
+  color: black; }
 
 ul {
   font-family: Roboto, sans-serif;
@@ -145,7 +149,18 @@ footer {
   font-family: Roboto, sans-serif;
   text-align: center;
   width: auto;
-  font-weight: normal; }
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+
+.icon {
+  font-family: Roboto, sans-serif;
+  font-size: 66px;
+  font-weight: 900; }
+
+.dollar {
+  font-size: 24px;
+  vertical-align: super; }
 
 header::after {
   clear: both;
@@ -160,9 +175,9 @@ header::after {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background-image: url("http://c8.alamy.com/comp/ACEFAG/saddle-tackle-shed-background-low-opacity-bw-ACEFAG.jpg");
+  background-image: url("../images/tech_jobs_academy_demo.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
   padding-top: 15%; }
   .hero:last-child {
     margin-right: 0; }
@@ -230,6 +245,11 @@ section {
 h1, h2 {
   text-align: center; }
 
+p {
+  margin-left: 4px;
+  margin-right: 30px;
+  /* text-align: center;*/ }
+
 .eligibility {
   float: left;
   display: block;
@@ -237,6 +257,20 @@ h1, h2 {
   width: 100%; }
   .eligibility:last-child {
     margin-right: 0; }
+  .eligibility h3 {
+    margin-left: 115px;
+    margin-right: 30px; }
+  .eligibility ul li {
+    margin-left: 85px;
+    margin-right: 70px; }
+  .eligibility p {
+    margin-left: 42px;
+    margin-right: 20px; }
+  .eligibility .long-button {
+    margin-top: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 102px; }
 
 .application-steps {
   float: left;
@@ -277,7 +311,6 @@ h1, h2 {
   margin-top: 4.5px;
   margin-right: -11px; }
 
-/*  padding:6.5px 26px;*/
 footer {
   float: left;
   display: block;
@@ -288,14 +321,15 @@ footer {
     margin-right: 0; }
 
 .nav-bar {
-  background-color: rgba(0, 0, 0, 0.7);
-  top: 0px;
-  left: 0px;
-  position: fixed;
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 100%; }
+  width: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0px;
+  left: 0px;
+  position: fixed; }
   .nav-bar:last-child {
     margin-right: 0; }
   .nav-bar::after {
@@ -395,6 +429,15 @@ nav {
 .timeline {
   position: relative; }
 
+footer .partner-logos {
+  padding: 30px 0px 80px; }
+footer a {
+  margin-right: 30px; }
+  footer a:last-child {
+    margin-right: 0px; }
+  footer a img {
+    height: 35px; }
+
 @media screen and (min-width: 990px) {
   section.overview .image-blurb {
     float: left;
@@ -407,6 +450,10 @@ nav {
       clear: none; }
     section.overview .image-blurb:last-child {
       margin-right: 0; }
+
+  section.overview p {
+    margin-left: 30px;
+    margin-right: 30px; }
 
   nav ul li {
     display: inline; }
@@ -434,6 +481,21 @@ nav {
     width: 48.82117%; }
     .eligibility:last-child {
       margin-right: 0; }
+    .eligibility h3 {
+      margin-left: 132px;
+      margin-right: 30px; }
+    .eligibility ul li {
+      margin-left: 135px;
+      margin-right: 70px; }
+    .eligibility p {
+      margin-left: 132px;
+      margin-right: 50px;
+      text-align: none; }
+    .eligibility .long-button {
+      margin-top: 18px;
+      padding-right: 10px;
+      padding-left: 10px;
+      margin-left: 136px; }
 
   .application-steps {
     float: left;
@@ -443,41 +505,8 @@ nav {
     .application-steps:last-child {
       margin-right: 0; }
 
-  .mail-signup #mc_embed_signup #input-box input[type="email"] {
-    font-family: Roboto, sans-serif;
-    font-size: 1em;
-    display: block;
-    margin: 0;
-    padding-top: 6.5px;
-    padding-bottom: 10px;
-    width: 60%;
-    box-shadow: none;
-    border-radius: none;
-    float: left;
-    margin-top: 4px;
-    margin-left: 160px;
-    margin-right: auto;
-    webkit-appearance: none;
-    border: 1px solid #999; }
-
-  .short-button {
-    display: inline-block;
-    background-color: #16DDA4;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: 100% Roboto, sans-serif;
-    font-size: 1.333em;
-    padding: 6.5px 26px;
-    padding-bottom: 4px;
-    text-decoration: none;
-    border: none;
-    bottom: 1000px;
-    margin-top: 4px;
-    margin-right: 91px;
-    border-top-style: none; }
-
-  .long-button {
-    width: 300px; }
+  .hero-blurb p {
+    background-color: rgba(0, 0, 0, 0.03); }
 
   .key-date {
     position: absolute;
@@ -538,6 +567,11 @@ nav {
     width: 100%;
     position: relative; }
     .timeline:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  footer a {
+    margin-right: 60px; }
+    footer a img {
+      height: 60px; } }
 
 /*# sourceMappingURL=style.css.map */
