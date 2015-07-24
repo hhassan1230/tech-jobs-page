@@ -64,8 +64,7 @@ li {
   font-family: Roboto, sans-serif;
   font-size: 1em;
   font-weight: 400;
-  color: black;
-  padding-bottom: 30px; }
+  color: black; }
 
 ul {
   font-family: Roboto, sans-serif;
@@ -288,14 +287,14 @@ footer {
     margin-right: 0; }
 
 .nav-bar {
-  background-color: rgba(0, 0, 0, 0.7);
-  top: 0px;
-  left: 0px;
-  position: fixed;
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 100%; }
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0px;
+  left: 0px;
+  position: fixed; }
   .nav-bar:last-child {
     margin-right: 0; }
   .nav-bar::after {
