@@ -51,3 +51,41 @@ section.curriculum .image-blurb {
 .hero-blurb p {
   background-color: rgba(0, 0, 0, 0.03);
 }
+h3 {  font-size: modular-scale(0); }
+
+.mail-signup #mc_embed_signup #input-box input[type="email"] {
+  font-family: $font; 
+  font-size: modular-scale(0);
+  display: block;
+  margin: 0;
+  padding-top: 6.5px;
+  padding-bottom: 10px;
+  width: 60%;
+  box-shadow: none;
+  border-radius: none;
+  float: left;
+  margin-top:4px;
+  margin-left: 160px;
+  margin-right: auto;
+  webkit-appearance: none;
+  border: 1px solid #999; 
+}
+.short-button {
+  display:inline-block;
+  background-color: $green;
+  cursor:pointer;
+  color:#ffffff;
+  font-family: 100% $font;
+  font-size: modular-scale(1);
+  padding:6.5px 26px;
+  padding-bottom: 4px;
+  text-decoration:none;
+  border: none;
+  bottom: 1000px;
+  margin-top: 4px;
+  margin-right: 91px;
+  border-top-style: none;
+}
+.long-button {
+  width: 300px;
+}
