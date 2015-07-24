@@ -1,31 +1,62 @@
 /*
-Error: Invalid CSS after "...rt "layout_1px"": expected "{", was ";"
-        on line 6 of style.scss
+Error: Invalid CSS after "<<<<<<< HEAD": expected "{", was "}"
+        on line 163 of base.scss
+        from line 3 of style.scss
 
-1: @import "bourbon/bourbon";
-2: @import "neat/neat";
-3: @import "base";
-4: 
-5: <<<<<<< HEAD
-6: @import "layout_1px";
-7: @import "nav_1px";
-8: =======
-9: @media screen and (min-width: 1px) {
-10:   @import "layout_1px";
-11:   @import "timeline_1px";
+158:   font-family: $font;
+159:   text-align: center;
+160:   width: auto;
+161:   font-weight: normal;
+162: <<<<<<< HEAD
+163: }
+164: 
+165: 
+166: =======
+167: }
+168: >>>>>>> dh-style-timeline
 
 Backtrace:
-style.scss:6
+base.scss:163
+style.scss:3
 /Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/scss/parser.rb:1162:in `expected'
 /Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/scss/parser.rb:1098:in `expected'
 /Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/scss/parser.rb:1093:in `tok!'
 /Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/scss/parser.rb:638:in `block'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/scss/parser.rb:658:in `block_child'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/scss/parser.rb:639:in `block'
 /Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/scss/parser.rb:632:in `ruleset'
 /Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/scss/parser.rb:657:in `block_child'
 /Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
 /Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/scss/parser.rb:117:in `stylesheet'
 /Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/scss/parser.rb:42:in `parse'
 /Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/engine.rb:403:in `_to_tree'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/engine.rb:309:in `to_tree'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/stack.rb:88:in `block in with_import'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/stack.rb:115:in `with_frame'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/stack.rb:88:in `with_import'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/stack.rb:79:in `block in with_base'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/stack.rb:115:in `with_frame'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/stack.rb:79:in `with_base'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
 /Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/engine.rb:378:in `_render_with_sourcemap'
 /Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/engine.rb:295:in `render_with_sourcemap'
 /Users/daniellehill/.rvm/gems/ruby-2.1.4/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
@@ -44,4 +75,4 @@ style.scss:6
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...rt \"layout_1px\"\": expected \"{\", was \";\"\A         on line 6 of style.scss\A \A 1: @import \"bourbon/bourbon\";\A 2: @import \"neat/neat\";\A 3: @import \"base\";\A 4: \A 5: <<<<<<< HEAD\A 6: @import \"layout_1px\";\A 7: @import \"nav_1px\";\A 8: =======\A 9: @media screen and (min-width: 1px) {\A 10:   @import \"layout_1px\";\A 11:   @import \"timeline_1px\";"; }
+  content: "Error: Invalid CSS after \"<<<<<<< HEAD\": expected \"{\", was \"}\"\A         on line 163 of base.scss\A         from line 3 of style.scss\A \A 158:   font-family: $font;\A 159:   text-align: center;\A 160:   width: auto;\A 161:   font-weight: normal;\A 162: <<<<<<< HEAD\A 163: }\A 164: \A 165: \A 166: =======\A 167: }\A 168: >>>>>>> dh-style-timeline"; }
