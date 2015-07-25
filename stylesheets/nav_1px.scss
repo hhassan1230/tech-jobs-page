@@ -1,4 +1,13 @@
 .nav-bar {
+  .logo {
+    width: 100%;
+    text-align: center;
+    p { 
+      color: $green;
+      font-size: 8px;
+      margin-right: 0px;
+    }
+  }
   @include span-columns(12);
   @include clearfix;
   z-index: 9;
@@ -8,13 +17,14 @@
   position: fixed;
 } 
 nav {
+  @include clearfix;
+  @include row();
   text-align:right;
-
-  float: right;
+  padding-bottom: 10px;
   ul { 
+    @include clearfix;
     font-family: $font;
     font-size: 8px;
-    white-space:nowrap;
     height: 1em;
     width: 100%;
   }
@@ -30,7 +40,6 @@ nav {
   }
     a:hover { color:$green; }
     &:first-child { padding-left: -10px; }
-    &:last-child { padding-right: 28px; }
     &:last-child:after {
       content: " ";
       width: 0px;

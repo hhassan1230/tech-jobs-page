@@ -1,4 +1,16 @@
+.nav-bar {
+  .logo {
+    width: auto;
+    padding-left: 30px;
+    p { 
+      color: $green;
+      font-size: 14px;
+      margin-right: 0px;
+    }
+  }
+}
 nav {
+  float: right;
   ul { 
     font-family: $font;
     font-size: 14px;
@@ -33,4 +45,3 @@ nav {
     }
   }
 }
-.nav-bar .logo img { width:120px;  }
