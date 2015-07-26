@@ -11,10 +11,9 @@ html {
   color: white;
   font-family: 100% Roboto, sans-serif;
   font-size: 1em;
-  padding: 8px 84px;
+  padding: 8px 0px;
   text-decoration: none;
-  border: none;
-  margin-bottom: 15px; }
+  border: none; }
 
 body {
   margin: 0; }
@@ -91,13 +90,13 @@ ul {
       display: inline-block; }
     .application-steps ol li p {
       margin-top: 5px;
-      padding-left: 12px; }
+      padding-left: 0px; }
   .application-steps ol li:before {
     content: counter(my-awesome-counter);
     line-height: 30px;
     display: inline-block;
     vertical-align: middle;
-    margin: 0px 12px 0px -35px;
+    margin: 0px 12px 0px -50px;
     width: 35px;
     text-align: center;
     border-radius: 1in;
@@ -207,7 +206,8 @@ section {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  max-width: 58em; }
+  max-width: 58em;
+  padding: 30px; }
   section::after {
     clear: both;
     content: "";
@@ -216,10 +216,10 @@ section {
 h1, h2 {
   text-align: center; }
 
-p {
-  margin-left: 4px;
-  margin-right: 30px;
-  /* text-align: center;*/ }
+.overview p {
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 50px; }
 
 .eligibility {
   float: left;
@@ -230,27 +230,27 @@ p {
     margin-right: 0; }
   .eligibility h3 {
     text-align: center; }
+  .eligibility ul {
+    padding-left: 0px; }
   .eligibility ul li {
     margin-left: 40px;
-    margin-right: 70px;
     padding-bottom: 30px; }
   .eligibility p {
     margin-left: 42px;
     margin-right: 20px;
     text-align: center; }
+  .eligibility .apply-button {
+    text-align: center; }
   .eligibility .long-button {
-    margin-top: 18px;
     padding-right: 10px;
-    padding-left: 10px;
-    margin-left: 102px; }
+    padding-left: 10px; }
 
 .application-steps {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%; }
-  .application-steps:last-child {
-    margin-right: 0; }
+  display: block; }
+  .application-steps::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .mail-signup #mc_embed_signup #input-box input[type="email"] {
   font-family: Roboto, sans-serif;
