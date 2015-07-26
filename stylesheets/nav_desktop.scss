@@ -1,0 +1,46 @@
+.nav-bar {
+  .logo {
+    width: auto;
+    padding-left: 30px;
+    p {
+      color: $green;
+      font-size: 14px;
+      margin-right: 0px;
+    }
+  }
+}
+nav {
+  float: right;
+  ul {
+    font-family: $font;
+    font-size: 14px;
+    height: 1em;
+    width: 100%;
+  }
+  li {
+    margin-left: 20px;
+    display: inline;
+    float: left;
+    display: inline;
+    a {
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    a:hover { color:$green; }
+    &:first-child { padding-left: 0px; }
+    &:last-child { padding-right: 28px; }
+    &:last-child:after {
+      content: " ";
+      width: 0px;
+      margin-left: 0px;
+    }
+    &:after {
+      content: ' ';
+      display: inline-block;
+      height: 15px;
+      width: 3px;
+      background-color: $green;
+    }
+  }
+}

@@ -1,6 +1,16 @@
 .nav-bar {
   @include span-columns(12);
   @include clearfix;
+  .logo {
+    width: 100%;
+    text-align: center;
+    p {
+      color: $green;
+      font-size: 8px;
+      margin-right: 0px;
+      font-weight: 900;
+    }
+  }
   z-index: 9;
   background-color: rgba(0, 0, 0, .7);
   top: 0px;
@@ -8,25 +18,19 @@
   position: fixed;
 }
 nav {
+  @include clearfix;
+  @include row();
   text-align:right;
-  padding-right: 15px;
-  float: right;
-  ul { 
+  padding-bottom: 10px;
+  ul {
+    @include clearfix;
     font-family: $font;
-    font-size: modular-scale(-1);
-    white-space:nowrap;
+    font-size: 8px;
     height: 1em;
     width: 100%;
   }
   li {
-    display: inline;
-    float: left;
-    padding-left: 25px;
-    display: inline;
-    a { color: white; }
-    a:hover { color:$green; }
-    &:first-child { padding-left: 0px; }
-    &:last-child { padding-right: 28px; }
+    &:first-child { padding-left: -10px; }
     &:last-child:after {
       content: " ";
       width: 0px;
@@ -35,10 +39,18 @@ nav {
     &:after {
       content: ' ';
       display: inline-block;
-      height: 15px;
+      height: 8px;
       width: 3px;
-      margin-left: 20px;
       background-color: $green;
     }
+    display: inline;
+    float: left;
+    display: inline;
+    a {
+      color: white;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    a:hover { color:$green; }
   }
 }

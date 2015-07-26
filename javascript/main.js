@@ -4,6 +4,7 @@ $("document").ready(function(){
     $('html, body').animate({
           scrollTop: $(clicked).offset().top - 35
       }, 1000);
+    return false;
     });
   
 })
