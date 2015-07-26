@@ -1,4 +1,3 @@
-
 @mixin clearfix {
   &::after {
     clear: both;
@@ -70,8 +69,6 @@ h1, h2 {
     padding-bottom: 30px;
   }
   p {
-    margin-left: 42px;
-    margin-right: 20px;
     text-align: center;
   }
   .apply-button { text-align: center; }
@@ -113,8 +110,4 @@ h1, h2 {
   bottom: 1000px;
   margin-top: 4.5px;
   margin-right: -11px;
-}
-footer {
-  @include span-columns(12);
-  text-align: center;
 }

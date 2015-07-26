@@ -1,4 +1,7 @@
 footer {
+  padding-top: 30px;
+  @include span-columns(12);
+  text-align: center;
   .partner-logos {
     padding: 30px 0px 80px;
   }

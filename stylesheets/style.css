@@ -110,9 +110,6 @@ ul {
 section {
   padding: 25px 0; }
 
-footer {
-  padding-top: 185px; }
-
 .mail-signup #mc_embed_signup #mc_embed_signup_scroll label[for=mce-EMAIL] {
   display: block;
   font-size: 1em;
@@ -236,8 +233,6 @@ h1, h2 {
     margin-left: 40px;
     padding-bottom: 30px; }
   .eligibility p {
-    margin-left: 42px;
-    margin-right: 20px;
     text-align: center; }
   .eligibility .apply-button {
     text-align: center; }
@@ -282,15 +277,6 @@ h1, h2 {
   bottom: 1000px;
   margin-top: 4.5px;
   margin-right: -11px; }
-
-footer {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  text-align: center; }
-  footer:last-child {
-    margin-right: 0; }
 
 .nav-bar {
   float: left;
@@ -367,16 +353,14 @@ nav {
 .key-date {
   display: block; }
   .key-date h4 {
-    height: 15px;
-    width: 125px;
     background-color: white; }
   .key-date h3 {
     height: 30px;
-    width: 135px;
+    width: 235px;
     background-color: white;
-    margin-top: 50px; }
+    margin-top: 30px; }
   .key-date#dot1 {
-    margin-top: -1px; }
+    margin-top: 50px; }
   .key-date#dot2 {
     margin-top: 35px; }
   .key-date#dot3 {
@@ -393,7 +377,7 @@ nav {
       z-index: 1;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 0px;
+      margin-top: 10px;
       position: relative;
       text-align: center;
       display: block;
@@ -404,13 +388,14 @@ nav {
   .key-date h4 {
     margin-left: auto;
     margin-right: auto;
-    text-align: center; }
+    text-align: center;
+    margin-top: 30px; }
 
 .line {
   z-index: 0;
   position: absolute;
   top: 110px;
-  left: 50%;
+  left: 49.5%;
   height: 585px;
   width: 3.5px;
   background-color: #16DDA4; }
@@ -418,14 +403,23 @@ nav {
 .timeline {
   position: relative; }
 
-footer .partner-logos {
-  padding: 30px 0px 80px; }
-footer a {
-  margin-right: 30px; }
-  footer a:last-child {
-    margin-right: 0px; }
-  footer a img {
-    height: 35px; }
+footer {
+  padding-top: 30px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center; }
+  footer:last-child {
+    margin-right: 0; }
+  footer .partner-logos {
+    padding: 30px 0px 80px; }
+  footer a {
+    margin-right: 30px; }
+    footer a:last-child {
+      margin-right: 0px; }
+    footer a img {
+      height: 35px; }
 
 @media screen and (min-width: 990px) {
   section.overview .image-blurb {
