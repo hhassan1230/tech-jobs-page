@@ -314,7 +314,8 @@ footer {
     .nav-bar .logo p {
       color: #16DDA4;
       font-size: 8px;
-      margin-right: 0px; }
+      margin-right: 0px;
+      font-weight: 900; }
 
 nav {
   display: block;
