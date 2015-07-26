@@ -302,6 +302,12 @@ footer {
   top: 0px;
   left: 0px;
   position: fixed; }
+  .nav-bar:last-child {
+    margin-right: 0; }
+  .nav-bar::after {
+    clear: both;
+    content: "";
+    display: table; }
   .nav-bar .logo {
     width: 100%;
     text-align: center; }
@@ -309,12 +315,6 @@ footer {
       color: #16DDA4;
       font-size: 8px;
       margin-right: 0px; }
-  .nav-bar:last-child {
-    margin-right: 0; }
-  .nav-bar::after {
-    clear: both;
-    content: "";
-    display: table; }
 
 nav {
   display: block;
@@ -341,12 +341,6 @@ nav {
     display: inline;
     float: left;
     display: inline; }
-    nav li a {
-      color: white;
-      padding-left: 5px;
-      padding-right: 5px; }
-    nav li a:hover {
-      color: #16DDA4; }
     nav li:first-child {
       padding-left: -10px; }
     nav li:last-child:after {
@@ -359,6 +353,12 @@ nav {
       height: 8px;
       width: 3px;
       background-color: #16DDA4; }
+    nav li a {
+      color: white;
+      padding-left: 5px;
+      padding-right: 5px; }
+    nav li a:hover {
+      color: #16DDA4; }
 
 .key-dates {
   position: relative; }
@@ -503,9 +503,6 @@ footer a {
   h3 {
     font-size: 1em; }
 
-  nav ul {
-    font-size: 0.75019em; }
-
   .mail-signup #mc_embed_signup #input-box input[type="email"] {
     font-family: Roboto, sans-serif;
     font-size: 1em;
@@ -621,7 +618,6 @@ footer a {
     nav ul {
       font-family: Roboto, sans-serif;
       font-size: 14px;
-      white-space: nowrap;
       height: 1em;
       width: 100%; }
     nav li {

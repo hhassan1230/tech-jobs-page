@@ -2,7 +2,7 @@
   .logo {
     width: auto;
     padding-left: 30px;
-    p { 
+    p {
       color: $green;
       font-size: 14px;
       margin-right: 0px;
@@ -11,10 +11,9 @@
 }
 nav {
   float: right;
-  ul { 
+  ul {
     font-family: $font;
     font-size: 14px;
-    white-space:nowrap;
     height: 1em;
     width: 100%;
   }
@@ -23,8 +22,8 @@ nav {
     display: inline;
     float: left;
     display: inline;
-    a { 
-      color: white; 
+    a {
+      color: white;
       padding-left: 20px;
       padding-right: 20px;
     }

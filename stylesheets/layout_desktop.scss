@@ -2,9 +2,9 @@
   &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
   &:nth-child(#{$nth}+1) { clear: none }
 }
-section.overview  .image-blurb { 
-  @include omega-reset(1n); 
-  @include span-columns(3); 
+section.overview  .image-blurb {
+  @include omega-reset(1n);
+  @include span-columns(3);
 }
 section.overview p {
   margin-left: 30px;
@@ -14,7 +14,7 @@ nav ul li {
   display: inline;
 }
 section.curriculum .image-blurb {
-  @include omega-reset(1n); 
+  @include omega-reset(1n);
   @include span-columns(4);
   @include omega(3n);
 }
@@ -46,15 +46,14 @@ section.curriculum .image-blurb {
   }
 }
 .application-steps {
-  @include span-columns(6);  
+  @include span-columns(6);
 }
 .hero-blurb p {
   background-color: rgba(0, 0, 0, 0.03);
 }
 h3 {  font-size: modular-scale(0); }
-nav { ul { font-size: modular-scale(-1); } }
 .mail-signup #mc_embed_signup #input-box input[type="email"] {
-  font-family: $font; 
+  font-family: $font;
   font-size: modular-scale(0);
   display: block;
   margin: 0;
@@ -68,7 +67,7 @@ nav { ul { font-size: modular-scale(-1); } }
   margin-left: 160px;
   margin-right: auto;
   webkit-appearance: none;
-  border: 1px solid #999; 
+  border: 1px solid #999;
 }
 .short-button {
   display:inline-block;
