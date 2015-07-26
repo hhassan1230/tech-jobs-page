@@ -48,6 +48,7 @@ section.curriculum .image-blurb {
 .application-steps {
   @include span-columns(6);
 }
+.hero { background-size: 100% }
 .hero-blurb p {
   background-color: rgba(0, 0, 0, 0.03);
 }

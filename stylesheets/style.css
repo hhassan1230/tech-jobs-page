@@ -144,7 +144,7 @@ header::after {
   width: 100%;
   background-image: url("../images/tech_jobs_academy_demo.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 600px;
   padding-top: 15%; }
   .hero:last-child {
     margin-right: 0; }
@@ -491,6 +491,9 @@ footer {
     width: 48.82117%; }
     .application-steps:last-child {
       margin-right: 0; }
+
+  .hero {
+    background-size: 100%; }
 
   .hero-blurb p {
     background-color: rgba(0, 0, 0, 0.03); }
