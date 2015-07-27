@@ -11,10 +11,9 @@ html {
   color: white;
   font-family: 100% Roboto, sans-serif;
   font-size: 1em;
-  padding: 8px 84px;
+  padding: 8px 0px;
   text-decoration: none;
-  border: none;
-  margin-bottom: 15px; }
+  border: none; }
 
 body {
   margin: 0; }
@@ -28,8 +27,7 @@ h1 {
   font-size: 2.36859em;
   font-weight: 500;
   color: white;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.03); }
+  z-index: 10; }
 
 h2 {
   font-family: Roboto, sans-serif;
@@ -50,60 +48,33 @@ h2 {
 h3 {
   font-family: Roboto, sans-serif;
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 400;
   color: black; }
 
 h4 {
   font-family: Roboto, sans-serif;
-  font-size: 0.75019em;
+  font-size: 1em;
   font-weight: 300;
   color: black; }
 
 p {
   font-family: Roboto, sans-serif;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 100;
   color: black; }
 
 li {
   font-family: Roboto, sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  color: black; }
+  font-size: 1em; }
+  li h3 {
+    font-weight: 400; }
+  li p {
+    font-weight: 100; }
 
 ul {
   font-family: Roboto, sans-serif;
-  font-size: 1em;
   font-weight: 400;
   color: black; }
-
-nav {
-  float: right; }
-  nav ul {
-    font-family: Roboto, sans-serif;
-    font-size: 0.75019em;
-    white-space: nowrap;
-    height: 1em;
-    width: 100%; }
-  nav li {
-    display: inline;
-    float: left;
-    padding-left: 25px; }
-    nav li:after {
-      content: ' ';
-      display: inline-block;
-      height: 15px;
-      width: 3px;
-      margin-left: 20px;
-      background-color: #16DDA4; }
-  nav li:first-child {
-    padding-left: 0px; }
-  nav li:last-child {
-    padding-right: 28px; }
-  nav li:last-child:after {
-    content: " ";
-    width: 0px;
-    margin-left: 0px; }
 
 .application-steps ol {
   list-style: none;
@@ -112,7 +83,6 @@ nav {
     margin-left: 10px;
     padding: 0px;
     counter-increment: my-awesome-counter;
-    margin-bottom: 10px;
     border-bottom: 1px solid white;
     line-height: 22px; }
     .application-steps ol li h3 {
@@ -120,13 +90,13 @@ nav {
       display: inline-block; }
     .application-steps ol li p {
       margin-top: 5px;
-      padding-left: 12px; }
+      padding-left: 0px; }
   .application-steps ol li:before {
     content: counter(my-awesome-counter);
     line-height: 30px;
     display: inline-block;
     vertical-align: middle;
-    margin: 0px 12px 0px -35px;
+    margin: 0px 12px -10px -50px;
     width: 35px;
     text-align: center;
     border-radius: 1in;
@@ -140,19 +110,6 @@ nav {
 section {
   padding: 25px 0; }
 
-footer {
-  padding-top: 185px; }
-
-.mail-signup #mc_embed_signup #mc_embed_signup_scroll label[for=mce-EMAIL] {
-  display: block;
-  font-size: 1em;
-  font-family: Roboto, sans-serif;
-  text-align: center;
-  width: auto;
-  font-weight: normal;
-  margin-top: 30px;
-  margin-bottom: 10px; }
-
 .icon {
   font-family: Roboto, sans-serif;
   font-size: 66px;
@@ -162,13 +119,16 @@ footer {
   font-size: 24px;
   vertical-align: super; }
 
+#icon_1 {
+  margin-top: -9px;
+  height: 78px;
+  width: 82px;
+  padding-top: -90px; }
+
 header::after {
   clear: both;
   content: "";
   display: table; }
-
-.logo {
-  float: left; }
 
 .hero {
   float: left;
@@ -177,7 +137,8 @@ header::after {
   width: 100%;
   background-image: url("../images/tech_jobs_academy_demo.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 750px;
+  background-position: -60px 0px;
   padding-top: 15%; }
   .hero:last-child {
     margin-right: 0; }
@@ -215,6 +176,12 @@ header::after {
     margin-right: 0; }
   .image-blurb:nth-child(2n+1) {
     clear: left; }
+  .image-blurb img, .image-blurb .icon {
+    height: 70px; }
+  .image-blurb h3 {
+    margin-bottom: 0px; }
+  .image-blurb p {
+    margin-top: 0px; }
 
 .curriculum-blurbs {
   max-width: 68em;
@@ -225,10 +192,6 @@ header::after {
     content: "";
     display: table; }
 
-.mail-signup #mc_embed_signup {
-  text-align: center;
-  width: auto; }
-
 button {
   width: 200px; }
 
@@ -236,7 +199,8 @@ section {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  max-width: 58em; }
+  max-width: 58em;
+  padding: 30px; }
   section::after {
     clear: both;
     content: "";
@@ -245,10 +209,10 @@ section {
 h1, h2 {
   text-align: center; }
 
-p {
-  margin-left: 4px;
-  margin-right: 30px;
-  /* text-align: center;*/ }
+.overview p {
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 50px; }
 
 .eligibility {
   float: left;
@@ -258,68 +222,29 @@ p {
   .eligibility:last-child {
     margin-right: 0; }
   .eligibility h3 {
-    text-align: center; }
+    padding-left: 20px; }
+  .eligibility ul {
+    padding-left: 0px; }
   .eligibility ul li {
     margin-left: 40px;
-    margin-right: 70px;
     padding-bottom: 30px; }
   .eligibility p {
-    margin-left: 42px;
-    margin-right: 20px;
+    text-align: center; }
+  .eligibility .apply-button {
     text-align: center; }
   .eligibility .long-button {
-    margin-top: 18px;
     padding-right: 10px;
-    padding-left: 10px;
-    margin-left: 102px; }
+    padding-left: 10px; }
 
 .application-steps {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%; }
-  .application-steps:last-child {
-    margin-right: 0; }
+  display: block; }
+  .application-steps::after {
+    clear: both;
+    content: "";
+    display: table; }
 
-.mail-signup #mc_embed_signup #input-box input[type="email"] {
-  font-family: Roboto, sans-serif;
-  font-size: 1em;
-  display: block;
-  margin: 0;
-  box-shadow: none;
-  border-radius: none;
-  padding-top: 5.5px;
-  margin-top: 4.5px;
-  margin-left: 30px;
-  margin-right: auto;
-  width: 250px;
-  float: left;
-  padding: 9.5px; }
-
-.short-button {
-  padding: 6.5px 27px;
-  margin-right: auto;
-  margin-left: -60px;
-  display: inline-block;
-  background-color: #16DDA4;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Roboto, sans-serif;
-  font-size: 1.333em;
-  text-decoration: none;
-  border: none;
-  bottom: 1000px;
-  margin-top: 4.5px;
-  margin-right: -11px; }
-
-footer {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  text-align: center; }
-  footer:last-child {
-    margin-right: 0; }
+.curriculum .curriculum-blurbs .image-blurb {
+  margin-top: 30px; }
 
 .nav-bar {
   float: left;
@@ -337,41 +262,45 @@ footer {
     clear: both;
     content: "";
     display: table; }
+  .nav-bar .logo {
+    width: 100%;
+    text-align: center; }
+    .nav-bar .logo p {
+      color: #16DDA4;
+      font-size: 0.56278em;
+      margin-right: 0px;
+      font-weight: 900; }
 
 nav {
-  text-align: right;
-  padding-right: 15px;
-  float: right; }
+  display: block; }
+  nav::after {
+    clear: both;
+    content: "";
+    display: table; }
   nav ul {
     font-family: Roboto, sans-serif;
-    font-size: 0.75019em;
-    white-space: nowrap;
-    height: 1em;
-    width: 100%; }
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    margin: 0px;
+    padding-bottom: 10px; }
+    nav ul::after {
+      clear: both;
+      content: "";
+      display: table; }
   nav li {
-    display: inline;
-    float: left;
-    padding-left: 25px;
+    padding: 0px 3px;
+    font-size: 0.56278em;
+    border-right: 2px solid #16DDA4;
     display: inline; }
+    nav li:last-child {
+      border-right: none; }
     nav li a {
-      color: white; }
+      color: white;
+      padding-left: 3px;
+      padding-right: 5px; }
     nav li a:hover {
       color: #16DDA4; }
-    nav li:first-child {
-      padding-left: 0px; }
-    nav li:last-child {
-      padding-right: 28px; }
-    nav li:last-child:after {
-      content: " ";
-      width: 0px;
-      margin-left: 0px; }
-    nav li:after {
-      content: ' ';
-      display: inline-block;
-      height: 15px;
-      width: 3px;
-      margin-left: 20px;
-      background-color: #16DDA4; }
 
 .key-dates {
   position: relative; }
@@ -379,16 +308,14 @@ nav {
 .key-date {
   display: block; }
   .key-date h4 {
-    height: 15px;
-    width: 125px;
     background-color: white; }
   .key-date h3 {
     height: 30px;
-    width: 135px;
+    width: 235px;
     background-color: white;
-    margin-top: 50px; }
+    margin-top: 30px; }
   .key-date#dot1 {
-    margin-top: -1px; }
+    margin-top: 50px; }
   .key-date#dot2 {
     margin-top: 35px; }
   .key-date#dot3 {
@@ -405,7 +332,7 @@ nav {
       z-index: 1;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 0px;
+      margin-top: 10px;
       position: relative;
       text-align: center;
       display: block;
@@ -416,13 +343,14 @@ nav {
   .key-date h4 {
     margin-left: auto;
     margin-right: auto;
-    text-align: center; }
+    text-align: center;
+    margin-top: 30px; }
 
 .line {
   z-index: 0;
   position: absolute;
   top: 110px;
-  left: 50%;
+  left: 49.5%;
   height: 585px;
   width: 3.5px;
   background-color: #16DDA4; }
@@ -430,16 +358,69 @@ nav {
 .timeline {
   position: relative; }
 
-footer .partner-logos {
-  padding: 30px 0px 80px; }
-footer a {
-  margin-right: 30px; }
-  footer a:last-child {
-    margin-right: 0px; }
-  footer a img {
-    height: 35px; }
+footer {
+  padding-top: 30px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center; }
+  footer:last-child {
+    margin-right: 0; }
+  footer .partner-logos {
+    padding: 30px 0px 80px; }
+  footer a {
+    margin-right: 30px; }
+    footer a:last-child {
+      margin-right: 0px; }
+    footer a img {
+      height: 30px; }
 
-@media screen and (min-width: 990px) {
+.mail-signup #mc_embed_signup #mc_embed_signup_scroll label[for=mce-EMAIL] {
+  display: block;
+  font-size: 1.333em;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  width: auto;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+
+.mail-signup #mc_embed_signup {
+  text-align: center;
+  width: auto; }
+  .mail-signup #mc_embed_signup form {
+    text-align: center; }
+
+.mail-signup #mc_embed_signup #input-box input[type="email"] {
+  display: inline;
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  margin: 0;
+  box-shadow: none;
+  border-radius: none;
+  margin-top: 4.5px;
+  width: 130px;
+  padding: 15px 10px 10px; }
+
+.short-button {
+  padding: 10px 30px;
+  margin-right: auto;
+  margin-left: -10px;
+  display: inline;
+  background-color: #16DDA4;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 1.333em;
+  text-decoration: none;
+  border: none; }
+
+@media screen and (min-width: 750px) {
+  h1 {
+    font-size: 4.20873em;
+    margin-bottom: 0px; }
+
   section.overview .image-blurb {
     float: left;
     display: block;
@@ -451,10 +432,6 @@ footer a {
       clear: none; }
     section.overview .image-blurb:last-child {
       margin-right: 0; }
-
-  section.overview p {
-    margin-left: 30px;
-    margin-right: 30px; }
 
   nav ul li {
     display: inline; }
@@ -479,28 +456,26 @@ footer a {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 48.82117%; }
+    width: 48.82117%;
+    padding-left: 50px; }
     .eligibility:last-child {
       margin-right: 0; }
     .eligibility h3 {
       text-align: left; }
     .eligibility ul {
-      margin-left: -20px; }
+      padding-left: 25px; }
       .eligibility ul li {
         margin-left: 0px;
         margin-right: 0px;
         padding-left: 20px; }
     .eligibility p {
-      margin-left: -18px;
-      margin-right: 70px;
       text-align: initial;
-      padding-left: 20px; }
+      font-weight: 100; }
     .eligibility .long-button {
-      margin-top: 18px;
       padding-right: 10px;
-      padding-left: 10px;
-      margin-left: 5px;
-      padding-left: 20px; }
+      padding-left: 10px; }
+    .eligibility .apply-button {
+      text-align: left; }
 
   .application-steps {
     float: left;
@@ -509,27 +484,51 @@ footer a {
     width: 48.82117%; }
     .application-steps:last-child {
       margin-right: 0; }
+    .application-steps ol {
+      margin-top: 25px; }
 
-  .hero-blurb p {
-    background-color: rgba(0, 0, 0, 0.03); }
+  .hero {
+    background-size: 1500px; }
+    .hero .hero-blurb {
+      max-width: 80em; }
+    .hero p {
+      font-size: 1.333em;
+      font-weight: 100; }
+
+  .mail-signup #mc_embed_signup #input-box input[type="email"] {
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+    width: 60%;
+    box-shadow: none;
+    border-radius: none;
+    margin-right: auto;
+    webkit-appearance: none;
+    border: 1px solid #999; }
+
+  .long-button {
+    width: 300px; }
+
+  .curriculum .curriculum-blurbs .image-blurb {
+    margin-top: 40px; }
 
   .key-date {
     position: absolute;
     display: inline-block; }
     .key-date h4 {
-      margin-top: 35px; }
+      margin-top: 35px;
+      font-size: 1em; }
     .key-date#dot1 {
       left: 0%;
-      top: 55%; }
+      top: 27%; }
     .key-date#dot2 {
-      left: 19%;
-      top: 7%; }
+      left: 23%;
+      top: 45%; }
     .key-date#dot3 {
-      left: 37%;
-      top: -32%; }
+      left: 42%;
+      top: 3%; }
     .key-date#dot4 {
-      left: 88%;
-      top: -143%; }
+      left: 85%;
+      top: -104%; }
     .key-date::after {
       clear: both;
       content: "";
@@ -537,7 +536,8 @@ footer a {
     .key-date h3 {
       margin-left: auto;
       margin-right: auto;
-      text-align: center; }
+      text-align: center;
+      width: auto; }
       .key-date h3:after {
         content: ' ';
         margin-top: 15px;
@@ -559,7 +559,7 @@ footer a {
   .line {
     z-index: 0;
     position: absolute;
-    top: 155px;
+    top: 178px;
     left: auto;
     height: 3.5px;
     width: 915px;
@@ -577,6 +577,56 @@ footer a {
   footer a {
     margin-right: 60px; }
     footer a img {
-      height: 60px; } }
+      height: 60px; }
+
+  footer h2 {
+    margin-top: 150px; }
+
+  .nav-bar .logo {
+    width: auto;
+    padding-left: 30px;
+    float: left; }
+    .nav-bar .logo p {
+      color: #16DDA4;
+      font-size: 14px;
+      margin-right: 0px; }
+
+  nav {
+    float: right; }
+    nav ul {
+      font-family: Roboto, sans-serif;
+      font-size: 14px;
+      height: 1em;
+      width: 100%;
+      padding: 15px 0px; }
+    nav li {
+      padding: 0px 10px;
+      display: inline;
+      float: left;
+      display: inline;
+      font-size: 1em;
+      font-weight: 100; }
+      nav li:first-child {
+        padding-left: 0px; }
+      nav li:last-child {
+        padding-right: 28px; }
+
+  h1 {
+    font-size: 4.20873em; }
+
+  p, h3, h4 {
+    font-size: 1.333em; }
+
+  li h3, li p {
+    font-size: 1.333em; }
+  li p {
+    font-weight: 100;
+    line-height: 1.33em; }
+
+  .eligibility ul li {
+    font-size: 1.333em; }
+
+  .eligibility h3 {
+    padding-left: 0px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,16 @@
 .nav-bar {
   @include span-columns(12);
   @include clearfix;
+  .logo {
+    width: 100%;
+    text-align: center;
+    p {
+      color: $green;
+      font-size: modular-scale(-2);
+      margin-right: 0px;
+      font-weight: 900;
+    }
+  }
   z-index: 9;
   background-color: rgba(0, 0, 0, .7);
   top: 0px;
@@ -8,37 +18,27 @@
   position: fixed;
 }
 nav {
-  text-align:right;
-  padding-right: 15px;
-  float: right;
-  ul { 
+  @include row();
+  ul {
+    @include clearfix;
     font-family: $font;
-    font-size: modular-scale(-1);
-    white-space:nowrap;
-    height: 1em;
     width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    margin: 0px;
+    padding-bottom: 10px;
   }
   li {
+    padding: 0px 3px;
+    font-size: modular-scale(-2);
+    border-right: 2px solid $green;
+    &:last-child { border-right: none; }
     display: inline;
-    float: left;
-    padding-left: 25px;
-    display: inline;
-    a { color: white; }
+    a {
+      color: white;
+      padding-left: 3px;
+      padding-right: 5px;
+    }
     a:hover { color:$green; }
-    &:first-child { padding-left: 0px; }
-    &:last-child { padding-right: 28px; }
-    &:last-child:after {
-      content: " ";
-      width: 0px;
-      margin-left: 0px;
-    }
-    &:after {
-      content: ' ';
-      display: inline-block;
-      height: 15px;
-      width: 3px;
-      margin-left: 20px;
-      background-color: $green;
-    }
   }
 }
