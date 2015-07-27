@@ -21,10 +21,12 @@ section.curriculum .image-blurb {
 .eligibility {
   @include span-columns(6);
   h3 {
-    text-align: left;
+    margin-top: 20px;
+    margin-right: 55px;
+    /*text-align: left;*/
   }
   ul {
-    margin-left: -20px;
+    margin-left: 120px;
     li {
       margin-left: 0px;
       margin-right: 0px;
@@ -32,17 +34,17 @@ section.curriculum .image-blurb {
     }
   }
   p {
-    margin-left: -18px;
-    margin-right: 70px;
+    margin-left: 74px;
+    margin-right: 10px;
     text-align: initial;
-    padding-left: 20px;
+    padding-left: 28px;
   }
   .long-button {
     margin-top: 18px;
     padding-right:10px;
     padding-left:10px;
-    margin-left: 5px;
-    padding-left: 20px;
+    margin-right: -80px;
+    padding-left: 28px;
   }
 }
 .application-steps {

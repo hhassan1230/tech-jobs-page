@@ -465,24 +465,26 @@ footer {
     .eligibility:last-child {
       margin-right: 0; }
     .eligibility h3 {
-      text-align: left; }
+      margin-top: 20px;
+      margin-right: 55px;
+      /*text-align: left;*/ }
     .eligibility ul {
-      margin-left: -20px; }
+      margin-left: 120px; }
       .eligibility ul li {
         margin-left: 0px;
         margin-right: 0px;
         padding-left: 20px; }
     .eligibility p {
-      margin-left: -18px;
-      margin-right: 70px;
+      margin-left: 74px;
+      margin-right: 10px;
       text-align: initial;
-      padding-left: 20px; }
+      padding-left: 28px; }
     .eligibility .long-button {
       margin-top: 18px;
       padding-right: 10px;
       padding-left: 10px;
-      margin-left: 5px;
-      padding-left: 20px; }
+      margin-right: -80px;
+      padding-left: 28px; }
 
   .application-steps {
     float: left;
@@ -544,16 +546,16 @@ footer {
       margin-top: 35px; }
     .key-date#dot1 {
       left: 0%;
-      top: 55%; }
+      top: 7%; }
     .key-date#dot2 {
       left: 19%;
-      top: 7%; }
+      top: 25%; }
     .key-date#dot3 {
       left: 37%;
-      top: -32%; }
+      top: -13%; }
     .key-date#dot4 {
       left: 88%;
-      top: -143%; }
+      top: -124%; }
     .key-date::after {
       clear: both;
       content: "";
@@ -602,6 +604,9 @@ footer {
     margin-right: 60px; }
     footer a img {
       height: 60px; }
+
+  footer h2 {
+    margin-top: 250px; }
 
   .nav-bar .logo {
     width: auto;
