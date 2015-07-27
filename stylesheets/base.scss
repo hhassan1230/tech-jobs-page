@@ -8,10 +8,9 @@ $font: Roboto, sans-serif;
   color:white;
   font-family: 100% $font;
   font-size: modular-scale(0);
-  padding:8px 84px;
+  padding:8px 0px;
   text-decoration:none;
   border: none;
-  margin-bottom: 15px;
 }
 body {
   margin: 0;
@@ -26,14 +25,12 @@ h1 {
   font-weight: 500;
   color: white;
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.03);
 }
 h2 {
   font-family: $font;
   font-size: modular-scale(1);
   font-weight: 300;
   color: black;
-  
   &:after {
     content: ' ';
     max-width: initial;
@@ -50,31 +47,30 @@ h2 {
 h3 {
   font-family: $font;
   font-size: modular-scale(0);
-  font-weight: 600;
+  font-weight: 400;
   color: black;
 }
 h4 {
   font-family: $font;
-  font-size: modular-scale(-1);
+  font-size: modular-scale(0);
   font-weight: 300;
   color: black;
 }
 p {
   font-family: $font;
   font-size: modular-scale(0);
-  font-weight: 400;
+  font-weight: 100;
   color: black;
 }
 
 li {
   font-family: $font;
   font-size: modular-scale(0);
-  font-weight: 400;
-  color: black;
+  h3 { font-weight: 400; }
+  p { font-weight: 100; }
 }
 ul {
   font-family: $font;
-  font-size: modular-scale(0);
   font-weight: 400;
   color: black;
 }
@@ -94,7 +90,7 @@ ul {
     }
     p {
       margin-top: 5px;
-      padding-left: 12px;
+      padding-left: 0px;
     }
   }
   li:before {
@@ -102,7 +98,7 @@ ul {
     line-height: 30px;
     display: inline-block;
     vertical-align: middle;
-    margin: 0px 12px 0px -35px;
+    margin: 0px 12px -10px -50px;
     width: 35px;
     text-align: center;
     border-radius: 1in;
@@ -116,19 +112,6 @@ ul {
 }
 section {
   padding: 25px 0;
-}
-footer {
-  padding-top: 185px;
-}
-.mail-signup #mc_embed_signup #mc_embed_signup_scroll label[for=mce-EMAIL] {
-  display: block;
-  font-size: modular-scale(0);
-  font-family: $font;
-  text-align: center;
-  width: auto;
-  font-weight: normal;
-  margin-top: 30px;
-  margin-bottom: 10px;
 }
 .icon {
   font-family: $font;

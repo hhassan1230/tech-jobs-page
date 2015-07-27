@@ -2,22 +2,23 @@
   position: absolute;
   h4 {
     margin-top:35px;
+    font-size: modular-scale(0);
   }
   &#dot1 {
     left: 0%;
-    top: 55%;
+    top: 27%;
   }
   &#dot2 {
-    left: 19%;
-    top: 7%;
+    left: 23%;
+    top: 45%;
   }
   &#dot3 {
-    left: 37%;
-    top: -32%;
+    left: 42%;
+    top: 3%;
   }
   &#dot4 {
-    left: 88%;
-    top: -143%;
+    left: 85%;
+    top: -104%;
   }
   display: inline-block;
   @include clearfix;
@@ -25,6 +26,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    width: auto;
 
     &:after {
       content: ' ';
@@ -50,7 +52,7 @@
 .line {
   z-index:0;
   position: absolute;
-  top: 155px;
+  top: 178px;
   left: auto;
   height: 3.5px;
   width: 915px;

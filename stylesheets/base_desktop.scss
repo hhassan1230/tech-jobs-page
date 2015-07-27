@@ -1,0 +1,17 @@
+h1 {
+  font-size: modular-scale(5);
+}
+p, h3, h4 {
+  font-size: modular-scale(1);
+}
+li {
+  h3, p { font-size: modular-scale(1);}
+  p {
+    font-weight: 100;
+    line-height: 1.33em;
+  }
+}
+.eligibility ul li {
+  font-size: modular-scale(1);
+}
+.eligibility h3 { padding-left: 0px; }
