@@ -8,15 +8,12 @@
 header {
   @include clearfix;
 }
-.logo {
-  float: left;
-}
 .hero {
   @include span-columns(12);
-// need help making background size bigger
   background-image: url("../images/tech_jobs_academy_demo.jpg");
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 750px;
+  background-position: -60px 0px;
   padding-top: 15%;
 
   p h1 { @include span-columns(12); }

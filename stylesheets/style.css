@@ -27,8 +27,7 @@ h1 {
   font-size: 2.36859em;
   font-weight: 500;
   color: white;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.03); }
+  z-index: 10; }
 
 h2 {
   font-family: Roboto, sans-serif;
@@ -134,9 +133,6 @@ header::after {
   content: "";
   display: table; }
 
-.logo {
-  float: left; }
-
 .hero {
   float: left;
   display: block;
@@ -144,7 +140,8 @@ header::after {
   width: 100%;
   background-image: url("../images/tech_jobs_academy_demo.jpg");
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 750px;
+  background-position: -60px 0px;
   padding-top: 15%; }
   .hero:last-child {
     margin-right: 0; }
@@ -297,47 +294,34 @@ h1, h2 {
     text-align: center; }
     .nav-bar .logo p {
       color: #16DDA4;
-      font-size: 8px;
+      font-size: 0.56278em;
       margin-right: 0px;
       font-weight: 900; }
 
 nav {
-  display: block;
-  text-align: right;
-  padding-bottom: 10px; }
-  nav::after {
-    clear: both;
-    content: "";
-    display: table; }
+  display: block; }
   nav::after {
     clear: both;
     content: "";
     display: table; }
   nav ul {
     font-family: Roboto, sans-serif;
-    font-size: 8px;
-    height: 1em;
-    width: 100%; }
+    font-size: 0.56278em;
+    width: 100%;
+    text-align: center;
+    padding-left: 0px; }
     nav ul::after {
       clear: both;
       content: "";
       display: table; }
   nav li {
-    display: inline;
-    float: left;
+    padding: 0px 3px;
+    border-right: 2px solid #16DDA4;
     display: inline; }
     nav li:first-child {
       padding-left: -10px; }
-    nav li:last-child:after {
-      content: " ";
-      width: 0px;
-      margin-left: 0px; }
-    nav li:after {
-      content: ' ';
-      display: inline-block;
-      height: 8px;
-      width: 3px;
-      background-color: #16DDA4; }
+    nav li:last-child {
+      border-right: none; }
     nav li a {
       color: white;
       padding-left: 5px;
@@ -419,7 +403,7 @@ footer {
     footer a img {
       height: 35px; }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 750px) {
   section.overview .image-blurb {
     float: left;
     display: block;
@@ -493,7 +477,7 @@ footer {
       margin-right: 0; }
 
   .hero {
-    background-size: 100%; }
+    background-size: 1500px; }
 
   .hero-blurb p {
     background-color: rgba(0, 0, 0, 0.03); }
@@ -608,7 +592,8 @@ footer {
 
   .nav-bar .logo {
     width: auto;
-    padding-left: 30px; }
+    padding-left: 30px;
+    float: left; }
     .nav-bar .logo p {
       color: #16DDA4;
       font-size: 14px;
@@ -622,29 +607,13 @@ footer {
       height: 1em;
       width: 100%; }
     nav li {
-      margin-left: 20px;
+      padding: 0px 10px;
       display: inline;
       float: left;
       display: inline; }
-      nav li a {
-        color: white;
-        padding-left: 20px;
-        padding-right: 20px; }
-      nav li a:hover {
-        color: #16DDA4; }
       nav li:first-child {
         padding-left: 0px; }
       nav li:last-child {
-        padding-right: 28px; }
-      nav li:last-child:after {
-        content: " ";
-        width: 0px;
-        margin-left: 0px; }
-      nav li:after {
-        content: ' ';
-        display: inline-block;
-        height: 15px;
-        width: 3px;
-        background-color: #16DDA4; } }
+        padding-right: 28px; } }
 
 /*# sourceMappingURL=style.css.map */

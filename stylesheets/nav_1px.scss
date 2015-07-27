@@ -6,7 +6,7 @@
     text-align: center;
     p {
       color: $green;
-      font-size: 8px;
+      font-size: modular-scale(-2);
       margin-right: 0px;
       font-weight: 900;
     }
@@ -18,33 +18,20 @@
   position: fixed;
 }
 nav {
-  @include clearfix;
   @include row();
-  text-align:right;
-  padding-bottom: 10px;
   ul {
     @include clearfix;
     font-family: $font;
-    font-size: 8px;
-    height: 1em;
+    font-size: modular-scale(-2);
     width: 100%;
+    text-align: center;
+    padding-left: 0px;
   }
   li {
+    padding: 0px 3px;
+    border-right: 2px solid $green;
     &:first-child { padding-left: -10px; }
-    &:last-child:after {
-      content: " ";
-      width: 0px;
-      margin-left: 0px;
-    }
-    &:after {
-      content: ' ';
-      display: inline-block;
-      height: 8px;
-      width: 3px;
-      background-color: $green;
-    }
-    display: inline;
-    float: left;
+    &:last-child { border-right: none; }
     display: inline;
     a {
       color: white;
