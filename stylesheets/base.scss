@@ -32,7 +32,6 @@ h2 {
   font-size: modular-scale(1);
   font-weight: 300;
   color: black;
-  
   &:after {
     content: ' ';
     max-width: initial;
@@ -101,7 +100,7 @@ ul {
     line-height: 30px;
     display: inline-block;
     vertical-align: middle;
-    margin: 0px 12px 0px -50px;
+    margin: 0px 12px -10px -50px;
     width: 35px;
     text-align: center;
     border-radius: 1in;
