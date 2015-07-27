@@ -163,6 +163,9 @@ header::after {
       content: "";
       display: table; }
 
+p {
+  font-weight: 200; }
+
 .image-blurb {
   float: left;
   display: block;
@@ -518,6 +521,9 @@ footer {
     .hero p {
       font-size: 1.333em;
       font-weight: 100; }
+
+  p {
+    font-weight: 100; }
 
   .mail-signup #mc_embed_signup #input-box input[type="email"] {
     font-family: Roboto, sans-serif;

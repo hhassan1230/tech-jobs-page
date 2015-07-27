@@ -26,6 +26,7 @@ header {
     font-weight: 200;
   }
 }
+p {font-weight: 200;}
 .image-blurb {
   @include span-columns(6);
   @include omega(2n);
