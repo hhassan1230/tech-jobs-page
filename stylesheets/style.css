@@ -158,7 +158,8 @@ header::after {
     text-align: center;
     padding-right: 20%;
     padding-left: 20%;
-    padding-bottom: 75px; }
+    padding-bottom: 75px;
+    font-weight: 200; }
     .hero .hero-blurb::after {
       clear: both;
       content: "";
@@ -490,7 +491,8 @@ footer {
   .hero {
     background-size: 1500px; }
     .hero .hero-blurb {
-      max-width: 80em; }
+      max-width: 80em;
+      font-weight: 100; }
     .hero p {
       font-size: 1.333em;
       font-weight: 100; }
