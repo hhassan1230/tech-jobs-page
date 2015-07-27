@@ -22,9 +22,7 @@ header {
   .hero-blurb {
     @include outer-container;
     text-align: center;
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-bottom: 75px;
+    padding: 50px 20% 75px;
   }
 }
 .image-blurb {
