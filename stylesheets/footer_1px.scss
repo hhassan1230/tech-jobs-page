@@ -15,3 +15,22 @@ footer {
     }
   }
 }
+.footer {
+  background-color:black;
+  color: white;
+  clear: both;
+  @include span-columns(12);
+  text-align:center;
+  padding: 15px;  
+  max-width: none;
+  nav, ul { 
+    float: none;
+    width: auto;
+  }
+  li { text-transform: uppercase; }
+  ul {
+    display: inline-block;
+    padding: 0px;
+  }
+  nav { padding: 10px 0px; }
+}

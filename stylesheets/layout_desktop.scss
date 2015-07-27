@@ -2,6 +2,9 @@
   &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
   &:nth-child(#{$nth}+1) { clear: none }
 }
+// .curriculum {
+  
+// }
 h1 {
   font-size: modular-scale(5);
   margin-bottom: 0px;
