@@ -49,7 +49,10 @@ section.curriculum .image-blurb {
 }
 .hero {
   background-size: 1500px;
-  .hero-blurb { max-width: 80em; }
+  .hero-blurb { 
+    max-width: 80em; 
+    font-weight: 100;
+  }
   p {
     font-size: modular-scale(1);
     font-weight: 100;
