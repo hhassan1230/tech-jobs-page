@@ -119,6 +119,12 @@ section {
   font-size: 24px;
   vertical-align: super; }
 
+#icon_1 {
+  margin-top: -9px;
+  height: 78px;
+  width: 82px;
+  padding-top: -90px; }
+
 header::after {
   clear: both;
   content: "";
@@ -236,6 +242,9 @@ h1, h2 {
     clear: both;
     content: "";
     display: table; }
+
+.curriculum .curriculum-blurbs .image-blurb {
+  margin-top: 30px; }
 
 .nav-bar {
   float: left;
@@ -498,6 +507,9 @@ footer {
 
   .long-button {
     width: 300px; }
+
+  .curriculum .curriculum-blurbs .image-blurb {
+    margin-top: 40px; }
 
   .key-date {
     position: absolute;
