@@ -2,13 +2,13 @@
   &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
   &:nth-child(#{$nth}+1) { clear: none }
 }
+h1 {
+  font-size: modular-scale(5);
+  margin-bottom: 0px;
+}
 section.overview  .image-blurb {
   @include omega-reset(1n);
   @include span-columns(3);
-}
-section.overview p {
-  margin-left: 30px;
-  margin-right: 30px;
 }
 nav ul li {
   display: inline;
@@ -20,13 +20,10 @@ section.curriculum .image-blurb {
 }
 .eligibility {
   @include span-columns(6);
-  h3 {
-    margin-top: 20px;
-    margin-right: 55px;
-    /*text-align: left;*/
-  }
+  padding-left: 50px;
+  h3 { text-align: left; }
   ul {
-    margin-left: 120px;
+    padding-left: 25px;
     li {
       margin-left: 0px;
       margin-right: 0px;
@@ -34,59 +31,36 @@ section.curriculum .image-blurb {
     }
   }
   p {
-    margin-left: 74px;
-    margin-right: 10px;
     text-align: initial;
-    padding-left: 28px;
+    font-weight: 100;
   }
   .long-button {
-    margin-top: 18px;
     padding-right:10px;
     padding-left:10px;
-    margin-right: -80px;
-    padding-left: 28px;
   }
+  .apply-button { text-align: left; }
 }
 .application-steps {
   @include span-columns(6);
+  ol { margin-top: 25px; }
 }
-.hero { background-size: 1500px }
-.hero-blurb p {
-  background-color: rgba(0, 0, 0, 0.03);
+.hero {
+  background-size: 1500px;
+  .hero-blurb { max-width: 80em; }
+  p {
+    font-size: modular-scale(1);
+    font-weight: 100;
+  }
 }
-h3 {  font-size: modular-scale(0); }
 .mail-signup #mc_embed_signup #input-box input[type="email"] {
   font-family: $font;
   font-size: modular-scale(0);
-  display: block;
-  margin: 0;
-  padding-top: 6.5px;
-  padding-bottom: 10px;
   width: 60%;
   box-shadow: none;
   border-radius: none;
-  float: left;
-  margin-top:4px;
-  margin-left: 160px;
   margin-right: auto;
   webkit-appearance: none;
   border: 1px solid #999;
-}
-.short-button {
-  display:inline-block;
-  background-color: $green;
-  cursor:pointer;
-  color:#ffffff;
-  font-family: 100% $font;
-  font-size: modular-scale(1);
-  padding:6.5px 26px;
-  padding-bottom: 4px;
-  text-decoration:none;
-  border: none;
-  bottom: 1000px;
-  margin-top: 4px;
-  margin-right: 91px;
-  border-top-style: none;
 }
 .long-button {
   width: 300px;

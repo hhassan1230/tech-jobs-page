@@ -48,30 +48,31 @@ h2 {
 h3 {
   font-family: Roboto, sans-serif;
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 400;
   color: black; }
 
 h4 {
   font-family: Roboto, sans-serif;
-  font-size: 0.75019em;
+  font-size: 1em;
   font-weight: 300;
   color: black; }
 
 p {
   font-family: Roboto, sans-serif;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 100;
   color: black; }
 
 li {
   font-family: Roboto, sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  color: black; }
+  font-size: 1em; }
+  li h3 {
+    font-weight: 400; }
+  li p {
+    font-weight: 100; }
 
 ul {
   font-family: Roboto, sans-serif;
-  font-size: 1em;
   font-weight: 400;
   color: black; }
 
@@ -108,16 +109,6 @@ ul {
 
 section {
   padding: 25px 0; }
-
-.mail-signup #mc_embed_signup #mc_embed_signup_scroll label[for=mce-EMAIL] {
-  display: block;
-  font-size: 1em;
-  font-family: Roboto, sans-serif;
-  text-align: center;
-  width: auto;
-  font-weight: normal;
-  margin-top: 30px;
-  margin-bottom: 10px; }
 
 .icon {
   font-family: Roboto, sans-serif;
@@ -179,6 +170,12 @@ header::after {
     margin-right: 0; }
   .image-blurb:nth-child(2n+1) {
     clear: left; }
+  .image-blurb img, .image-blurb .icon {
+    height: 70px; }
+  .image-blurb h3 {
+    margin-bottom: 0px; }
+  .image-blurb p {
+    margin-top: 0px; }
 
 .curriculum-blurbs {
   max-width: 68em;
@@ -188,10 +185,6 @@ header::after {
     clear: both;
     content: "";
     display: table; }
-
-.mail-signup #mc_embed_signup {
-  text-align: center;
-  width: auto; }
 
 button {
   width: 200px; }
@@ -223,7 +216,7 @@ h1, h2 {
   .eligibility:last-child {
     margin-right: 0; }
   .eligibility h3 {
-    text-align: center; }
+    padding-left: 20px; }
   .eligibility ul {
     padding-left: 0px; }
   .eligibility ul li {
@@ -243,35 +236,6 @@ h1, h2 {
     clear: both;
     content: "";
     display: table; }
-
-.mail-signup #mc_embed_signup #input-box input[type="email"] {
-  font-family: Roboto, sans-serif;
-  font-size: 1em;
-  display: block;
-  margin: 0;
-  box-shadow: none;
-  border-radius: none;
-  padding-top: 5.5px;
-  margin-top: 4.5px;
-  width: 200px;
-  float: left;
-  padding: 9.5px; }
-
-.short-button {
-  padding: 6.5px 27px;
-  margin-right: auto;
-  margin-left: -60px;
-  display: inline-block;
-  background-color: #16DDA4;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Roboto, sans-serif;
-  font-size: 1.333em;
-  text-decoration: none;
-  border: none;
-  bottom: 1000px;
-  margin-top: 4.5px;
-  margin-right: -11px; }
 
 .nav-bar {
   float: left;
@@ -306,25 +270,25 @@ nav {
     display: table; }
   nav ul {
     font-family: Roboto, sans-serif;
-    font-size: 0.56278em;
     width: 100%;
     text-align: center;
-    padding-left: 0px; }
+    padding-left: 0px;
+    margin: 0px;
+    padding-bottom: 10px; }
     nav ul::after {
       clear: both;
       content: "";
       display: table; }
   nav li {
     padding: 0px 3px;
+    font-size: 0.56278em;
     border-right: 2px solid #16DDA4;
     display: inline; }
-    nav li:first-child {
-      padding-left: -10px; }
     nav li:last-child {
       border-right: none; }
     nav li a {
       color: white;
-      padding-left: 5px;
+      padding-left: 3px;
       padding-right: 5px; }
     nav li a:hover {
       color: #16DDA4; }
@@ -401,9 +365,53 @@ footer {
     footer a:last-child {
       margin-right: 0px; }
     footer a img {
-      height: 35px; }
+      height: 30px; }
+
+.mail-signup #mc_embed_signup #mc_embed_signup_scroll label[for=mce-EMAIL] {
+  display: block;
+  font-size: 1.333em;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  width: auto;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+
+.mail-signup #mc_embed_signup {
+  text-align: center;
+  width: auto; }
+  .mail-signup #mc_embed_signup form {
+    text-align: center; }
+
+.mail-signup #mc_embed_signup #input-box input[type="email"] {
+  display: inline;
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  margin: 0;
+  box-shadow: none;
+  border-radius: none;
+  margin-top: 4.5px;
+  width: 130px;
+  padding: 15px 10px 10px; }
+
+.short-button {
+  padding: 10px 30px;
+  margin-right: auto;
+  margin-left: -10px;
+  display: inline;
+  background-color: #16DDA4;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 1.333em;
+  text-decoration: none;
+  border: none; }
 
 @media screen and (min-width: 750px) {
+  h1 {
+    font-size: 4.20873em;
+    margin-bottom: 0px; }
+
   section.overview .image-blurb {
     float: left;
     display: block;
@@ -415,10 +423,6 @@ footer {
       clear: none; }
     section.overview .image-blurb:last-child {
       margin-right: 0; }
-
-  section.overview p {
-    margin-left: 30px;
-    margin-right: 30px; }
 
   nav ul li {
     display: inline; }
@@ -443,30 +447,26 @@ footer {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 48.82117%; }
+    width: 48.82117%;
+    padding-left: 50px; }
     .eligibility:last-child {
       margin-right: 0; }
     .eligibility h3 {
-      margin-top: 20px;
-      margin-right: 55px;
-      /*text-align: left;*/ }
+      text-align: left; }
     .eligibility ul {
-      margin-left: 120px; }
+      padding-left: 25px; }
       .eligibility ul li {
         margin-left: 0px;
         margin-right: 0px;
         padding-left: 20px; }
     .eligibility p {
-      margin-left: 74px;
-      margin-right: 10px;
       text-align: initial;
-      padding-left: 28px; }
+      font-weight: 100; }
     .eligibility .long-button {
-      margin-top: 18px;
       padding-right: 10px;
-      padding-left: 10px;
-      margin-right: -80px;
-      padding-left: 28px; }
+      padding-left: 10px; }
+    .eligibility .apply-button {
+      text-align: left; }
 
   .application-steps {
     float: left;
@@ -475,48 +475,26 @@ footer {
     width: 48.82117%; }
     .application-steps:last-child {
       margin-right: 0; }
+    .application-steps ol {
+      margin-top: 25px; }
 
   .hero {
     background-size: 1500px; }
-
-  .hero-blurb p {
-    background-color: rgba(0, 0, 0, 0.03); }
-
-  h3 {
-    font-size: 1em; }
+    .hero .hero-blurb {
+      max-width: 80em; }
+    .hero p {
+      font-size: 1.333em;
+      font-weight: 100; }
 
   .mail-signup #mc_embed_signup #input-box input[type="email"] {
     font-family: Roboto, sans-serif;
     font-size: 1em;
-    display: block;
-    margin: 0;
-    padding-top: 6.5px;
-    padding-bottom: 10px;
     width: 60%;
     box-shadow: none;
     border-radius: none;
-    float: left;
-    margin-top: 4px;
-    margin-left: 160px;
     margin-right: auto;
     webkit-appearance: none;
     border: 1px solid #999; }
-
-  .short-button {
-    display: inline-block;
-    background-color: #16DDA4;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: 100% Roboto, sans-serif;
-    font-size: 1.333em;
-    padding: 6.5px 26px;
-    padding-bottom: 4px;
-    text-decoration: none;
-    border: none;
-    bottom: 1000px;
-    margin-top: 4px;
-    margin-right: 91px;
-    border-top-style: none; }
 
   .long-button {
     width: 300px; }
@@ -525,19 +503,20 @@ footer {
     position: absolute;
     display: inline-block; }
     .key-date h4 {
-      margin-top: 35px; }
+      margin-top: 35px;
+      font-size: 1em; }
     .key-date#dot1 {
       left: 0%;
-      top: 7%; }
+      top: 27%; }
     .key-date#dot2 {
-      left: 19%;
-      top: 25%; }
+      left: 23%;
+      top: 45%; }
     .key-date#dot3 {
-      left: 37%;
-      top: -13%; }
+      left: 42%;
+      top: 3%; }
     .key-date#dot4 {
-      left: 88%;
-      top: -124%; }
+      left: 85%;
+      top: -104%; }
     .key-date::after {
       clear: both;
       content: "";
@@ -545,7 +524,8 @@ footer {
     .key-date h3 {
       margin-left: auto;
       margin-right: auto;
-      text-align: center; }
+      text-align: center;
+      width: auto; }
       .key-date h3:after {
         content: ' ';
         margin-top: 15px;
@@ -567,7 +547,7 @@ footer {
   .line {
     z-index: 0;
     position: absolute;
-    top: 155px;
+    top: 178px;
     left: auto;
     height: 3.5px;
     width: 915px;
@@ -588,7 +568,7 @@ footer {
       height: 60px; }
 
   footer h2 {
-    margin-top: 250px; }
+    margin-top: 150px; }
 
   .nav-bar .logo {
     width: auto;
@@ -605,15 +585,36 @@ footer {
       font-family: Roboto, sans-serif;
       font-size: 14px;
       height: 1em;
-      width: 100%; }
+      width: 100%;
+      padding: 15px 0px; }
     nav li {
       padding: 0px 10px;
       display: inline;
       float: left;
-      display: inline; }
+      display: inline;
+      font-size: 1em;
+      font-weight: 100; }
       nav li:first-child {
         padding-left: 0px; }
       nav li:last-child {
-        padding-right: 28px; } }
+        padding-right: 28px; }
+
+  h1 {
+    font-size: 4.20873em; }
+
+  p, h3, h4 {
+    font-size: 1.333em; }
+
+  li h3, li p {
+    font-size: 1.333em; }
+  li p {
+    font-weight: 100;
+    line-height: 1.33em; }
+
+  .eligibility ul li {
+    font-size: 1.333em; }
+
+  .eligibility h3 {
+    padding-left: 0px; } }
 
 /*# sourceMappingURL=style.css.map */

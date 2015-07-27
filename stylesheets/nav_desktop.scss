@@ -17,6 +17,7 @@ nav {
     font-size: 14px;
     height: 1em;
     width: 100%;
+    padding: 15px 0px;
   }
   li {
     padding: 0px 10px;
@@ -25,5 +26,7 @@ nav {
     display: inline;
     &:first-child { padding-left: 0px; }
     &:last-child { padding-right: 28px; }
+    font-size: modular-scale(0);
+    font-weight: 100;
   }
 }

@@ -47,31 +47,30 @@ h2 {
 h3 {
   font-family: $font;
   font-size: modular-scale(0);
-  font-weight: 600;
+  font-weight: 400;
   color: black;
 }
 h4 {
   font-family: $font;
-  font-size: modular-scale(-1);
+  font-size: modular-scale(0);
   font-weight: 300;
   color: black;
 }
 p {
   font-family: $font;
   font-size: modular-scale(0);
-  font-weight: 400;
+  font-weight: 100;
   color: black;
 }
 
 li {
   font-family: $font;
   font-size: modular-scale(0);
-  font-weight: 400;
-  color: black;
+  h3 { font-weight: 400; }
+  p { font-weight: 100; }
 }
 ul {
   font-family: $font;
-  font-size: modular-scale(0);
   font-weight: 400;
   color: black;
 }
@@ -113,16 +112,6 @@ ul {
 }
 section {
   padding: 25px 0;
-}
-.mail-signup #mc_embed_signup #mc_embed_signup_scroll label[for=mce-EMAIL] {
-  display: block;
-  font-size: modular-scale(0);
-  font-family: $font;
-  text-align: center;
-  width: auto;
-  font-weight: normal;
-  margin-top: 30px;
-  margin-bottom: 10px;
 }
 .icon {
   font-family: $font;
