@@ -156,9 +156,7 @@ header::after {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-bottom: 75px; }
+    padding: 50px 20% 75px; }
     .hero .hero-blurb::after {
       clear: both;
       content: "";
@@ -375,6 +373,30 @@ footer {
       margin-right: 0px; }
     footer a img {
       height: 30px; }
+
+.footer {
+  background-color: black;
+  color: white;
+  clear: both;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  max-width: none; }
+  .footer:last-child {
+    margin-right: 0; }
+  .footer nav, .footer ul {
+    float: none;
+    width: auto; }
+  .footer li {
+    text-transform: uppercase; }
+  .footer ul {
+    display: inline-block;
+    padding: 0px; }
+  .footer nav {
+    padding: 10px 0px; }
 
 .mail-signup #mc_embed_signup #mc_embed_signup_scroll label[for=mce-EMAIL] {
   display: block;
