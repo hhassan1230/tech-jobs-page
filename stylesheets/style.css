@@ -428,14 +428,14 @@ footer {
   padding: 15px 10px 10px; }
 
 .short-button {
-  padding: 10px 30px;
+  padding: 11px 30px;
   margin-right: auto;
   margin-left: -10px;
   display: inline;
   background-color: #16DDA4;
   cursor: pointer;
   color: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: 1.733em;
   font-size: 1.333em;
   text-decoration: none;
   border: none; }
@@ -549,10 +549,10 @@ footer {
       top: 27%; }
     .key-date#dot2 {
       left: 23%;
-      top: 45%; }
+      top: 47%; }
     .key-date#dot3 {
       left: 42%;
-      top: 3%; }
+      top: 7%; }
     .key-date#dot4 {
       left: 85%;
       top: -104%; }
