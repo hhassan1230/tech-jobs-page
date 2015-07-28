@@ -7,3 +7,13 @@ footer a {
 footer h2 {
   margin-top: 150px;
 }
+footer {
+  .partner-logos {
+  @include span-columns(12);
+  }
+  .partner-logo {
+  &:first-child { }
+    display: inline-block;
+    @include span-columns(4);
+  }
+}

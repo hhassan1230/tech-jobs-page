@@ -1,9 +1,9 @@
 footer {
-  padding-top: 30px;
+  // padding-top: 30px;
   @include span-columns(12);
   text-align: center;
   .partner-logos {
-    padding: 30px 0px 80px;
+    padding: 20px 0px 40px;
   }
   a {
     margin-right: 30px;
@@ -11,9 +11,14 @@ footer {
       margin-right: 0px;
     }
     img {
-      height: 30px;
+      width:60%;
+      height: 40px;
     }
   }
+}
+footer .not-ms .partner-logo img { 
+  width:40%;
+  margin-bottom:10px;
 }
 .footer {
   background-color:black;
@@ -23,6 +28,11 @@ footer {
   text-align:center;
   padding: 15px;  
   max-width: none;
+  .partner-logo { 
+    @include span-columns(12);
+    margin-bottom:10px;
+    &:first-child { margin-bottom:10px; }
+  }
   nav, ul { 
     float: none;
     width: auto;
