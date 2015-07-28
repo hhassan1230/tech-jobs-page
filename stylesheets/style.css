@@ -156,15 +156,13 @@ header::after {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 50px 20% 75px;
-    font-weight: 200; }
+    padding: 50px 20% 75px; }
     .hero .hero-blurb::after {
       clear: both;
       content: "";
       display: table; }
-
-p {
-  font-weight: 200; }
+    .hero .hero-blurb p {
+      font-weight: 200; }
 
 .image-blurb {
   float: left;
@@ -516,8 +514,7 @@ footer {
   .hero {
     background-size: 1500px; }
     .hero .hero-blurb {
-      max-width: 80em;
-      font-weight: 100; }
+      max-width: 80em; }
     .hero p {
       font-size: 1.333em;
       font-weight: 100; }
