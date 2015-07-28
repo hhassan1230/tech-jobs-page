@@ -156,13 +156,13 @@ header::after {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-bottom: 75px; }
+    padding: 50px 20% 75px; }
     .hero .hero-blurb::after {
       clear: both;
       content: "";
       display: table; }
+    .hero .hero-blurb p {
+      font-weight: 200; }
 
 .image-blurb {
   float: left;
@@ -376,6 +376,30 @@ footer {
     footer a img {
       height: 30px; }
 
+.footer {
+  background-color: black;
+  color: white;
+  clear: both;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  max-width: none; }
+  .footer:last-child {
+    margin-right: 0; }
+  .footer nav, .footer ul {
+    float: none;
+    width: auto; }
+  .footer li {
+    text-transform: uppercase; }
+  .footer ul {
+    display: inline-block;
+    padding: 0px; }
+  .footer nav {
+    padding: 10px 0px; }
+
 .mail-signup #mc_embed_signup #mc_embed_signup_scroll label[for=mce-EMAIL] {
   display: block;
   font-size: 1.333em;
@@ -404,14 +428,14 @@ footer {
   padding: 15px 10px 10px; }
 
 .short-button {
-  padding: 10px 30px;
+  padding: 11px 30px;
   margin-right: auto;
   margin-left: -10px;
   display: inline;
   background-color: #16DDA4;
   cursor: pointer;
   color: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: 1.733em;
   font-size: 1.333em;
   text-decoration: none;
   border: none; }
@@ -495,6 +519,9 @@ footer {
       font-size: 1.333em;
       font-weight: 100; }
 
+  p {
+    font-weight: 100; }
+
   .mail-signup #mc_embed_signup #input-box input[type="email"] {
     font-family: Roboto, sans-serif;
     font-size: 1em;
@@ -522,10 +549,10 @@ footer {
       top: 27%; }
     .key-date#dot2 {
       left: 23%;
-      top: 45%; }
+      top: 47%; }
     .key-date#dot3 {
       left: 42%;
-      top: 3%; }
+      top: 7%; }
     .key-date#dot4 {
       left: 85%;
       top: -104%; }
