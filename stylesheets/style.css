@@ -308,50 +308,67 @@ nav {
   .key-date h4 {
     background-color: white; }
   .key-date h3 {
-    height: 30px;
+    height: 15px;
     width: 235px;
     background-color: white;
-    margin-top: 30px; }
+    margin-top: 30px;
+    padding-bottom: 25px; }
   .key-date#dot1 {
-    margin-top: 50px; }
+    margin-top: 90px;
+    margin-left: -20px; }
   .key-date#dot2 {
-    margin-top: 35px; }
+    margin-top: 60px; }
   .key-date#dot3 {
-    margin-top: 65px; }
+    margin-top: 80px; }
   .key-date#dot4 {
-    margin-top: 150px; }
+    margin-top: 195px; }
   .key-date h3 {
-    margin-left: auto;
+    margin-left: -30px;
     margin-right: auto;
     text-align: center; }
     .key-date h3:after {
       content: ' ';
-      margin-top: 10px;
       z-index: 1;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 10px;
-      position: relative;
-      text-align: center;
-      display: block;
+      margin-left: 15px;
+      padding-left: -5px;
+      /*margin-right: 78px;*/
+      margin-top: 4px;
+      left: 147px;
+      position: absolute;
+      display: inline;
       height: 15px;
       width: 15px;
       border-radius: 50%;
       background-color: black; }
   .key-date h4 {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 90px;
+    margin-right: -25px;
     text-align: center;
-    margin-top: 30px; }
+    margin-top: -39px; }
 
 .line {
+  margin-top: 45px;
   z-index: 0;
   position: absolute;
   top: 110px;
   left: 49.5%;
-  height: 585px;
+  height: 472px;
   width: 3.5px;
   background-color: #16DDA4; }
+  .line .line-start {
+    position: absolute;
+    height: 5px;
+    width: 16px;
+    top: -5px;
+    left: -6px;
+    background-color: #16DDA4; }
+  .line .line-end {
+    position: absolute;
+    height: 5px;
+    width: 16px;
+    top: 467px;
+    left: -6px;
+    background-color: #16DDA4; }
 
 .timeline {
   position: relative; }
@@ -540,32 +557,36 @@ footer {
       margin-top: 35px;
       font-size: 1em; }
     .key-date#dot1 {
-      left: 0%;
-      top: 27%; }
+      left: 2%;
+      top: 27%;
+      z-index: 4; }
     .key-date#dot2 {
-      left: 23%;
-      top: 47%; }
+      left: 21%;
+      top: 20%;
+      z-index: 3; }
     .key-date#dot3 {
       left: 42%;
-      top: 7%; }
+      top: -6%; }
     .key-date#dot4 {
-      left: 85%;
-      top: -104%; }
+      left: 97%;
+      top: -124%; }
     .key-date::after {
       clear: both;
       content: "";
       display: table; }
     .key-date h3 {
-      margin-left: auto;
+      margin-left: -60px;
       margin-right: auto;
       text-align: center;
-      width: auto; }
+      height: 25px;
+      width: 170px;
+      padding: 2px 2px 2px 2px; }
       .key-date h3:after {
         content: ' ';
         margin-top: 15px;
         z-index: 1;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: -65px;
+        margin-right: 315px;
         position: relative;
         text-align: center;
         display: block;
@@ -574,18 +595,33 @@ footer {
         border-radius: 50%;
         background-color: black; }
     .key-date h4 {
-      margin-left: auto;
+      margin-left: -11px;
       margin-right: auto;
-      text-align: center; }
+      text-align: center;
+      height: 25px;
+      width: 90px; }
 
   .line {
     z-index: 0;
     position: absolute;
     top: 178px;
-    left: auto;
+    left: -25px;
     height: 3.5px;
-    width: 915px;
+    width: 985px;
     background-color: #16DDA4; }
+    .line .line-start {
+      position: absolute;
+      height: 6px;
+      width: 13px;
+      top: -3px;
+      left: 983px;
+      background-color: #16DDA4; }
+    .line .line-end {
+      position: absolute;
+      height: 16px;
+      width: 3px;
+      top: -6px;
+      background-color: #16DDA4; }
 
   .timeline {
     float: left;

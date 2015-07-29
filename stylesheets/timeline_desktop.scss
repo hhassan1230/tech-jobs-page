@@ -5,35 +5,39 @@
     font-size: modular-scale(0);
   }
   &#dot1 {
-    left: 0%;
+    left: 2%;
     top: 27%;
+    z-index: 4;
   }
   &#dot2 {
-    left: 23%;
-    top: 47%;
+    left: 21%;
+    top: 20%;
+    z-index: 3;
   }
   &#dot3 {
     left: 42%;
-    top: 7%;
+    top: -6%;
   }
   &#dot4 {
-    left: 85%;
-    top: -104%;
+    left: 97%;
+    top: -124%;
   }
   display: inline-block;
   @include clearfix;
   h3 {
-    margin-left: auto;
+    margin-left: -60px;
     margin-right: auto;
     text-align: center;
-    width: auto;
+    height: 25px;
+    width: 170px;
+    padding: 2px 2px 2px 2px;
 
     &:after {
       content: ' ';
       margin-top: 15px;
       z-index: 1;
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: -65px;
+      margin-right: 315px;
       position: relative;
       text-align: center;
       display: block;
@@ -44,21 +48,37 @@
     }
   }
   h4 {
-    margin-left: auto;
+    margin-left: -11px;
     margin-right: auto;
     text-align: center;
+    height: 25px;
+    width: 90px;
   }
 }
 .line {
   z-index:0;
   position: absolute;
   top: 178px;
-  left: auto;
+  left: -25px;
   height: 3.5px;
-  width: 915px;
+  width: 985px;
   background-color: $green;
+  .line-start {
+    position: absolute;
+    height: 6px;
+    width: 13px;
+    top: -3px;
+    left: 983px;
+    background-color: $green;
+  }
+  .line-end {
+    position: absolute;
+    height: 16px;
+    width: 3px;
+    top: -6px;
+    background-color: $green;
+  }
 }
-
 .timeline {
   @include span-columns(12);
   position: relative;
