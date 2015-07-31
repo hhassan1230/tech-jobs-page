@@ -13,7 +13,8 @@ footer {
     a {
       display:inline-block;
       img {
-        height: 60px;
+        height:40px;
+        width:auto;
         margin-right: 20px;
         text-align:center;
         &:last-child {margin-right: 0px;}

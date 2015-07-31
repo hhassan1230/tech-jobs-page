@@ -372,7 +372,7 @@ footer {
     display: block;
     padding-bottom: 20px; }
     footer a img {
-      height: 60px; }
+      width: 120px; }
 
 .footer {
   background-color: black;
@@ -617,7 +617,8 @@ footer {
     footer .partner-logos a {
       display: inline-block; }
       footer .partner-logos a img {
-        height: 60px;
+        height: 40px;
+        width: auto;
         margin-right: 20px;
         text-align: center; }
         footer .partner-logos a img:last-child {
