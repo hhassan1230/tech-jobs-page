@@ -9,42 +9,51 @@ footer h2 {
 }
 footer {
   .partner-logos {
-    position: relative;
+    // position: relative;
   @include span-columns(12);
-  display: inline-block;
+  a {
+    display:inline-block;
+    img {
+      height: 60px;
+      margin-right: 20px;
+      text-align:center;
+      &:last-child {margin-right: 0px;}
+    }
+  }
+  // display: inline-block;
   // .citytech { padding-left:40%;}
   // .techpipe { margin-right:30%;}
-     margin: 30px 40px 80px 40px;
+     // margin: 30px 40px 80px 40px;
   }
   .partner-logo {
-    display: inline-block;
+    // display: inline-block;
     // @include span-columns(4); /
   }
-  #microsoft { 
-    height: 40px;
-    width: 430px;
-    position:absolute;
-    top: 1px;
-    left: 220px;
-    margin-right: 90px;
+  // #microsoft { 
+  //   height: 40px;
+  //   width: 430px;
+  //   position:absolute;
+  //   top: 1px;
+  //   left: 220px;
+  //   margin-right: 90px;
    
-  }
-  #citytech {
-    height: 40px;
-    width: 300px;
-    position:absolute;
-    top: 1px;
-    left: 420px;
-    margin-left: 120px;
-    // margin-bottom: 60px;
-  }
-  #techpipe {
-    height: 40px;
-    width: 300px;
-    position:absolute;
-    top: 1px;
-    left: 605px;
-    margin-left: 120px;
-    // margin-bottom: 60px;
-  }
+  // }
+  // #citytech {
+  //   height: 40px;
+  //   width: 300px;
+  //   position:absolute;
+  //   top: 1px;
+  //   left: 420px;
+  //   margin-left: 120px;
+  //   // margin-bottom: 60px;
+  // }
+  // #techpipe {
+  //   height: 40px;
+  //   width: 300px;
+  //   position:absolute;
+  //   top: 1px;
+  //   left: 605px;
+  //   margin-left: 120px;
+  //   // margin-bottom: 60px;
+  // }
 }
