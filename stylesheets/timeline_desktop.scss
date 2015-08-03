@@ -1,61 +1,68 @@
-.key-date {
-  position: absolute;
-  h4 {
-    margin-top:35px;
-    font-size: modular-scale(0);
-  }
-  &#dot1 {
-    left: 2%;
-    top: 27%;
-    z-index: 4;
-  }
-  &#dot2 {
-    left: 21%;
-    top: 20%;
-    z-index: 3;
-  }
-  &#dot3 {
-    left: 42%;
-    top: -6%;
-  }
-  &#dot4 {
-    left: 97%;
-    top: -124%;
-  }
-  display: inline-block;
+/*.key-dates { 
+  position: relative;
   @include clearfix;
-  h3 {
-    margin-left: -60px;
-    margin-right: auto;
-    text-align: center;
-    height: 25px;
-    width: 170px;
-    padding: 2px 2px 2px 2px;
-
-    &:after {
-      content: ' ';
-      margin-top: 15px;
-      z-index: 1;
-      margin-left: -65px;
-      margin-right: 315px;
-      position: relative;
-      text-align: center;
-      display: block;
-      height: 15px;
-      width: 15px;
-      border-radius: 50%;
-      background-color: black;
-    }
-  }
-  h4 {
-    margin-left: -11px;
-    margin-right: auto;
-    text-align: center;
-    height: 25px;
-    width: 90px;
+  h2 {
+    margin-bottom: -80px;
   }
 }
-.line {
+.timeline {
+  width: 100%;
+  position: relative;
+  @include clearfix;
+  .key-date { 
+    width: 100%;
+    h3, h4 { 
+      width: 50%;
+    }
+    span { 
+      margin-left: -8.5px; 
+      left: 50%;
+    } 
+  }  
+  #dot1{
+    position: absolute;
+    top: 110px;
+    left: -260px;
+  }
+  #dot2{
+    position: absolute;
+    top: 120px;
+    left: 170px;
+  }
+  #dot3{
+    position: absolute;
+    top: 120px;
+    left: 360px;
+  }
+  #dot4{
+    position: absolute;
+    top: 120px;
+    left: 860px;
+  }
+  h3 {
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+  }
+  span {
+    display: block;
+    margin-left: 20%; 
+    text-align: center;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+    padding-left: -15px;
+    background-color: black;
+  }
+  h4 {
+    text-align: center;
+    display: block;
+   /* margin-left: 0px;*/
+/*    text-align: right;
+  }
+}*/
+/*.line {
   z-index:0;
   position: absolute;
   top: 178px;
@@ -65,9 +72,9 @@
   background-color: $green;
   .line-start {
     position: absolute;
-    height: 6px;
-    width: 13px;
-    top: -3px;
+    height: 16px;
+    width: 3px;
+    top: -5px;
     left: 983px;
     background-color: $green;
   }
@@ -76,13 +83,149 @@
     height: 16px;
     width: 3px;
     top: -6px;
+    left: 0px;
     background-color: $green;
   }
 }
-.timeline {
-  @include span-columns(12);
+
+/**/
+.key-dates { 
   position: relative;
+  @include clearfix;
+  h2 {
+    margin-bottom: -80px;
+  }
 }
-
-
+.timeline {
+  width: 100%;
+  position: relative;
+  @include clearfix;
+  .key-date { 
+    width: 200px;
+    height: 200px;
+    span { 
+      margin-left: -8.5px; 
+      top: 40px;
+      left: 80px;
+    }
+    h3 {
+      width: 180px;
+      left: 20px;
+    } 
+    h4 {
+      width: 180px;
+      left: 10px;
+    }
+  } 
+  #dot1 {
+    h3 {
+      position: absolute;
+      left: -13px;
+      width: 200px;
+    }
+    h4 {
+      position: absolute;
+      left: 13px;
+      width: 180px;
+    }
+    left: -65px;
+    top: 177px;
+  }
+  #dot2 {
+    left: 110px;
+    top: 177px;
+    h3 {
+      position: absolute;
+      left: -35px;
+      width: 200px;
+    }
+    h4 {
+      position: absolute;
+      left: 10px;
+      width: 180px;
+    }
+  }
+  #dot3 {
+    left: 295px;
+    top: 177px;
+    h3 {
+      position: absolute;
+      left: -10px;
+      width: 200px;
+    }
+    h4 {
+      position: absolute;
+      left: 3px;
+      width: 180px;
+    }
+  }
+  #dot4 {
+    left: 790px;
+    top: 177px;
+    h3 {
+      position: absolute;
+      left: -45px;
+      width: 200px;
+    }
+    h4 {
+      position: absolute;
+      left: 1px;
+      width: 180px;
+    }
+  }
+  display: inline-block;
+  @include clearfix;
+  h3 {
+    font-weight: 500;
+    display: inline;
+    text-align: none;
+    float: none;
+    margin: 0;
+    padding-right: 27px;
+  }
+  span {
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+    background-color: black;
+  }
+  h4 {
+    position: absolute;
+    top: 60px;
+    left: 18px;
+    margin: 0;
+    display: inline;
+    text-align: none;
+    float: none;
+    padding-left: 25px;
+  }
+}
+.line {
+  z-index:0;
+  position: absolute;
+  top: 178px;
+  left: -90px;
+  height: 3.5px;
+  width: 1025px;
+  background-color: $green;
+  .line-start {
+    position: absolute;
+    height: 16px;
+    width: 3px;
+    top: -6px;
+    left: 1025px;
+    background-color: $green;
+  }
+  .line-end {
+    position: absolute;
+    height: 16px;
+    width: 3px;
+    top: -6px;
+    left: 0px;
+    background-color: $green;
+  }
+}
 

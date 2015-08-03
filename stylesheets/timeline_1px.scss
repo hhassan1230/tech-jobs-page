@@ -1,55 +1,68 @@
-.key-dates { position: relative;}
-.key-date {
-  h4 {
-    background-color: white;
+.key-dates { 
+  position: relative;
+  @include clearfix;
+  h2 {
+    margin-bottom: -80px;
   }
-  h3 {
-    height:15px;
-    width: 235px;
-    background-color: white;
-    margin-top: 30px;
-    padding-bottom: 25px;
-  }
-  &#dot1 {
-    margin-top: 90px;
-    margin-left: -20px;
-  }
-  &#dot2 {
-    margin-top: 60px;
-  }
-  &#dot3 {
-    margin-top: 80px;
-  }
-  &#dot4 {
-    margin-top: 195px;
-  }
-  display: block;
-  h3 {
-    margin-left: -30px;
-    margin-right: auto;
-    text-align: center;
-
-    &:after {
-      content: ' ';
-      z-index: 1;
-      margin-left: 15px;
-      padding-left: -5px;
-      /*margin-right: 78px;*/
-      margin-top: 4px;
-      left:147px;
-      position: absolute;
-      display: inline;
-      height: 15px;
-      width: 15px;
-      border-radius: 50%;
-      background-color: black;
+}
+.timeline {
+  width: 100%;
+  position: relative;
+  @include clearfix;
+  .key-date { 
+    width: 100%;
+    h3, h4 { 
+      width: 50%;
     }
+    span { 
+      margin-left: -8.5px; 
+      left: 50%;
+    } 
+  }
+  #dot1{
+    position: absolute;
+    top: 180px;
+/*    left: 11.5%;
+*/  }
+  #dot2{
+    position: absolute;
+    top: 275px;
+/*    left: 20%;
+*/  }
+  #dot3{
+    position: absolute;
+    top: 385px;
+/*    left: 11%;
+*/  }
+  #dot4{
+    position: absolute;
+    top: 607px;
+/*    left: 22.5%;
+*/  }
+
+  h3 {
+    font-weight: 500;
+    display: block;
+    text-align: right;
+    float: left;
+    margin: 0;
+    padding-right: 27px;
+  }
+  span {
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+    background-color: black;
   }
   h4 {
-    margin-left: 90px;
-    margin-right: -25px;
-    text-align: center;
-    margin-top: -39px;
+    margin: 0px;
+    display: block;
+    text-align: left;
+    float: left;
+    padding-left: 25px;
   }
 }
 .line {
@@ -58,7 +71,7 @@
   position: absolute;
   top: 110px;
   left: 49.5%;
-  height: 472px;
+  height: 497px;
   width: 3.5px;
   background-color: $green;
   .line-start {
@@ -73,12 +86,8 @@
     position: absolute;
     height: 5px;
     width: 16px;
-    top: 467px;
+    top: 492px;
     left: -6px;
     background-color: $green;
   }
-}
-
-.timeline {
-  position: relative;
 }
