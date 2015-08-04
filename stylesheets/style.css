@@ -166,7 +166,7 @@ header::after {
       content: "";
       display: table; }
     .hero .hero-blurb p {
-      font-weight: 200; }
+      font-weight: 400; }
 
 .image-blurb {
   float: left;
@@ -238,7 +238,8 @@ h1, h2 {
     text-align: center; }
   .eligibility .long-button {
     padding-right: 10px;
-    padding-left: 10px; }
+    padding-left: 10px;
+    margin-left: 6px; }
 
 .application-steps {
   display: block; }
@@ -329,7 +330,8 @@ nav {
       width: 50%; }
     .timeline .key-date span {
       margin-left: -8.5px;
-      left: 50%; }
+      left: 50.1%;
+      top: 2px; }
   .timeline #dot1 {
     position: absolute;
     top: 180px;

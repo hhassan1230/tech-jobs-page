@@ -23,7 +23,7 @@ header {
     @include outer-container;
     text-align: center;
     padding: 50px 20% 75px;
-    p {font-weight: 200;}
+    p {font-weight: 400;}
   }
 }
 .image-blurb {
@@ -74,6 +74,7 @@ h1, h2 {
   .long-button {
     padding-right:10px;
     padding-left:10px;
+    margin-left: 6px
   }
 }
 .application-steps {
