@@ -233,7 +233,9 @@ h1, h2 {
     margin-left: 40px;
     padding-bottom: 30px; }
   .eligibility p {
-    text-align: center; }
+    text-align: center;
+    font-weight: 100;
+    font-size: 1em; }
   .eligibility .apply-button {
     text-align: center; }
   .eligibility .long-button {
