@@ -1,10 +1,20 @@
-footer a {
-  margin-right: 60px;
-  img {
-    height: 60px;
+footer {
+  margin-top: 150px;
+  .partner-logos {
+    @include span-columns(12);
+    a {
+      display:inline-block;
+      margin-right: 60px;
+      img {
+        height: 60px;
+        width: auto;
+        text-align: center;
+        &:last-child {margin-right: 0px;}
+      }
+    }
   }
 }
 footer h2 {
   margin-top: 310px;
-
 }
+

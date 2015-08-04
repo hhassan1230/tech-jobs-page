@@ -49,12 +49,15 @@ section.curriculum .image-blurb {
 }
 .hero {
   background-size: 1500px;
-  .hero-blurb { max-width: 80em; }
+  .hero-blurb { 
+    max-width: 80em;
+  }
   p {
     font-size: modular-scale(1);
     font-weight: 100;
   }
 }
+p {font-weight: 100;}
 .mail-signup #mc_embed_signup #input-box input[type="email"] {
   font-family: $font;
   font-size: modular-scale(0);

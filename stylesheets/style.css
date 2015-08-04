@@ -22,6 +22,10 @@ a {
   color: white;
   text-decoration: none; }
 
+li a {
+  color: #16DDA4;
+  text-decoration: underline; }
+
 h1 {
   font-family: Roboto, sans-serif;
   font-size: 2.36859em;
@@ -161,6 +165,8 @@ header::after {
       clear: both;
       content: "";
       display: table; }
+    .hero .hero-blurb p {
+      font-weight: 200; }
 
 .image-blurb {
   float: left;
@@ -296,7 +302,8 @@ nav {
     nav li a {
       color: white;
       padding-left: 3px;
-      padding-right: 5px; }
+      padding-right: 5px;
+      text-decoration: none; }
     nav li a:hover {
       color: #16DDA4; }
 
@@ -390,7 +397,6 @@ nav {
     background-color: #16DDA4; }
 
 footer {
-  padding-top: 30px;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -399,15 +405,14 @@ footer {
   footer:last-child {
     margin-right: 0; }
   footer .partner-logos {
-    padding: 30px 0px 80px; }
+    padding: 20px 0px 40px; }
   footer h2 {
     margin-top: 700px; }
   footer a {
-    margin-right: 30px; }
-    footer a:last-child {
-      margin-right: 0px; }
+    display: block;
+    padding-bottom: 20px; }
     footer a img {
-      height: 30px; }
+      width: 120px; }
 
 .footer {
   background-color: black;
@@ -552,6 +557,9 @@ footer {
       font-size: 1.333em;
       font-weight: 100; }
 
+  p {
+    font-weight: 100; }
+
   .mail-signup #mc_embed_signup #input-box input[type="email"] {
     font-family: Roboto, sans-serif;
     font-size: 1em;
@@ -690,48 +698,48 @@ footer {
         width: 180px;
         left: 10px; }
     .timeline #dot1 {
-      left: -65px;
+      left: -70px;
       top: 177px; }
       .timeline #dot1 h3 {
         position: absolute;
-        left: -13px;
-        width: 200px; }
+        left: -12px;
+        width: 205px; }
       .timeline #dot1 h4 {
         position: absolute;
-        left: 13px;
+        left: -1px;
         width: 180px; }
     .timeline #dot2 {
-      left: 110px;
+      left: 100px;
       top: 177px; }
       .timeline #dot2 h3 {
         position: absolute;
-        left: -35px;
-        width: 200px; }
+        left: -2px;
+        width: 170px; }
       .timeline #dot2 h4 {
         position: absolute;
-        left: 10px;
+        left: 1px;
         width: 180px; }
     .timeline #dot3 {
       left: 295px;
       top: 177px; }
       .timeline #dot3 h3 {
         position: absolute;
-        left: -10px;
-        width: 200px; }
+        left: -45px;
+        width: 250px; }
       .timeline #dot3 h4 {
         position: absolute;
-        left: 3px;
+        left: 1px;
         width: 180px; }
     .timeline #dot4 {
       left: 790px;
       top: 177px; }
       .timeline #dot4 h3 {
         position: absolute;
-        left: -45px;
+        left: -38px;
         width: 200px; }
       .timeline #dot4 h4 {
         position: absolute;
-        left: 1px;
+        left: -3px;
         width: 180px; }
     .timeline::after {
       clear: both;
@@ -785,10 +793,24 @@ footer {
       left: 0px;
       background-color: #16DDA4; }
 
-  footer a {
-    margin-right: 60px; }
-    footer a img {
-      height: 60px; }
+  footer {
+    margin-top: 150px; }
+    footer .partner-logos {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      footer .partner-logos:last-child {
+        margin-right: 0; }
+      footer .partner-logos a {
+        display: inline-block;
+        margin-right: 60px; }
+        footer .partner-logos a img {
+          height: 60px;
+          width: auto;
+          text-align: center; }
+          footer .partner-logos a img:last-child {
+            margin-right: 0px; }
 
   footer h2 {
     margin-top: 310px; }
