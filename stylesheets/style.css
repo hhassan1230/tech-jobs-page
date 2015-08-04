@@ -599,30 +599,24 @@ footer {
     .timeline:last-child {
       margin-right: 0; }
 
-  footer a {
-    margin-right: 60px; }
-    footer a img {
-      height: 60px; }
-
-  footer h2 {
+  footer {
     margin-top: 150px; }
-
-  footer .partner-logos {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    footer .partner-logos:last-child {
-      margin-right: 0; }
-    footer .partner-logos a {
-      display: inline-block; }
-      footer .partner-logos a img {
-        height: 40px;
-        width: auto;
-        margin-right: 20px;
-        text-align: center; }
-        footer .partner-logos a img:last-child {
-          margin-right: 0px; }
+    footer .partner-logos {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      footer .partner-logos:last-child {
+        margin-right: 0; }
+      footer .partner-logos a {
+        display: inline-block;
+        margin-right: 60px; }
+        footer .partner-logos a img {
+          height: 60px;
+          width: auto;
+          text-align: center; }
+          footer .partner-logos a img:last-child {
+            margin-right: 0px; }
 
   .nav-bar .logo {
     width: auto;
