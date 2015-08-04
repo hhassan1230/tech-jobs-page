@@ -302,7 +302,8 @@ nav {
     nav li a {
       color: white;
       padding-left: 3px;
-      padding-right: 5px; }
+      padding-right: 5px;
+      text-decoration: none; }
     nav li a:hover {
       color: #16DDA4; }
 
