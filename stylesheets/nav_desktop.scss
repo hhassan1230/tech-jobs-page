@@ -1,6 +1,52 @@
 .nav-bar {
+  @include span-columns(12);
+  @include clearfix;
   .logo {
+    width: 100%;
     text-align: center;
+    p {
+      color: $green;
+      font-size: modular-scale(-2);
+      margin-right: 0px;
+      font-weight: 900;
+    }
+  }
+  z-index: 9;
+  background-color: rgba(0, 0, 0, .7);
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+nav {
+  @include row();
+  .nav-list { display: block; }
+  button {visibility: hidden;}
+  ul {
+    @include clearfix;
+    font-family: $font;
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    margin: 0px;
+    padding-bottom: 10px;
+  }
+  li {
+    padding: 0px 3px;
+    font-size: modular-scale(-2);
+    border-right: 2px solid $green;
+    &:last-child { border-right: none; }
+    display: inline;
+    a {
+      color: white;
+      padding-left: 3px;
+      padding-right: 5px;
+      text-decoration: none;
+    }
+    a:hover { color:$green; }
+  }
+}
+.nav-bar {
+  .logo {
     width: auto;
     padding-left: 30px;
     float: left;
@@ -12,17 +58,8 @@
   }
 }
 nav {
-  button {visibility: hidden;}
   float: right;
-  @include row(); 
   ul {
-    @include clearfix;
-    font-family: $font;
-    width: 100%;
-    text-align: center;
-    padding-left: 0px;
-    margin: 0px;
-    padding-bottom: 10px;
     font-family: $font;
     font-size: 14px;
     height: 1em;

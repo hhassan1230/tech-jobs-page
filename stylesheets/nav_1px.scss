@@ -8,6 +8,7 @@
       color: $green;
       font-size: modular-scale(-2);
       font-weight: 900;
+      float: left;
     }
   z-index: 9;
   background-color: rgba(0, 0, 0, .7);
@@ -16,22 +17,55 @@
   position: fixed;
   }
 nav {
-  button { float:right;}
+  button { 
+    float:right;
+  }
   .nav-list {
-    // hidden;
-    // z-index: 3;
-
     @include span-columns(12);
-    ul li {color:#000000;}
+    display: none;
+    ul {
+      padding-left: 0;
+      padding-top: 10px;
+      list-style-type: none;
+      color: black;
+      width: 100%;
+      background-color: rgba(0, 0, 0, .7);
+      margin-bottom: 0px;
+      padding-bottom: 2px;
+      position: fixed;
+      margin-top: 28px;
+    }
+    li {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      color:#000000;
+      text-align: center;
+      padding-bottom: 5px;
+      border-bottom: 1px solid $green;
+      &:last-child {
+          border-bottom: none;
+          padding-bottom: 1px;
+
+        }
+    }
+    a { 
+      color: white; 
+    }
+    a:hover {
+      color: $green;
+    }
   }
   .c-hamburger {
+    top: 0px;
+    right: 0px;
     display: block;
-    position: relative;
+    position: fixed;
     overflow: hidden;
     margin: 0;
     padding: 0;
-    width: 96px;
-    height: 96px;
+    width: 32px;
+    height: 28px;
+    z-index: 15;
     font-size: 0;
     text-indent: -9999px;
     appearance: none;
@@ -51,7 +85,10 @@ nav {
     top: 44px;
     left: 18px;
     right: 18px;
-    height: 8px;
+    height: 2px;
+    width: 15px;
+    margin-left: -9.5px;
+    margin-top: -31.8px;
     background: white;
   }
 
@@ -60,8 +97,11 @@ nav {
     position: absolute;
     display: block;
     left: 0;
-    width: 100%;
-    height: 8px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 0px;
+    height: 2px;
+    width: 15px;
     background-color: #fff;
     content: "";
   }
@@ -89,15 +129,7 @@ nav {
   .c-hamburger--rot.is-active span {
     transform: rotate(90deg);
   }
-//   @include row();
-//   ul {
-//     @include clearfix;
-//     font-family: $font;
-//     width: 100%;
-//     text-align: center;
-//     padding-left: 0px;
-//     margin: 0px;
-//     padding-bottom: 10px;
+
   }
   
 }
