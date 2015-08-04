@@ -22,6 +22,10 @@ a {
   color: white;
   text-decoration: none; }
 
+li a {
+  color: #16DDA4;
+  text-decoration: underline; }
+
 h1 {
   font-family: Roboto, sans-serif;
   font-size: 2.36859em;

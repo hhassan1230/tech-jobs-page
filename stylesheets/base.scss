@@ -19,6 +19,10 @@ a {
   color: white;
   text-decoration: none;
 }
+li a {
+  color: $green;
+  text-decoration: underline;
+}
 h1 {
   font-family: $font;
   font-size: modular-scale(3);
