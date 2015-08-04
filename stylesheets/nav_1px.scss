@@ -7,9 +7,7 @@
     p {
       color: $green;
       font-size: modular-scale(-2);
-  //     margin-right: 0px;
       font-weight: 900;
-    // }
     }
   z-index: 9;
   background-color: rgba(0, 0, 0, .7);
@@ -21,7 +19,7 @@ nav {
   button { float:right;}
   .nav-list {
     // hidden;
-    z-index: 3;
+    // z-index: 3;
 
     @include span-columns(12);
     ul li {color:#000000;}

@@ -273,7 +273,6 @@ h1, h2 {
     .nav-bar nav button {
       float: right; }
     .nav-bar nav .nav-list {
-      z-index: 3;
       float: left;
       display: block;
       margin-right: 2.35765%;
@@ -653,6 +652,7 @@ footer {
           margin-right: 0px; }
 
   .nav-bar .logo {
+    text-align: center;
     width: auto;
     padding-left: 30px;
     float: left; }
@@ -662,13 +662,30 @@ footer {
       margin-right: 0px; }
 
   nav {
-    float: right; }
+    float: right;
+    display: block; }
+    nav button {
+      visibility: hidden; }
+    nav::after {
+      clear: both;
+      content: "";
+      display: table; }
     nav ul {
+      font-family: Roboto, sans-serif;
+      width: 100%;
+      text-align: center;
+      padding-left: 0px;
+      margin: 0px;
+      padding-bottom: 10px;
       font-family: Roboto, sans-serif;
       font-size: 14px;
       height: 1em;
       width: 100%;
       padding: 15px 0px; }
+      nav ul::after {
+        clear: both;
+        content: "";
+        display: table; }
     nav li {
       padding: 0px 10px;
       display: inline;

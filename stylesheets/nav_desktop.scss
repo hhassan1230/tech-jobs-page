@@ -1,5 +1,6 @@
 .nav-bar {
   .logo {
+    text-align: center;
     width: auto;
     padding-left: 30px;
     float: left;
@@ -11,8 +12,17 @@
   }
 }
 nav {
+  button {visibility: hidden;}
   float: right;
+  @include row(); 
   ul {
+    @include clearfix;
+    font-family: $font;
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    margin: 0px;
+    padding-bottom: 10px;
     font-family: $font;
     font-size: 14px;
     height: 1em;
