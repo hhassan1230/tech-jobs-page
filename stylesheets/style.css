@@ -374,7 +374,9 @@ nav {
     display: block;
     text-align: left;
     float: left;
-    padding-left: 25px; }
+    margin-top: 2px;
+    padding-left: 25px;
+    font-size: 15px; }
 
 .line {
   margin-top: 45px;
@@ -710,8 +712,9 @@ footer {
         width: 205px; }
       .timeline #dot1 h4 {
         position: absolute;
-        left: -1px;
-        width: 180px; }
+        left: 12px;
+        width: 180px;
+        font-size: 1em; }
     .timeline #dot2 {
       left: 100px;
       top: 177px; }
@@ -721,8 +724,9 @@ footer {
         width: 170px; }
       .timeline #dot2 h4 {
         position: absolute;
-        left: 1px;
-        width: 180px; }
+        left: 12px;
+        width: 180px;
+        font-size: 1em; }
     .timeline #dot3 {
       left: 295px;
       top: 177px; }
@@ -732,8 +736,9 @@ footer {
         width: 250px; }
       .timeline #dot3 h4 {
         position: absolute;
-        left: 1px;
-        width: 180px; }
+        left: 12px;
+        width: 180px;
+        font-size: 1em; }
     .timeline #dot4 {
       left: 790px;
       top: 177px; }
@@ -743,8 +748,9 @@ footer {
         width: 200px; }
       .timeline #dot4 h4 {
         position: absolute;
-        left: -3px;
-        width: 180px; }
+        left: 10px;
+        width: 180px;
+        font-size: 1em; }
     .timeline::after {
       clear: both;
       content: "";
