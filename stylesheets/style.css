@@ -492,11 +492,11 @@ footer {
       .nav-bar nav .c-hamburger span::after {
         bottom: -20px; }
       .nav-bar nav .c-hamburger--rot {
-        background-color: #28aadc; }
+        background-color: #16DDA4; }
       .nav-bar nav .c-hamburger--rot span {
         transition: transform 0.3s; }
       .nav-bar nav .c-hamburger--rot.is-active {
-        background-color: #166888; }
+        background-color: #30856d; }
       .nav-bar nav .c-hamburger--rot.is-active span {
         transform: rotate(90deg); } }
 @media screen and (min-width: 750px) {
@@ -761,8 +761,7 @@ footer {
       font-family: Roboto, sans-serif;
       font-size: 14px;
       height: 1em;
-      width: 100%;
-      padding: 15px 0px; }
+      width: 100%; }
     nav li {
       padding: 0px 10px;
       display: inline;

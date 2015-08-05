@@ -23,6 +23,7 @@ nav {
   .nav-list {
     @include span-columns(12);
     display: none;
+
     ul {
       padding-left: 0;
       padding-top: 10px;
@@ -114,7 +115,7 @@ nav {
     bottom: -20px;
   }
   .c-hamburger--rot {
-    background-color: #28aadc;
+    background-color: $green;
   }
 
   .c-hamburger--rot span {
@@ -123,7 +124,7 @@ nav {
 
   /* active state, i.e. menu open */
   .c-hamburger--rot.is-active {
-    background-color: #166888;
+    background-color: #30856d;
   }
 
   .c-hamburger--rot.is-active span {
