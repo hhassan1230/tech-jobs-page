@@ -814,7 +814,9 @@ footer {
         margin-right: 0; }
       footer .partner-logos a {
         display: inline-block;
-        margin-right: 60px; }
+        margin-right: 80px; }
+        footer .partner-logos a:first-child {
+          margin-left: 90px; }
         footer .partner-logos a img {
           height: 60px;
           width: auto;

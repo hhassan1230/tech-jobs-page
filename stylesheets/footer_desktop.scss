@@ -4,7 +4,10 @@ footer {
     @include span-columns(12);
     a {
       display:inline-block;
-      margin-right: 60px;
+      margin-right: 80px;
+      &:first-child {
+        margin-left: 90px;
+      }
       img {
         height: 60px;
         width: auto;
