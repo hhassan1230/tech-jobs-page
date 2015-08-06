@@ -1,94 +1,3 @@
-/*.key-dates { 
-  position: relative;
-  @include clearfix;
-  h2 {
-    margin-bottom: -80px;
-  }
-}
-.timeline {
-  width: 100%;
-  position: relative;
-  @include clearfix;
-  .key-date { 
-    width: 100%;
-    h3, h4 { 
-      width: 50%;
-    }
-    span { 
-      margin-left: -8.5px; 
-      left: 50%;
-    } 
-  }  
-  #dot1{
-    position: absolute;
-    top: 110px;
-    left: -260px;
-  }
-  #dot2{
-    position: absolute;
-    top: 120px;
-    left: 170px;
-  }
-  #dot3{
-    position: absolute;
-    top: 120px;
-    left: 360px;
-  }
-  #dot4{
-    position: absolute;
-    top: 120px;
-    left: 860px;
-  }
-  h3 {
-    display: block;
-    text-align: right;
-    margin-right: 20px;
-  }
-  span {
-    display: block;
-    margin-left: 20%; 
-    text-align: center;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    z-index: 2;
-    padding-left: -15px;
-    background-color: black;
-  }
-  h4 {
-    text-align: center;
-    display: block;
-   /* margin-left: 0px;*/
-/*    text-align: right;
-  }
-}*/
-/*.line {
-  z-index:0;
-  position: absolute;
-  top: 178px;
-  left: -25px;
-  height: 3.5px;
-  width: 985px;
-  background-color: $green;
-  .line-start {
-    position: absolute;
-    height: 16px;
-    width: 3px;
-    top: -5px;
-    left: 983px;
-    background-color: $green;
-  }
-  .line-end {
-    position: absolute;
-    height: 16px;
-    width: 3px;
-    top: -6px;
-    left: 0px;
-    background-color: $green;
-  }
-}
-
-/**/
 .key-dates { 
   position: relative;
   @include clearfix;
@@ -117,64 +26,416 @@
       left: 10px;
     }
   } 
-  #dot1 {
-    left: -70px;
+   #dot1 {
+    left: -125px;
     top: 177px;
     h3 {
       position: absolute;
-      left: -12px;
+      left: 10px;
       width: 205px;
+      top: 15px;
     }
     h4 {
       position: absolute;
-      left: 12px;
+      left: 76px;
       width: 180px;
       font-size: 1em;
+      top: -16px;
+    }
+    .callout {
+      position: relative;
+      top: -85px;
+      left: 29px;
+      height: 50px;
+      width: 200px;
+      margin: 18px 20px 3px;
+      padding: 44px 20px;
+      background-color: #eef4f9;
+      /* easy rounded corners for modern browsers */
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+    }
+    .callout .notch {
+      position: absolute;
+      top: 86px;
+      left: 20px;
+      margin: 0;
+      border-top: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 18px solid #eef4f9;
+      padding: 0;
+      width: 0;
+      height: 0;
+      /* ie6 height fix */
+      font-size: 0;
+      line-height: 0;
+       /* ie6 transparent fix */
+      _border-right-color: pink;
+      _border-left-color: pink;
+      _filter: chroma(color=pink);
     }
   }
   #dot2 {
-    left: 100px;
+    left: -10px;
     top: 177px;
     h3 {
       position: absolute;
-      left: -2px;
+      left: -7px;
       width: 170px;
-    }
-    h4 {
-      position: absolute;
-      left: 12px;
-      width: 180px;
-      font-size: 1em;
-    }
-  }
-  #dot3 {
-    left: 295px;
-    top: 177px;
-    h3 {
-      position: absolute;
-      left: -45px;
-      width: 250px;
-    }
-    h4 {
-      position: absolute;
-      left: 12px;
-      width: 180px;
-      font-size: 1em;
-    }
-  }
-  #dot4 {
-    left: 790px;
-    top: 177px;
-    h3 {
-      position: absolute;
-      left: -38px;
-      width: 200px;
+      top: 15px;
     }
     h4 {
       position: absolute;
       left: 10px;
       width: 180px;
       font-size: 1em;
+      top: 135px;
+    }
+    .callout {
+      position: relative;
+      top: 59px;
+      left: 15px;
+      height: 50px;
+      width: 155px;
+      margin: 18px 20px 3px;
+      padding: 44px 20px;
+      background-color: #eef4f9;
+      /* easy rounded corners for modern browsers */
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+    }
+    .callout .notch {
+      position: absolute;
+      top: -18px;
+      left: 34px;
+      margin: 0;
+      border-top: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 18px solid #eef4f9;
+      padding: 0;
+      width: 0;
+      height: 0;
+      /* ie6 height fix */
+      font-size: 0;
+      line-height: 0;
+       /* ie6 transparent fix */
+      _border-right-color: pink;
+      _border-left-color: pink;
+      _filter: chroma(color=pink);
+    }
+  }
+  #dot3 {
+    left: 162px;
+    top: 177px;
+    h3 {
+      position: absolute;
+      left: -29px;
+      width: 250px;
+      top: 15px;
+    }
+    h4 {
+      position: absolute;
+      left: 34px;
+      width: 180px;
+      font-size: 1em;
+      top: -15px;
+    }
+    .callout {
+      position: relative;
+      top: -85px;
+      left: -28px;
+      height: 50px;
+      width: 210px;
+      margin: 18px 20px 3px;
+      padding: 44px 20px;
+      background-color: #eef4f9;
+      /* easy rounded corners for modern browsers */
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+    }
+    .callout .notch {
+      position: absolute;
+      top: 86px;
+      left: 77px;
+      margin: 0;
+      border-top: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 18px solid #eef4f9;
+      padding: 0;
+      width: 0;
+      height: 0;
+      /* ie6 height fix */
+      font-size: 0;
+      line-height: 0;
+       /* ie6 transparent fix */
+      _border-right-color: pink;
+      _border-left-color: pink;
+      _filter: chroma(color=pink);
+    }
+  }
+  #dot4 {
+    left: 285px;
+    top: 177px;
+    h3 {
+      position: absolute;
+      left: -38px;
+      width: 200px;
+      top: 15px;
+    }
+    h4 {
+      position: absolute;
+      left: -8px;
+      width: 180px;
+      font-size: 1em;
+      top: 130px;
+    }
+    .callout {
+      position: relative;
+      top: 59px;
+      left: -25px;
+      height: 50px;
+      width: 155px;
+      margin: 18px 20px 3px;
+      padding: 44px 20px;
+      background-color: #eef4f9;
+      /* easy rounded corners for modern browsers */
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+    }
+    .callout .notch {
+      position: absolute;
+      top: -18px;
+      left: 73px;
+      margin: 0;
+      border-top: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 18px solid #eef4f9;
+      padding: 0;
+      width: 0;
+      height: 0;
+      /* ie6 height fix */
+      font-size: 0;
+      line-height: 0;
+       /* ie6 transparent fix */
+      _border-right-color: pink;
+      _border-left-color: pink;
+      _filter: chroma(color=pink);
+    }
+  }
+  #dot5 {
+    position: absolute;
+    left: 408px;
+    top: 177px;
+    h3 {
+      position: absolute;
+      left: -82px;
+      width: 250px;
+      top: 15px;
+    }
+    h4 {
+      position: absolute;
+      left: 40px;
+      width: 180px;
+      font-size: 1em;
+      top: -16px;
+    }
+    .callout {
+      position: relative;
+      top: -85px;
+      left: -19px;
+      height: 50px;
+      width: 200px;
+      margin: 18px 20px 3px;
+      padding: 44px 20px;
+      background-color: #eef4f9;
+      /* easy rounded corners for modern browsers */
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+    }
+    .callout .notch {
+      position: absolute;
+      top: 86px;
+      left: 67px;
+      margin: 0;
+      border-top: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 18px solid #eef4f9;
+      padding: 0;
+      width: 0;
+      height: 0;
+      /* ie6 height fix */
+      font-size: 0;
+      line-height: 0;
+       /* ie6 transparent fix */
+      _border-right-color: pink;
+      _border-left-color: pink;
+      _filter: chroma(color=pink);
+    }
+  }
+  #dot6 {
+    position: absolute;
+    left: 525px;
+    top: 177px;
+    h3 {
+      position: absolute;
+      left: -93px;
+      width: 250px;
+      top: 15px;
+    }
+    h4 {
+      position: absolute;
+      left: 12px;
+      width: 180px;
+      font-size: 1em;
+      top: 135px;
+    }
+    .callout {
+      position: relative;
+      top: 59px;
+      left: -15px;
+      height: 50px;
+      width: 155px;
+      margin: 18px 20px 3px;
+      padding: 44px 20px;
+      background-color: #eef4f9;
+      /* easy rounded corners for modern browsers */
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+    }
+    .callout .notch {
+      position: absolute;
+      top: -18px;
+      left: 64px;
+      margin: 0;
+      border-top: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 18px solid #eef4f9;
+      padding: 0;
+      width: 0;
+      height: 0;
+      /* ie6 height fix */
+      font-size: 0;
+      line-height: 0;
+       /* ie6 transparent fix */
+      _border-right-color: pink;
+      _border-left-color: pink;
+      _filter: chroma(color=pink);
+    }
+  }
+  #dot7 {
+    position: absolute;
+    left: 645px;
+    top: 177px;
+    h3 {
+      position: absolute;
+      left: -95px;
+      width: 250px;
+      top: 15px;
+    }
+    h4 {
+      position: absolute;
+      left: 39px;
+      width: 180px;
+      font-size: 1em;
+      top: -16px;
+    }
+    .callout {
+      position: relative;
+      top: -85px;
+      left: -9px;
+      height: 50px;
+      width: 200px;
+      margin: 18px 20px 3px;
+      padding: 44px 20px;
+      background-color: #eef4f9;
+      /* easy rounded corners for modern browsers */
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+    }
+    .callout .notch {
+      position: absolute;
+      top: 86px;
+      left: 58px;
+      margin: 0;
+      border-top: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 18px solid #eef4f9;
+      padding: 0;
+      width: 0;
+      height: 0;
+      /* ie6 height fix */
+      font-size: 0;
+      line-height: 0;
+       /* ie6 transparent fix */
+      _border-right-color: pink;
+      _border-left-color: pink;
+      _filter: chroma(color=pink);
+    }
+  }
+  #dot8 {
+    position: absolute;
+    left: 770px;
+    top: 177px;
+    h3 {
+      position: absolute;
+      left: -88px;
+      width: 250px;
+      top: 15px;
+    }
+    h4 {
+      position: absolute;
+      left: 13px;
+      width: 180px;
+      font-size: 1em;
+      top: 135px;
+    }
+    .callout {
+      position: relative;
+      top: 59px;
+      left: -15px;
+      height: 50px;
+      width: 155px;
+      margin: 18px 20px 3px;
+      padding: 44px 20px;
+      background-color: #eef4f9;
+      /* easy rounded corners for modern browsers */
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+    }
+    .callout .notch {
+      position: absolute;
+      top: -18px;
+      left: 64px;
+      margin: 0;
+      border-top: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 18px solid #eef4f9;
+      padding: 0;
+      width: 0;
+      height: 0;
+      /* ie6 height fix */
+      font-size: 0;
+      line-height: 0;
+       /* ie6 transparent fix */
+      _border-right-color: pink;
+      _border-left-color: pink;
+      _filter: chroma(color=pink);
     }
   }
   display: inline-block;
