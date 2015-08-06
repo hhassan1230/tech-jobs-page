@@ -17,16 +17,16 @@ $("document").ready(function(){
         (this.classList.contains("is-active") === true) ? $('.nav-list').show() : $('.nav-list').hide();
       })
   };
-  $( window ).resize(function() {
-      $('.nav-list').hide();
-    if ($(window).width() < 750){
-      $(hamDiv).on('click', function(){
-        (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
-        (this.classList.contains("is-active") === true) ? $('.nav-list').show() : $('.nav-list').hide();
-      })
-    } else {
-      // $(hamDiv).classList.remove("is-active");
-      $('.nav-list').show();
-    };
-  });
+  // $( window ).resize(function() {
+  //     $('.nav-list').hide();
+  //   if ($(window).width() < 750){
+  //     $(hamDiv).on('click', function(){
+  //       (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+  //       (this.classList.contains("is-active") === true) ? $('.nav-list').show() : $('.nav-list').hide();
+  //     })
+  //   } else {
+  //     // $(hamDiv).classList.remove("is-active");
+  //     $('.nav-list').show();
+  //   };
+  // });
 })
