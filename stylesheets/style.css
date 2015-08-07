@@ -284,19 +284,25 @@ h1, h2 {
     */ }
   .timeline #dot2 {
     position: absolute;
-    top: 275px;
+    top: 255px;
     /*    left: 20%;
     */ }
   .timeline #dot3 {
     position: absolute;
-    top: 385px;
+    top: 340px;
     /*    left: 11%;
     */ }
-  .timeline #dot4 {
+  .timeline #dot6 {
     position: absolute;
-    top: 607px;
+    top: 427px;
     /*    left: 22.5%;
     */ }
+  .timeline #dot7 {
+    position: absolute;
+    top: 580px; }
+  .timeline #dot8 {
+    position: absolute;
+    top: 675px; }
   .timeline h3 {
     font-weight: 500;
     display: block;
@@ -327,7 +333,7 @@ h1, h2 {
   position: absolute;
   top: 110px;
   left: 49.5%;
-  height: 497px;
+  height: 565px;
   width: 3.5px;
   background-color: #16DDA4; }
   .line .line-start {
@@ -341,7 +347,7 @@ h1, h2 {
     position: absolute;
     height: 5px;
     width: 16px;
-    top: 492px;
+    top: 562px;
     left: -6px;
     background-color: #16DDA4; }
 
@@ -356,7 +362,7 @@ footer {
   footer .partner-logos {
     padding: 20px 0px 40px; }
   footer h2 {
-    margin-top: 700px; }
+    margin-top: 760px; }
   footer a {
     display: block;
     padding-bottom: 20px; }
@@ -643,97 +649,6 @@ footer {
   .curriculum .curriculum-blurbs .image-blurb {
     margin-top: 40px; }
 
-  /*.key-dates { 
-    position: relative;
-    @include clearfix;
-    h2 {
-      margin-bottom: -80px;
-    }
-  }
-  .timeline {
-    width: 100%;
-    position: relative;
-    @include clearfix;
-    .key-date { 
-      width: 100%;
-      h3, h4 { 
-        width: 50%;
-      }
-      span { 
-        margin-left: -8.5px; 
-        left: 50%;
-      } 
-    }  
-    #dot1{
-      position: absolute;
-      top: 110px;
-      left: -260px;
-    }
-    #dot2{
-      position: absolute;
-      top: 120px;
-      left: 170px;
-    }
-    #dot3{
-      position: absolute;
-      top: 120px;
-      left: 360px;
-    }
-    #dot4{
-      position: absolute;
-      top: 120px;
-      left: 860px;
-    }
-    h3 {
-      display: block;
-      text-align: right;
-      margin-right: 20px;
-    }
-    span {
-      display: block;
-      margin-left: 20%; 
-      text-align: center;
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      z-index: 2;
-      padding-left: -15px;
-      background-color: black;
-    }
-    h4 {
-      text-align: center;
-      display: block;
-     /* margin-left: 0px;*/
-  /*    text-align: right;
-    }
-  }*/
-  /*.line {
-    z-index:0;
-    position: absolute;
-    top: 178px;
-    left: -25px;
-    height: 3.5px;
-    width: 985px;
-    background-color: $green;
-    .line-start {
-      position: absolute;
-      height: 16px;
-      width: 3px;
-      top: -5px;
-      left: 983px;
-      background-color: $green;
-    }
-    .line-end {
-      position: absolute;
-      height: 16px;
-      width: 3px;
-      top: -6px;
-      left: 0px;
-      background-color: $green;
-    }
-  }
-  
-  /**/
   .key-dates {
     position: relative; }
     .key-dates::after {
@@ -741,11 +656,108 @@ footer {
       content: "";
       display: table; }
     .key-dates h2 {
-      margin-bottom: -80px; }
+      margin-bottom: -40px; }
 
   .timeline {
     width: 100%;
     position: relative;
+    /*  #dot4 {
+        left: 295px;
+        top: 177px;
+        h3 {
+          position: absolute;
+          left: -12px;
+          width: 230px;
+          top: 15px;
+        }
+        h4 {
+          position: absolute;
+          left: 31px;
+          width: 180px;
+          font-size: 1em;
+          top: 130px;
+        }
+        .callout {
+          position: relative;
+          top: 59px;
+          left: -25px;
+          height: 50px;
+          width: 205px;
+          margin: 18px 20px 3px;
+          padding: 44px 20px;
+          background-color: #eef4f9;
+          -moz-border-radius: 6px;
+          -webkit-border-radius: 6px;
+          border-radius: 6px;
+        }
+        .callout .notch {
+          position: absolute;
+          top: -18px;
+          left: 73px;
+          margin: 0;
+          border-top: 0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-bottom: 18px solid #eef4f9;
+          padding: 0;
+          width: 0;
+          height: 0;
+          font-size: 0;
+          line-height: 0;
+          _border-right-color: pink;
+          _border-left-color: pink;
+          _filter: chroma(color=pink);
+        }
+      }
+      #dot5 {
+        position: absolute;
+        left: 408px;
+        top: 177px;
+        h3 {
+          position: absolute;
+          left: -90px;
+          width: 250px;
+          top: 15px;
+        }
+        h4 {
+          position: absolute;
+          left: 5px;
+          width: 180px;
+          font-size: 1em;
+          top: -16px;
+        }
+        .callout {
+          position: relative;
+          top: -85px;
+          left: -19px;
+          height: 50px;
+          width: 155px;
+          margin: 18px 20px 3px;
+          padding: 44px 20px;
+          background-color: #eef4f9;
+          -moz-border-radius: 6px;
+          -webkit-border-radius: 6px;
+          border-radius: 6px;
+        }
+        .callout .notch {
+          position: absolute;
+          top: 86px;
+          left: 67px;
+          margin: 0;
+          border-top: 0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-top: 18px solid #eef4f9;
+          padding: 0;
+          width: 0;
+          height: 0;
+          font-size: 0;
+          line-height: 0;
+          _border-right-color: pink;
+          _border-left-color: pink;
+          _filter: chroma(color=pink);
+        }
+      }*/
     display: inline-block; }
     .timeline::after {
       clear: both;
@@ -765,53 +777,266 @@ footer {
         width: 180px;
         left: 10px; }
     .timeline #dot1 {
-      left: -70px;
+      left: -115px;
       top: 177px; }
       .timeline #dot1 h3 {
         position: absolute;
-        left: -12px;
-        width: 205px; }
+        left: 10px;
+        width: 205px;
+        top: 15px; }
       .timeline #dot1 h4 {
         position: absolute;
-        left: 12px;
+        left: 83px;
         width: 180px;
-        font-size: 1em; }
+        font-size: 1em;
+        top: -22px; }
+      .timeline #dot1 .callout {
+        position: relative;
+        top: -85px;
+        left: 29px;
+        height: 50px;
+        width: 200px;
+        margin: 18px 20px 3px;
+        padding: 44px 20px;
+        background-color: #eef4f9;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px; }
+      .timeline #dot1 .callout .notch {
+        position: absolute;
+        top: 86px;
+        left: 20px;
+        margin: 0;
+        border-top: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 18px solid #eef4f9;
+        padding: 0;
+        width: 0;
+        height: 0;
+        font-size: 0;
+        line-height: 0;
+        _border-right-color: pink;
+        _border-left-color: pink;
+        _filter: chroma(color=pink); }
     .timeline #dot2 {
-      left: 100px;
+      left: 12px;
       top: 177px; }
       .timeline #dot2 h3 {
         position: absolute;
-        left: -2px;
-        width: 170px; }
+        left: -7px;
+        width: 170px;
+        top: 15px; }
       .timeline #dot2 h4 {
         position: absolute;
-        left: 12px;
+        left: 45.5px;
         width: 180px;
-        font-size: 1em; }
+        font-size: 1em;
+        top: 120px; }
+      .timeline #dot2 .callout {
+        position: relative;
+        top: 59px;
+        left: 15px;
+        height: 50px;
+        width: 155px;
+        margin: 18px 20px 3px;
+        padding: 44px 20px;
+        background-color: #eef4f9;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px; }
+      .timeline #dot2 .callout .notch {
+        position: absolute;
+        top: -18px;
+        left: 34px;
+        margin: 0;
+        border-top: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 18px solid #eef4f9;
+        padding: 0;
+        width: 0;
+        height: 0;
+        font-size: 0;
+        line-height: 0;
+        _border-right-color: pink;
+        _border-left-color: pink;
+        _filter: chroma(color=pink); }
     .timeline #dot3 {
-      left: 295px;
+      left: 170px;
       top: 177px; }
       .timeline #dot3 h3 {
         position: absolute;
-        left: -45px;
-        width: 250px; }
+        left: -86px;
+        width: 250px;
+        top: 15px; }
       .timeline #dot3 h4 {
         position: absolute;
-        left: 12px;
+        left: 4px;
         width: 180px;
-        font-size: 1em; }
-    .timeline #dot4 {
-      left: 790px;
+        font-size: 1em;
+        top: -23px; }
+      .timeline #dot3 .callout {
+        position: relative;
+        top: -85px;
+        left: -28px;
+        height: 50px;
+        width: 155px;
+        margin: 18px 20px 3px;
+        padding: 44px 20px;
+        background-color: #eef4f9;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px; }
+      .timeline #dot3 .callout .notch {
+        position: absolute;
+        top: 86px;
+        left: 77px;
+        margin: 0;
+        border-top: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 18px solid #eef4f9;
+        padding: 0;
+        width: 0;
+        height: 0;
+        font-size: 0;
+        line-height: 0;
+        _border-right-color: pink;
+        _border-left-color: pink;
+        _filter: chroma(color=pink); }
+    .timeline #dot6 {
+      position: absolute;
+      left: 327px;
       top: 177px; }
-      .timeline #dot4 h3 {
+      .timeline #dot6 h3 {
+        position: absolute;
+        left: -34px;
+        width: 250px;
+        top: 15px; }
+      .timeline #dot6 h4 {
+        position: absolute;
+        left: 38px;
+        width: 180px;
+        font-size: 1em;
+        top: 122px; }
+      .timeline #dot6 .callout {
+        position: relative;
+        top: 59px;
+        left: -15px;
+        height: 50px;
+        width: 200px;
+        margin: 18px 20px 3px;
+        padding: 44px 20px;
+        background-color: #eef4f9;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px; }
+      .timeline #dot6 .callout .notch {
+        position: absolute;
+        top: -18px;
+        left: 64px;
+        margin: 0;
+        border-top: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 18px solid #eef4f9;
+        padding: 0;
+        width: 0;
+        height: 0;
+        font-size: 0;
+        line-height: 0;
+        _border-right-color: pink;
+        _border-left-color: pink;
+        _filter: chroma(color=pink); }
+    .timeline #dot7 {
+      position: absolute;
+      left: 645px;
+      top: 177px; }
+      .timeline #dot7 h3 {
+        position: absolute;
+        left: -89px;
+        width: 250px;
+        top: 15px; }
+      .timeline #dot7 h4 {
+        position: absolute;
+        left: 17px;
+        width: 180px;
+        font-size: 1em;
+        top: -21px; }
+      .timeline #dot7 .callout {
+        position: relative;
+        top: -85px;
+        left: -9px;
+        height: 50px;
+        width: 155px;
+        margin: 18px 20px 3px;
+        padding: 44px 20px;
+        background-color: #eef4f9;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px; }
+      .timeline #dot7 .callout .notch {
+        position: absolute;
+        top: 86px;
+        left: 58px;
+        margin: 0;
+        border-top: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 18px solid #eef4f9;
+        padding: 0;
+        width: 0;
+        height: 0;
+        font-size: 0;
+        line-height: 0;
+        _border-right-color: pink;
+        _border-left-color: pink;
+        _filter: chroma(color=pink); }
+    .timeline #dot8 {
+      position: absolute;
+      left: 800px;
+      top: 177px; }
+      .timeline #dot8 h3 {
+        position: absolute;
+        left: -84px;
+        width: 250px;
+        top: 15px; }
+      .timeline #dot8 h4 {
         position: absolute;
         left: -38px;
-        width: 200px; }
-      .timeline #dot4 h4 {
-        position: absolute;
-        left: 10px;
         width: 180px;
-        font-size: 1em; }
+        font-size: 1em;
+        top: 122px; }
+      .timeline #dot8 .callout {
+        position: relative;
+        top: 59px;
+        left: -65px;
+        height: 50px;
+        width: 155px;
+        margin: 18px 20px 3px;
+        padding: 44px 20px;
+        background-color: #eef4f9;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px; }
+      .timeline #dot8 .callout .notch {
+        position: absolute;
+        top: -18px;
+        left: 113px;
+        margin: 0;
+        border-top: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 18px solid #eef4f9;
+        padding: 0;
+        width: 0;
+        height: 0;
+        font-size: 0;
+        line-height: 0;
+        _border-right-color: pink;
+        _border-left-color: pink;
+        _filter: chroma(color=pink); }
     .timeline::after {
       clear: both;
       content: "";
@@ -875,7 +1100,9 @@ footer {
         margin-right: 0; }
       footer .partner-logos a {
         display: inline-block;
-        margin-right: 60px; }
+        margin-right: 80px; }
+        footer .partner-logos a:first-child {
+          margin-left: 90px; }
         footer .partner-logos a img {
           height: 60px;
           width: auto;
