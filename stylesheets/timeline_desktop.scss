@@ -2,7 +2,7 @@
   position: relative;
   @include clearfix;
   h2 {
-    margin-bottom: -80px;
+    margin-bottom: -40px;
   }
 }
 .timeline {
@@ -27,7 +27,7 @@
     }
   } 
    #dot1 {
-    left: -125px;
+    left: -115px;
     top: 177px;
     h3 {
       position: absolute;
@@ -37,10 +37,10 @@
     }
     h4 {
       position: absolute;
-      left: 76px;
+      left: 83px;
       width: 180px;
       font-size: 1em;
-      top: -16px;
+      top: -22px;
     }
     .callout {
       position: relative;
@@ -51,7 +51,6 @@
       margin: 18px 20px 3px;
       padding: 44px 20px;
       background-color: #eef4f9;
-      /* easy rounded corners for modern browsers */
       -moz-border-radius: 6px;
       -webkit-border-radius: 6px;
       border-radius: 6px;
@@ -68,17 +67,15 @@
       padding: 0;
       width: 0;
       height: 0;
-      /* ie6 height fix */
       font-size: 0;
       line-height: 0;
-       /* ie6 transparent fix */
       _border-right-color: pink;
       _border-left-color: pink;
       _filter: chroma(color=pink);
     }
   }
   #dot2 {
-    left: -10px;
+    left: 12px;
     top: 177px;
     h3 {
       position: absolute;
@@ -88,10 +85,10 @@
     }
     h4 {
       position: absolute;
-      left: 10px;
+      left: 45.5px;
       width: 180px;
       font-size: 1em;
-      top: 135px;
+      top: 120px;
     }
     .callout {
       position: relative;
@@ -102,7 +99,6 @@
       margin: 18px 20px 3px;
       padding: 44px 20px;
       background-color: #eef4f9;
-      /* easy rounded corners for modern browsers */
       -moz-border-radius: 6px;
       -webkit-border-radius: 6px;
       border-radius: 6px;
@@ -119,41 +115,38 @@
       padding: 0;
       width: 0;
       height: 0;
-      /* ie6 height fix */
       font-size: 0;
       line-height: 0;
-       /* ie6 transparent fix */
       _border-right-color: pink;
       _border-left-color: pink;
       _filter: chroma(color=pink);
     }
   }
   #dot3 {
-    left: 162px;
+    left: 170px;
     top: 177px;
     h3 {
       position: absolute;
-      left: -29px;
+      left: -86px;
       width: 250px;
       top: 15px;
     }
     h4 {
       position: absolute;
-      left: 34px;
+      left: 4px;
       width: 180px;
       font-size: 1em;
-      top: -15px;
+      top: -23px;
     }
     .callout {
       position: relative;
       top: -85px;
       left: -28px;
       height: 50px;
-      width: 210px;
+      width: 155px;
       margin: 18px 20px 3px;
       padding: 44px 20px;
       background-color: #eef4f9;
-      /* easy rounded corners for modern browsers */
       -moz-border-radius: 6px;
       -webkit-border-radius: 6px;
       border-radius: 6px;
@@ -170,27 +163,25 @@
       padding: 0;
       width: 0;
       height: 0;
-      /* ie6 height fix */
       font-size: 0;
       line-height: 0;
-       /* ie6 transparent fix */
       _border-right-color: pink;
       _border-left-color: pink;
       _filter: chroma(color=pink);
     }
   }
-  #dot4 {
-    left: 285px;
+/*  #dot4 {
+    left: 295px;
     top: 177px;
     h3 {
       position: absolute;
-      left: -38px;
-      width: 200px;
+      left: -12px;
+      width: 230px;
       top: 15px;
     }
     h4 {
       position: absolute;
-      left: -8px;
+      left: 31px;
       width: 180px;
       font-size: 1em;
       top: 130px;
@@ -200,11 +191,10 @@
       top: 59px;
       left: -25px;
       height: 50px;
-      width: 155px;
+      width: 205px;
       margin: 18px 20px 3px;
       padding: 44px 20px;
       background-color: #eef4f9;
-      /* easy rounded corners for modern browsers */
       -moz-border-radius: 6px;
       -webkit-border-radius: 6px;
       border-radius: 6px;
@@ -221,10 +211,8 @@
       padding: 0;
       width: 0;
       height: 0;
-      /* ie6 height fix */
       font-size: 0;
       line-height: 0;
-       /* ie6 transparent fix */
       _border-right-color: pink;
       _border-left-color: pink;
       _filter: chroma(color=pink);
@@ -236,13 +224,13 @@
     top: 177px;
     h3 {
       position: absolute;
-      left: -82px;
+      left: -90px;
       width: 250px;
       top: 15px;
     }
     h4 {
       position: absolute;
-      left: 30px;
+      left: 5px;
       width: 180px;
       font-size: 1em;
       top: -16px;
@@ -252,11 +240,10 @@
       top: -85px;
       left: -19px;
       height: 50px;
-      width: 200px;
+      width: 155px;
       margin: 18px 20px 3px;
       padding: 44px 20px;
       background-color: #eef4f9;
-      /* easy rounded corners for modern browsers */
       -moz-border-radius: 6px;
       -webkit-border-radius: 6px;
       border-radius: 6px;
@@ -273,42 +260,39 @@
       padding: 0;
       width: 0;
       height: 0;
-      /* ie6 height fix */
       font-size: 0;
       line-height: 0;
-       /* ie6 transparent fix */
       _border-right-color: pink;
       _border-left-color: pink;
       _filter: chroma(color=pink);
     }
-  }
+  }*/
   #dot6 {
     position: absolute;
-    left: 525px;
+    left: 327px;
     top: 177px;
     h3 {
       position: absolute;
-      left: -93px;
+      left: -34px;
       width: 250px;
       top: 15px;
     }
     h4 {
       position: absolute;
-      left: 12px;
+      left: 38px;
       width: 180px;
       font-size: 1em;
-      top: 135px;
+      top: 122px;
     }
     .callout {
       position: relative;
       top: 59px;
       left: -15px;
       height: 50px;
-      width: 155px;
+      width: 200px;
       margin: 18px 20px 3px;
       padding: 44px 20px;
       background-color: #eef4f9;
-      /* easy rounded corners for modern browsers */
       -moz-border-radius: 6px;
       -webkit-border-radius: 6px;
       border-radius: 6px;
@@ -325,10 +309,8 @@
       padding: 0;
       width: 0;
       height: 0;
-      /* ie6 height fix */
       font-size: 0;
       line-height: 0;
-       /* ie6 transparent fix */
       _border-right-color: pink;
       _border-left-color: pink;
       _filter: chroma(color=pink);
@@ -340,27 +322,26 @@
     top: 177px;
     h3 {
       position: absolute;
-      left: -95px;
+      left: -89px;
       width: 250px;
       top: 15px;
     }
     h4 {
       position: absolute;
-      left: 39px;
+      left: 17px;
       width: 180px;
       font-size: 1em;
-      top: -16px;
+      top: -21px;
     }
     .callout {
       position: relative;
       top: -85px;
       left: -9px;
       height: 50px;
-      width: 200px;
+      width: 155px;
       margin: 18px 20px 3px;
       padding: 44px 20px;
       background-color: #eef4f9;
-      /* easy rounded corners for modern browsers */
       -moz-border-radius: 6px;
       -webkit-border-radius: 6px;
       border-radius: 6px;
@@ -377,10 +358,8 @@
       padding: 0;
       width: 0;
       height: 0;
-      /* ie6 height fix */
       font-size: 0;
       line-height: 0;
-       /* ie6 transparent fix */
       _border-right-color: pink;
       _border-left-color: pink;
       _filter: chroma(color=pink);
@@ -388,31 +367,30 @@
   }
   #dot8 {
     position: absolute;
-    left: 770px;
+    left: 800px;
     top: 177px;
     h3 {
       position: absolute;
-      left: -88px;
+      left: -84px;
       width: 250px;
       top: 15px;
     }
     h4 {
       position: absolute;
-      left: 13px;
+      left: -38px;
       width: 180px;
       font-size: 1em;
-      top: 135px;
+      top: 122px;
     }
     .callout {
       position: relative;
       top: 59px;
-      left: -15px;
+      left: -65px;
       height: 50px;
       width: 155px;
       margin: 18px 20px 3px;
       padding: 44px 20px;
       background-color: #eef4f9;
-      /* easy rounded corners for modern browsers */
       -moz-border-radius: 6px;
       -webkit-border-radius: 6px;
       border-radius: 6px;
@@ -420,7 +398,7 @@
     .callout .notch {
       position: absolute;
       top: -18px;
-      left: 64px;
+      left: 113px;
       margin: 0;
       border-top: 0;
       border-left: 10px solid transparent;
@@ -429,10 +407,8 @@
       padding: 0;
       width: 0;
       height: 0;
-      /* ie6 height fix */
       font-size: 0;
       line-height: 0;
-       /* ie6 transparent fix */
       _border-right-color: pink;
       _border-left-color: pink;
       _filter: chroma(color=pink);

@@ -27,20 +27,28 @@
 */  }
   #dot2{
     position: absolute;
-    top: 275px;
+    top: 255px;
 /*    left: 20%;
 */  }
   #dot3{
     position: absolute;
-    top: 385px;
+    top: 340px;
 /*    left: 11%;
 */  }
-  #dot4{
+  #dot6{
     position: absolute;
-    top: 607px;
+    top: 427px;
 /*    left: 22.5%;
 */  }
+  #dot7{
+    position: absolute;
+    top: 580px;
+  }
 
+  #dot8{
+    position: absolute;
+    top: 675px;
+  }
   h3 {
     font-weight: 500;
     display: block;
@@ -74,7 +82,7 @@
   position: absolute;
   top: 110px;
   left: 49.5%;
-  height: 497px;
+  height: 565px;
   width: 3.5px;
   background-color: $green;
   .line-start {
@@ -89,7 +97,7 @@
     position: absolute;
     height: 5px;
     width: 16px;
-    top: 492px;
+    top: 562px;
     left: -6px;
     background-color: $green;
   }
