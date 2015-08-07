@@ -253,63 +253,6 @@ h1, h2 {
 .curriculum .curriculum-blurbs .image-blurb {
   margin-top: 30px; }
 
-.nav-bar {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  z-index: 9;
-  background-color: rgba(0, 0, 0, 0.7);
-  top: 0px;
-  left: 0px;
-  position: fixed; }
-  .nav-bar:last-child {
-    margin-right: 0; }
-  .nav-bar::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .nav-bar .logo {
-    width: 100%;
-    text-align: center; }
-    .nav-bar .logo p {
-      color: #16DDA4;
-      font-size: 0.56278em;
-      margin-right: 0px;
-      font-weight: 900; }
-
-nav {
-  display: block; }
-  nav::after {
-    clear: both;
-    content: "";
-    display: table; }
-  nav ul {
-    font-family: Roboto, sans-serif;
-    width: 100%;
-    text-align: center;
-    padding-left: 0px;
-    margin: 0px;
-    padding-bottom: 10px; }
-    nav ul::after {
-      clear: both;
-      content: "";
-      display: table; }
-  nav li {
-    padding: 0px 3px;
-    font-size: 0.56278em;
-    border-right: 2px solid #16DDA4;
-    display: inline; }
-    nav li:last-child {
-      border-right: none; }
-    nav li a {
-      color: white;
-      padding-left: 3px;
-      padding-right: 5px;
-      text-decoration: none; }
-    nav li a:hover {
-      color: #16DDA4; }
-
 .key-dates {
   position: relative; }
   .key-dates::after {
@@ -484,6 +427,124 @@ footer {
   text-decoration: none;
   border: none; }
 
+@media screen and (max-width: 750px) {
+  .nav-bar {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    .nav-bar:last-child {
+      margin-right: 0; }
+    .nav-bar::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .nav-bar .logo {
+      width: 100%;
+      z-index: 9;
+      background-color: rgba(0, 0, 0, 0.7);
+      top: 0px;
+      left: 0px;
+      position: fixed; }
+      .nav-bar .logo p {
+        color: #16DDA4;
+        font-size: 0.56278em;
+        font-weight: 900;
+        float: left; }
+    .nav-bar nav {
+      /* active state, i.e. menu open */ }
+      .nav-bar nav button {
+        float: right; }
+      .nav-bar nav .nav-list {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        display: none; }
+        .nav-bar nav .nav-list:last-child {
+          margin-right: 0; }
+        .nav-bar nav .nav-list ul {
+          z-index: 9;
+          padding-left: 0;
+          padding-top: 10px;
+          list-style-type: none;
+          color: black;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.7);
+          margin-bottom: 0px;
+          padding-bottom: 2px;
+          position: fixed;
+          margin-top: 28px; }
+        .nav-bar nav .nav-list li {
+          margin-top: 5px;
+          margin-bottom: 5px;
+          color: #000000;
+          text-align: center;
+          padding-bottom: 5px;
+          border-bottom: 1px solid #16DDA4; }
+          .nav-bar nav .nav-list li:last-child {
+            border-bottom: none;
+            padding-bottom: 1px; }
+        .nav-bar nav .nav-list a {
+          color: white; }
+        .nav-bar nav .nav-list a:hover {
+          color: #16DDA4; }
+      .nav-bar nav .c-hamburger {
+        top: 0px;
+        right: 0px;
+        display: block;
+        position: fixed;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        width: 32px;
+        height: 28px;
+        z-index: 15;
+        font-size: 0;
+        text-indent: -9999px;
+        appearance: none;
+        box-shadow: none;
+        border-radius: none;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s; }
+      .nav-bar nav .c-hamburger:focus {
+        outline: none; }
+      .nav-bar nav .c-hamburger span {
+        display: block;
+        position: absolute;
+        top: 44px;
+        left: 18px;
+        right: 18px;
+        height: 2px;
+        width: 15px;
+        margin-left: -9.5px;
+        margin-top: -31.8px;
+        background: white; }
+      .nav-bar nav .c-hamburger span::before,
+      .nav-bar nav .c-hamburger span::after {
+        position: absolute;
+        display: block;
+        left: 0;
+        margin-top: 13px;
+        margin-bottom: 13px;
+        margin-left: 0px;
+        height: 2px;
+        width: 15px;
+        background-color: #fff;
+        content: ""; }
+      .nav-bar nav .c-hamburger span::before {
+        top: -20px; }
+      .nav-bar nav .c-hamburger span::after {
+        bottom: -20px; }
+      .nav-bar nav .c-hamburger--rot {
+        background-color: #16DDA4; }
+      .nav-bar nav .c-hamburger--rot span {
+        transition: transform 0.3s; }
+      .nav-bar nav .c-hamburger--rot.is-active {
+        background-color: #30856d; }
+      .nav-bar nav .c-hamburger--rot.is-active span {
+        transform: rotate(90deg); } }
 @media screen and (min-width: 750px) {
   h1 {
     font-size: 4.20873em;
@@ -825,6 +886,67 @@ footer {
   footer h2 {
     margin-top: 310px; }
 
+  .nav-bar {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0px;
+    left: 0px;
+    position: fixed; }
+    .nav-bar:last-child {
+      margin-right: 0; }
+    .nav-bar::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .nav-bar .logo {
+      width: 100%;
+      text-align: center; }
+      .nav-bar .logo p {
+        color: #16DDA4;
+        font-size: 0.56278em;
+        margin-right: 0px;
+        font-weight: 900; }
+
+  nav {
+    display: block; }
+    nav::after {
+      clear: both;
+      content: "";
+      display: table; }
+    nav .nav-list {
+      display: block; }
+    nav button {
+      visibility: hidden; }
+    nav ul {
+      font-family: Roboto, sans-serif;
+      width: 100%;
+      text-align: center;
+      padding-left: 0px;
+      margin: 0px;
+      padding-bottom: 10px; }
+      nav ul::after {
+        clear: both;
+        content: "";
+        display: table; }
+    nav li {
+      padding: 0px 3px;
+      font-size: 0.56278em;
+      border-right: 2px solid #16DDA4;
+      display: inline; }
+      nav li:last-child {
+        border-right: none; }
+      nav li a {
+        color: white;
+        padding-left: 3px;
+        padding-right: 5px;
+        text-decoration: none; }
+      nav li a:hover {
+        color: #16DDA4; }
+
   .nav-bar .logo {
     width: auto;
     padding-left: 30px;
@@ -840,8 +962,7 @@ footer {
       font-family: Roboto, sans-serif;
       font-size: 14px;
       height: 1em;
-      width: 100%;
-      padding: 15px 0px; }
+      width: 100%; }
     nav li {
       padding: 0px 10px;
       display: inline;

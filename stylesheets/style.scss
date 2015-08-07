@@ -3,10 +3,13 @@
 @import "base";
 
 @import "layout_1px";
-@import "nav_1px";
 @import "timeline_1px";
 @import "footer_1px";
 @import "mailchimp_1px";
+
+@media screen and (max-width: 750px) {
+	@import "nav_1px";	
+}
 
 @media screen and (min-width: 750px) {
   @import "layout_desktop";
