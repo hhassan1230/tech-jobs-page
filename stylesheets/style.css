@@ -492,7 +492,8 @@ footer {
             border-bottom: none;
             padding-bottom: 1px; }
         .nav-bar nav .nav-list a {
-          color: white; }
+          color: white;
+          text-decoration: none; }
         .nav-bar nav .nav-list a:hover {
           color: #16DDA4; }
       .nav-bar nav .c-hamburger {
