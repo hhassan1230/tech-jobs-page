@@ -3,43 +3,136 @@
   @include clearfix;
   .logo {
     width: 100%;
-    text-align: center;
+    // text-align: center;
     p {
       color: $green;
       font-size: modular-scale(-2);
-      margin-right: 0px;
       font-weight: 900;
+      float: left;
     }
-  }
   z-index: 9;
   background-color: rgba(0, 0, 0, .7);
   top: 0px;
   left: 0px;
   position: fixed;
-}
-nav {
-  @include row();
-  ul {
-    @include clearfix;
-    font-family: $font;
-    width: 100%;
-    text-align: center;
-    padding-left: 0px;
-    margin: 0px;
-    padding-bottom: 10px;
   }
-  li {
-    padding: 0px 3px;
-    font-size: modular-scale(-2);
-    border-right: 2px solid $green;
-    &:last-child { border-right: none; }
-    display: inline;
-    a {
-      color: white;
-      padding-left: 3px;
-      padding-right: 5px;
+nav {
+  button { 
+    float:right;
+  }
+  .nav-list {
+    @include span-columns(12);
+    display: none;
+
+    ul {
+      z-index: 9;
+      padding-left: 0;
+      padding-top: 10px;
+      list-style-type: none;
+      color: black;
+      width: 100%;
+      background-color: rgba(0, 0, 0, .7);
+      margin-bottom: 0px;
+      padding-bottom: 2px;
+      position: fixed;
+      margin-top: 28px;
+    }
+    li {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      color:#000000;
+      text-align: center;
+      padding-bottom: 5px;
+      border-bottom: 1px solid $green;
+      &:last-child {
+          border-bottom: none;
+          padding-bottom: 1px;
+
+        }
+    }
+    a { 
+      color: white; 
       text-decoration: none;
     }
-    a:hover { color:$green; }
+    a:hover {
+      color: $green;
+    }
   }
+  .c-hamburger {
+    top: 0px;
+    right: 0px;
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 32px;
+    height: 28px;
+    z-index: 15;
+    font-size: 0;
+    text-indent: -9999px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .c-hamburger:focus {
+    outline: none;
+  }
+  .c-hamburger span {
+    display: block;
+    position: absolute;
+    top: 44px;
+    left: 18px;
+    right: 18px;
+    height: 2px;
+    width: 15px;
+    margin-left: -9.5px;
+    margin-top: -31.8px;
+    background: white;
+  }
+
+  .c-hamburger span::before,
+  .c-hamburger span::after {
+    position: absolute;
+    display: block;
+    left: 0;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 0px;
+    height: 2px;
+    width: 15px;
+    background-color: #fff;
+    content: "";
+  }
+
+  .c-hamburger span::before {
+    top: -20px;
+  }
+
+  .c-hamburger span::after {
+    bottom: -20px;
+  }
+  .c-hamburger--rot {
+    background-color: $green;
+  }
+
+  .c-hamburger--rot span {
+    transition: transform 0.3s;
+  }
+
+  /* active state, i.e. menu open */
+  .c-hamburger--rot.is-active {
+    background-color: #30856d;
+  }
+
+  .c-hamburger--rot.is-active span {
+    transform: rotate(90deg);
+  }
+
+  }
+  
 }
