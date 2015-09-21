@@ -19,7 +19,8 @@ a {
   color: white;
   text-decoration: none;
 }
-li a {
+
+p > a, li a {
   color: $green;
   text-decoration: underline;
 }

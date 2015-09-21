@@ -22,7 +22,7 @@ a {
   color: white;
   text-decoration: none; }
 
-li a {
+p > a, li a {
   color: #16DDA4;
   text-decoration: underline; }
 
@@ -624,6 +624,7 @@ footer {
       margin-top: 25px; }
 
   .hero {
+    width: 100%;
     background-size: 1500px; }
     .hero .hero-blurb {
       max-width: 80em; }
@@ -1140,6 +1141,7 @@ footer {
         font-weight: 900; }
 
   nav {
+    background-color: black;
     display: block; }
     nav::after {
       clear: both;
