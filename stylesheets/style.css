@@ -232,6 +232,8 @@ h1, h2 {
   .eligibility ul li {
     margin-left: 40px;
     padding-bottom: 30px; }
+  .eligibility ul p {
+    padding-left: 20px; }
   .eligibility p {
     text-align: center;
     font-weight: 100;
@@ -610,8 +612,6 @@ footer {
     .eligibility .long-button {
       padding-right: 10px;
       padding-left: 10px; }
-    .eligibility .apply-button {
-      text-align: left; }
 
   .application-steps {
     float: left;
