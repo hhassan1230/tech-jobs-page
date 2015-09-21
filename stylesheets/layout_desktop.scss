@@ -45,10 +45,11 @@ section.curriculum .image-blurb {
 }
 .hero {
   width: 100%;
-  background-size: 1500px;
+  background-size: 100%;
+  background-position: 0 10;
   .hero-blurb {
     max-width: 80em;
-    padding-top: 150px;
+    padding-top: 350px;
   }
   p {
     font-size: modular-scale(1);

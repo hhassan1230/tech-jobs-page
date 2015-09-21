@@ -142,8 +142,7 @@ header::after {
   background-image: url("../images/black_woman_at_computer.jpeg");
   background-repeat: no-repeat;
   background-size: 750px;
-  background-position: -60px 0px;
-  padding-top: 15%; }
+  background-position: -90 0; }
   .hero:last-child {
     margin-right: 0; }
   .hero p h1 {
@@ -160,7 +159,7 @@ header::after {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 100px 20% 75px; }
+    padding: 150px 20% 50px; }
     .hero .hero-blurb::after {
       clear: both;
       content: "";
@@ -625,10 +624,11 @@ footer {
 
   .hero {
     width: 100%;
-    background-size: 1500px; }
+    background-size: 100%;
+    background-position: 0 10; }
     .hero .hero-blurb {
       max-width: 80em;
-      padding-top: 150px; }
+      padding-top: 350px; }
     .hero p {
       font-size: 1.333em;
       font-weight: 100; }
