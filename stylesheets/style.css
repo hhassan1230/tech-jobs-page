@@ -139,7 +139,7 @@ header::after {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background-image: url("../images/tech_jobs_academy_demo.jpg");
+  background-image: url("../images/black_woman_at_computer.jpeg");
   background-repeat: no-repeat;
   background-size: 750px;
   background-position: -60px 0px;
@@ -160,7 +160,7 @@ header::after {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 50px 20% 75px; }
+    padding: 100px 20% 75px; }
     .hero .hero-blurb::after {
       clear: both;
       content: "";
@@ -627,7 +627,8 @@ footer {
     width: 100%;
     background-size: 1500px; }
     .hero .hero-blurb {
-      max-width: 80em; }
+      max-width: 80em;
+      padding-top: 150px; }
     .hero p {
       font-size: 1.333em;
       font-weight: 100; }

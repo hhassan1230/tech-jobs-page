@@ -2,9 +2,6 @@
   &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
   &:nth-child(#{$nth}+1) { clear: none }
 }
-// .curriculum {
-  
-// }
 h1 {
   font-size: modular-scale(5);
   margin-bottom: 0px;
@@ -49,8 +46,9 @@ section.curriculum .image-blurb {
 .hero {
   width: 100%;
   background-size: 1500px;
-  .hero-blurb { 
+  .hero-blurb {
     max-width: 80em;
+    padding-top: 150px;
   }
   p {
     font-size: modular-scale(1);

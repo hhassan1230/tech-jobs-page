@@ -10,7 +10,7 @@ header {
 }
 .hero {
   @include span-columns(12);
-  background-image: url("../images/tech_jobs_academy_demo.jpg");
+  background-image: url("../images/black_woman_at_computer.jpeg");
   background-repeat: no-repeat;
   background-size: 750px;
   background-position: -60px 0px;
@@ -22,7 +22,7 @@ header {
   .hero-blurb {
     @include outer-container;
     text-align: center;
-    padding: 50px 20% 75px;
+    padding: 100px 20% 75px;
     p {font-weight: 400;}
   }
 }
